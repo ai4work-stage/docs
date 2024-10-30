@@ -95,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#best-practices-for-training-your-ai-chatbot" class="md-skip">
+        <a href="#ai" class="md-skip">
           Skip to content
         </a>
       
@@ -14300,54 +14300,50 @@
   
 
 
-<h1 id="best-practices-for-training-your-ai-chatbot">Best Practices for Training Your AI Chatbot<a class="headerlink" href="#best-practices-for-training-your-ai-chatbot" title="Permanent link">&para;</a></h1>
-<p>You can train your AI Chatbot to provide exact answers to specific questions from customers. Consider the following best practices for training your Chatbot:</p>
+<h1 id="ai">AIチャットボットのトレーニングのベストプラクティス<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h1>
+<p>AIチャットボットをトレーニングして、お客様からの特定の質問に対して正確な回答を提供することができます。以下のベストプラクティスを参考にしてください：</p>
 <ol>
 <li>
-<p><strong>FAQs</strong> (Frequently Asked Questions)</p>
+<p><strong>FAQ</strong>（よくある質問）</p>
 <ul>
-<li>FAQs are the most frequently asked questions by customers and visitors. Add the most common questions and their brief answers.</li>
-<li>Provide quick solutions in the answers for customers to self-serve</li>
-<li>Best practices:<ul>
-<li>Collect top questions from various channels</li>
-<li>Anticipate customer queries based on their decision-making journey</li>
-<li>Seek input from your Support team</li>
-<li>Keep language simple and answers concise</li>
-<li>Add alternate questions for each primary question</li>
-<li>Include relevant links for more information</li>
-<li>Regularly update FAQs</li>
+<li>FAQは、お客様や訪問者から最もよく寄せられる質問です。最も一般的な質問とその簡潔な回答を追加してください。</li>
+<li>お客様がセルフサービスで解決できるよう、回答に迅速な解決策を提供してください。</li>
+<li>ベストプラクティス：<ul>
+<li>様々なチャネルから主要な質問を収集する</li>
+<li>お客様の意思決定プロセスに基づいて予想される質問を想定する</li>
+<li>サポートチームからの意見を求める</li>
+<li>シンプルな言葉で簡潔な回答を心がける</li>
+<li>各主要質問に対して別の表現方法を追加する</li>
+<li>詳細情報へのリンクを含める</li>
+<li>FAQを定期的に更新する</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p><strong>Generative AI Answers from Documents</strong></p>
+<p><strong>ドキュメントからの生成AI回答</strong></p>
 <ul>
-<li>Upload relevant documents (e.g., policies, terms &amp; conditions)</li>
-<li>
-<p>AI Chatbot analyzes the question, finds relevant content from the documents, and generates answers using Generative AI. The Chatbot is automatically trained after uploading the documents to make it capable of answering questions from the documents.</p>
-</li>
-<li>
-<p>Useful for providing more detailed answers not found in FAQs</p>
-</li>
-<li>Best practices for document preparation:<ul>
-<li>During onboarding, limit files to 5MB. (After onboarding, the file size limit depends on your plan - 100MB max for Essential, 300MB max for Advanced.)</li>
-<li>Use single-column format and clear section headings.</li>
-<li>Do not include scanned PDFs, encrypted files, or compressed PDFs.</li>
+<li>関連文書（ポリシー、利用規約など）をアップロードする</li>
+<li>AIチャットボットは質問を分析し、文書から関連コンテンツを見つけ、生成AIを使用して回答を生成します。文書をアップロードすると、チャットボットは自動的にトレーニングされ、文書からの質問に回答できるようになります。</li>
+<li>FAQにない詳細な回答を提供する際に有用です</li>
+<li>文書準備のベストプラクティス：<ul>
+<li>オンボーディング時は、ファイルサイズを5MBまでに制限してください（オンボーディング後は、プランによってファイルサイズの制限が異なります - Essentialプランは最大100MB、Advancedプランは最大300MB）</li>
+<li>シングルカラム形式と明確なセクション見出しを使用する</li>
+<li>スキャンしたPDF、暗号化ファイル、圧縮PDFは含めないでください</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<p><strong>FAQs vs. Generative AI Answers from Documents</strong></p>
+<p><strong>FAQとドキュメントからの生成AI回答の比較</strong></p>
 <ul>
 <li>
-<p>How FAQs and Generative AI Answers from Documents Work Together?<br />
-First, your  Chatbot will generate AI Answers from Documents—it will look for answers in the uploaded/added documents using Generative AI. If the documents don’t have an answer, it will use Automation AI (Dialog Tasks/FAQs) to answer customer questions. So, the default order is - Generative AI Answers from Documents first and Automation (FAQs) second. You can change the default order from the App Settings. <a href="../../searchai/setup-search-ai/#virtual-assistant-fallback-configuration">Learn more</a>.</p>
+<p>FAQとドキュメントからの生成AI回答はどのように連携しますか？<br />
+まず、チャットボットはドキュメントからAI回答を生成します—アップロード/追加された文書から生成AIを使用して回答を探します。文書に回答がない場合は、自動化AI（ダイアログタスク/FAQ）を使用してお客様の質問に回答します。つまり、デフォルトの順序は、最初にドキュメントからの生成AI回答、次に自動化（FAQ）となります。このデフォルトの順序はアプリ設定から変更できます。<a href="../../searchai/setup-search-ai/#virtual-assistant-fallback-configuration">詳細はこちら</a></p>
 </li>
 <li>
-<p>How to Avoid Conflict Between FAQs and Generative AI Answers from Documents?<br />
-To ensure your Chatbot generates answers from documents, avoid adding questions on the same topic to your FAQs. If a question exists in the FAQs, the  Chatbot will always prioritize the FAQ response over searching the documents. For example, if you have a detailed document about your return policies, don't add a question like "What is your return policy?" to the FAQs. This allows the  Chatbot to use the comprehensive document to answer customer questions instead of relying on a potentially incomplete FAQ answer.</p>
+<p>FAQとドキュメントからの生成AI回答の競合を避けるには？<br />
+チャットボットが文書から回答を生成できるようにするため、同じトピックに関する質問をFAQに追加することは避けてください。FAQに質問が存在する場合、チャットボットは常に文書の検索よりもFAQの回答を優先します。例えば、返品ポリシーに関する詳細な文書がある場合、「返品ポリシーはどのようなものですか？」といった質問をFAQに追加しないでください。これにより、チャットボットは不完全なFAQ回答に頼るのではなく、包括的な文書を使用してお客様の質問に回答することができます。</p>
 </li>
 </ul>
 </li>
