@@ -8024,7 +8024,7 @@
         
   
   <span class="md-ellipsis">
-    Agent View
+    Agent View (My Dashboard)
   </span>
   
 
@@ -8069,12 +8069,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../../quality-management/analyze/coaching-assignments/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8_3_3" id="__nav_5_8_3_3_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Coaching Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_8_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Coaching Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../quality-management/analyze/coaching-assignments-supervisor-view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervisor View
   </span>
   
 
@@ -8095,11 +8135,19 @@
         
   
   <span class="md-ellipsis">
-    Coaching Assignments - Agent View
+    Agent View
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -15406,7 +15454,7 @@
 <ol>
 <li>
 <p>Click <strong>+ New Campaign</strong>.<br />
-<a class="glightbox" href="../images/new-campaign-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/new-campaign-button-sms.png" alt="+ New Campaign" title="+ New Campaign" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/new-campaign-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/new-campaign-button-sms.png" alt="+ New Campaign" title="+ New Campaign" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 <li>
 <p>The <strong>New SMS Campaign</strong> dialog box is displayed. Under the <strong>General</strong> tab, enter the following details:</p>
@@ -15420,8 +15468,11 @@
 </ul>
 </li>
 <li>
-<p>On the <strong>Message</strong> tab, by default the format of the campaign is Simple. Select a template for the SMS campaign from the drop-down and click the 🖉 icon to enter the message to be shared.<br />
-<a class="glightbox" href="../images/message-tab-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/message-tab-sms.png" alt="Message Tab" title="Message Tab" style="border: 1px solid gray; zoom:80%;"></a></p>
+<p>On the <strong>Message</strong> tab, you can select from two available formats: </p>
+<ul>
+<li>
+<p><strong>Simple</strong>: This format is useful for sending simple outbound messages. Select a template for the SMS campaign from the drop-down. Click the 🖉 icon to enter the message to be shared.<br />
+    <a class="glightbox" href="../images/simple-message.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/simple-message.png" alt="Simple Message" title="Simple Message" style="border: 1px solid gray; zoom:80%;"></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
@@ -15432,16 +15483,23 @@
 </div>
 </li>
 <li>
-<p>Click <strong>Save</strong> after entering the message.<br />
-<a class="glightbox" href="../images/save-message-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/save-message-sms.png" alt="Save Message" title="Save Message" style="border: 1px solid gray; zoom:80%;"></a></p>
+<p><strong>Advanced</strong>: This format is useful for two-way messaging (Inbound and Outbound) by linking to a start flow that contains dialog tasks. This format can also be used to transfer to an agent using the attached flow. Select a start flow from the dropdown.<br />
+    <a class="glightbox" href="../images/advanced-message.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/advanced-message.png" alt="Advanced Message" title="Advanced Message" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+</ul>
 </li>
 <li>
-<p>On the <strong>Outreach Strategy</strong> tab, first select the Caller ID. Caller ID is the number that is used to send SMS and the same number is displayed on recipient's phone.
-For Simple message format, the caller ID shows the numbers that are configured as Outbound only and are not associated with any flows.</p>
+<p>Click <strong>Save</strong> after entering the message.<br />
+    <a class="glightbox" href="../images/save-message-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/save-message-sms.png" alt="Save Message" title="Save Message" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>On the <strong>Outreach Strategy</strong> tab, first select the Caller ID. Caller ID is the number that is used to send SMS and the same number is displayed on recipient's phone.</p>
+<p>In the Simple message format, the caller ID displays numbers configured for Outbound only, which are not linked to any flows. </p>
+<p>In the Advanced message format, businesses can establish two-way communication with their end customers. Using the Advanced message format, you can associate an SMS Flow that can take the end customers through an automation journey, run dialog tasks, and connect to live agents if required.</p>
 </li>
 <li>
 <p>select the <strong>Timezone</strong> from the drop-down and add the Contactable Timings (day of the week/time) when the dialer will dial the calls.<br />
-<a class="glightbox" href="../images/outreach-strategy-tab.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/outreach-strategy-tab.png" alt="Outreach Strategy Tab" title="Outreach Strategy Tab" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/outreach-strategy-tab.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/outreach-strategy-tab.png" alt="Outreach Strategy Tab" title="Outreach Strategy Tab" style="border: 1px solid gray; zoom:80%;"></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Calls will be dialed to contacts based on the calling hours and timezone configured here, irrespective of the campaign's start and stop time.</p>
@@ -15457,11 +15515,11 @@ For Simple message format, the caller ID shows the numbers that are configured a
 <ol>
 <li>
 <p>Click the Ellipsis (<strong>︙</strong>) icon beside the campaign name and click <strong>Edit</strong>.<br />
-<a class="glightbox" href="../images/edit-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/edit-button-sms.png" alt="Edit Button" title="Edit Button" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/edit-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/edit-button-sms.png" alt="Edit Button" title="Edit Button" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 <li>
 <p>A pop-up window is displayed. Do the required changes and click <strong>Save</strong>.<br />
-<a class="glightbox" href="../images/save-edited-campaign-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/save-edited-campaign-sms.png" alt="Save Edited Campaign" title="Save Edited campaign" style="border: 1px solid gray; zoom:70%;"></a></p>
+    <a class="glightbox" href="../images/save-edited-campaign-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/save-edited-campaign-sms.png" alt="Save Edited Campaign" title="Save Edited campaign" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 </ol>
 <h2 id="clone-an-sms-campaign">Clone an SMS Campaign<a class="headerlink" href="#clone-an-sms-campaign" title="Permanent link">&para;</a></h2>
@@ -15470,11 +15528,11 @@ For Simple message format, the caller ID shows the numbers that are configured a
 <ol>
 <li>
 <p>Click the Ellipsis (<strong>⋮</strong>) icon beside the campaign name and click <strong>Clone</strong>.<br />
-<a class="glightbox" href="../images/clone-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/clone-button-sms.png" alt="Clone Button" title="Clone Button" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/clone-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/clone-button-sms.png" alt="Clone Button" title="Clone Button" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 <li>
 <p>A cloned copy of the original campaign is created.<br />
-<a class="glightbox" href="../images/cloned-campaign-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/cloned-campaign-sms.png" alt="Cloned Campaign" title="Cloned Campaign" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/cloned-campaign-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/cloned-campaign-sms.png" alt="Cloned Campaign" title="Cloned Campaign" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 </ol>
 <h2 id="delete-an-sms-campaign">Delete an SMS Campaign<a class="headerlink" href="#delete-an-sms-campaign" title="Permanent link">&para;</a></h2>
@@ -15483,11 +15541,11 @@ For Simple message format, the caller ID shows the numbers that are configured a
 <ol>
 <li>
 <p>Click the Ellipsis (<strong>⋮</strong>) icon beside the campaign name and click <strong>Delete</strong>.<br />
-<a class="glightbox" href="../images/delete-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/delete-button-sms.png" alt="Delete Campaign Button" title="Delete Campaign Button" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/delete-button-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/delete-button-sms.png" alt="Delete Campaign Button" title="Delete Campaign Button" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 <li>
 <p>A confirmation pop-up window appears. Click <strong>Delete</strong>.<br />
-<a class="glightbox" href="../images/delete-campaign-confirmation-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/delete-campaign-confirmation-sms.png" alt="Delete Campaign Confirmation" title="Delete Campaign Confirmation" style="border: 1px solid gray; zoom:60%;"></a>  </p>
+    <a class="glightbox" href="../images/delete-campaign-confirmation-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/delete-campaign-confirmation-sms.png" alt="Delete Campaign Confirmation" title="Delete Campaign Confirmation" style="border: 1px solid gray; zoom:60%;"></a>  </p>
 </li>
 </ol>
 <h2 id="run-sms-campaigns">Run SMS Campaigns<a class="headerlink" href="#run-sms-campaigns" title="Permanent link">&para;</a></h2>
@@ -15496,7 +15554,7 @@ For Simple message format, the caller ID shows the numbers that are configured a
 <ol>
 <li>
 <p>You can run a voice campaign by clicking the <strong>Play</strong> button.<br />
-<a class="glightbox" href="../images/play-button.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/play-button.png" alt="Play Button" title="Play Button" style="border: 1px solid gray; zoom:80%;"></a>  </p>
+    <a class="glightbox" href="../images/play-button.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/play-button.png" alt="Play Button" title="Play Button" style="border: 1px solid gray; zoom:80%;"></a>  </p>
 <p>When the campaign runs, you can pause or stop it. You can also rerun a completed campaign.</p>
 </li>
 </ol>
@@ -15506,11 +15564,11 @@ For Simple message format, the caller ID shows the numbers that are configured a
 <ol>
 <li>
 <p>Click the <strong>Stop</strong> button under <strong>Actions</strong> for the campaign you want to stop.<br />
-<a class="glightbox" href="../images/stop-button.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/stop-button.png" alt="Stop Button" title="Stop Button" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/stop-button.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/stop-button.png" alt="Stop Button" title="Stop Button" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 <li>
 <p>A confirmation pop-up window appears. Click <strong>Stop</strong>.<br />
-<a class="glightbox" href="../images/stop-campaign-confirmation-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/stop-campaign-confirmation-sms.png" alt="Stop Campaign Confirmation" title="Stop Campaign Confirmation" style="border: 1px solid gray; zoom:80%;"></a></p>
+    <a class="glightbox" href="../images/stop-campaign-confirmation-sms.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/stop-campaign-confirmation-sms.png" alt="Stop Campaign Confirmation" title="Stop Campaign Confirmation" style="border: 1px solid gray; zoom:80%;"></a></p>
 </li>
 </ol>
 

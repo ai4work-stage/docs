@@ -7892,7 +7892,7 @@
         
   
   <span class="md-ellipsis">
-    Agent View
+    Agent View (My Dashboard)
   </span>
   
 
@@ -7937,12 +7937,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../quality-management/analyze/coaching-assignments/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8_3_3" id="__nav_5_8_3_3_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Coaching Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_8_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Coaching Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../quality-management/analyze/coaching-assignments-supervisor-view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervisor View
   </span>
   
 
@@ -7963,11 +8003,19 @@
         
   
   <span class="md-ellipsis">
-    Coaching Assignments - Agent View
+    Agent View
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -15336,6 +15384,57 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#adding-the-whatsapp-channel-using-netcore-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding the WhatsApp Channel using Netcore Application
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding the WhatsApp Channel using Netcore Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-steps_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Steps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-get-the-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Get the API Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-add-incoming-webhook-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Add Incoming Webhook URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-enable-the-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Enable the Channel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -15378,7 +15477,7 @@
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The mobile number should have the country code preceded by a plus (+) sign to activate the <strong>Infobip</strong> and <strong>WhatsApp</strong> connections.</p>
+<p>The mobile number should have the country code preceded by a plus (+) sign to activate the Infobip and WhatsApp connections.</p>
 </div>
 </li>
 <li>
@@ -15420,7 +15519,7 @@
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you’re using the development sandbox on <strong>Infobip</strong>, once the channel is enabled and published, you will need to send messages in the format “<strong><em>[Keyword on infobip]</em></strong> <strong>(User input)</strong>” For example, “Kore Hi”.</p>
+<p>If you’re using the development sandbox on Infobip, once the channel is enabled and published, you will need to send messages in the format “<a href="User input">Keyword on infobip</a>” For example, “Kore Hi”.</p>
 </div>
 </li>
 </ol>
@@ -15578,7 +15677,7 @@
 <p>Once you enable <strong>Associate an App</strong>, you must manually select an app and configure it for the GupShup app (by clicking <strong>Copy</strong> and pasting the <em>Client ID</em> and <em>Client Secret</em> (shown above) from the Kore.ai XO Platform).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This channel configuration is not a part of the Bot Import/Export feature. The user should manually enable the channel for the target Bot. The integration flow remains the same even with the <strong>App Association</strong> feature.</p>
+<p>This channel configuration is not a part of the Bot Import/Export feature. The user should manually enable the channel for the target Bot. The integration flow remains the same even with the App Association feature.</p>
 </div>
 <h3 id="messaging-templates_1">Messaging Templates<a class="headerlink" href="#messaging-templates_1" title="Permanent link">&para;</a></h3>
 <p>As part of the GupShup WhatsApp channel integration, the Platform supports the following Gupshup outbound message types to provide an engaging, interactive end-user experience:</p>
@@ -15701,6 +15800,80 @@ print(JSON.stringify(msg))
 <li>Click <strong>Save</strong>.
 <a class="glightbox" href="../images/whatsapp24.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/whatsapp24.png" alt="configure karix" title="configure karix" style="border: 1px solid gray; zoom:70%;"></a></li>
 </ol>
+<h2 id="adding-the-whatsapp-channel-using-netcore-application">Adding the WhatsApp Channel using Netcore Application<a class="headerlink" href="#adding-the-whatsapp-channel-using-netcore-application" title="Permanent link">&para;</a></h2>
+<p>Netcore CE uses API endpoints from <a href="https://email.netcorecloud.com/" target="_blank">CPaaS</a> to connect with WhatsApp. To enable, WhatsApp through Netcore on the Kore.ai Platform, you must provide the WhatsApp phone number and API key in the <strong>Channel Configurations</strong> section and the Platform’s Webhook URL for the API callback in the CPaaS portal.</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>An active WhatsApp Business account for your enterprise.</li>
+<li>An active CPaSS account with WhatsApp <strong>enabled</strong>.</li>
+<li>Selecting <strong>Opt-in</strong> is compulsory for WhatsApp communication, although there is a provision for bypassing Opt-in if necessary. <a href="https://cedocs.netcorecloud.com/docs/whatsapp#opt-in-mechanism-for-whatsapp" target="_blank">Learn more</a>.</li>
+</ul>
+<h3 id="configuration-steps_1">Configuration Steps<a class="headerlink" href="#configuration-steps_1" title="Permanent link">&para;</a></h3>
+<p>To configure and enable WhatsApp using Netcore, follow the steps below:</p>
+<h3 id="step-1-get-the-api-key">Step 1: Get the API Key<a class="headerlink" href="#step-1-get-the-api-key" title="Permanent link">&para;</a></h3>
+<p>To begin WhatsApp integration via Netcore, copy the API Key from Netcore to the channel’s configuration page on the platform by following the steps below:</p>
+<ol>
+<li><a href="https://email.netcorecloud.com/" target="_blank">Login</a> to your Netcore account using CPaaS.</li>
+<li>On the left navigation menu, click <strong>Settings</strong> &gt; <strong>General Settings</strong>.</li>
+<li>Scroll down to the <strong>Integrate API</strong> section.</li>
+<li>On the <strong>Integrations</strong> page, click on the <strong>API</strong> tab.</li>
+<li>The API Key is hidden for security purposes. Click <strong>Show</strong>. The system will prompt you to enter your account password. Once you enter the password, the API key is accessible.
+<a class="glightbox" href="../images/whatsapp-api-key.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/whatsapp-api-key.png" alt="whatsapp api key" title="whatsapp api key" style="border: 1px solid gray; zoom:75%;"></a></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title"><b>Note</b></p>
+<p><ul><li>To create a new key, click <b>Create API Key</b>, enter a unique name, and click <b>Save</b>.</li>
+<li>Your API key is auto-generated; therefore, you cannot edit it.</li>
+<li>By default, your new API key will be activated (green check) after creation.</li></ul></p>
+</div>
+
+<ol start="6"><li>Copy the <b>API key</b> value and save it for later use.</li></ol>
+
+<div class="admonition warning">
+<p class="admonition-title"><b>Important</b></p>
+<p><ul><li>For security reasons, the key is shown only once; if you do not save it, you won’t be able to view or copy it again. Ensure to store your API key securely.</li>
+<li>An API key is unique for each business number. An <b>Access Denied</b> error occurs while running the API key if used incorrectly.</li></ul></p>
+</div>
+
+<h3 id="step-2-add-incoming-webhook-url">Step 2: Add Incoming Webhook URL<a class="headerlink" href="#step-2-add-incoming-webhook-url" title="Permanent link">&para;</a></h3>
+<p>Next, set up the Webhook URL on Netcore for callback from the channel by following the steps below:</p>
+<ol>
+<li>
+<p>On the XO Platform, navigate to <strong>Deploy</strong> &gt; <strong>Channels</strong> &gt; <strong>WhatsApp Business Messaging</strong> &gt; <strong>Configurations</strong> page. 
+<a class="glightbox" href="../images/access-whatsapp-business.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/access-whatsapp-business.png" alt="xo platform sinch configurations" title="xo platform sinch configurations" style="border: 1px solid gray; zoom:75%;"></a></p>
+</li>
+<li>
+<p>Copy the <strong>Webhook URL</strong>.
+<a class="glightbox" href="../images/copy-webhook-url-netcore.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/copy-webhook-url-netcore.png" alt="webhook url" title="webhook url" style="border: 1px solid gray; zoom:75%;"></a></p>
+</li>
+<li>
+<p><a href="https://email.netcorecloud.com/" target="_blank">Login</a> to your Netcore account using CPaaS.</p>
+</li>
+<li>On the left navigation menu, click <strong>Settings</strong>.</li>
+<li>Scroll down to the <strong>Webhook Integration</strong> section.</li>
+<li>Under <strong>Incoming webhook</strong>, paste the webhook URL copied from the Platform.</li>
+<li>Turn on the <strong>Status</strong> switch to enable the webhook.
+<a class="glightbox" href="../images/webhook-integration-netcore.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/webhook-integration-netcore.png" alt="enable webhook" title="enable webhook" style="border: 1px solid gray; zoom:75%;"></a></li>
+</ol>
+<h3 id="step-3-enable-the-channel">Step 3: Enable the Channel<a class="headerlink" href="#step-3-enable-the-channel" title="Permanent link">&para;</a></h3>
+<p>Finally, enable the channel on the XO Platform to start receiving WhatsApp messages by following the steps below:</p>
+<ol>
+<li>Navigate to <strong>Deploy</strong> &gt; <strong>Channels</strong> &gt; <strong>WhatsApp Business Messaging</strong> &gt; <strong>Configurations</strong> page.</li>
+<li>Select <em>Netcore</em> for <strong>Messaging Partner</strong>.</li>
+<li>Add the registered WhatsApp Business Messaging phone number(s).</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title"><b>Note</b></p>
+<p>A maximum of 20 numbers are allowed.</p>
+</div>
+
+<ol start="4"><li>Paste the API Key copied in step 6 <a href="../channels/add-whatsapp-business-channel.md/#step-1-get-the-api-key">here</a>.</li>
+<li>Select “<i>Yes</i>” for <b>Enable Channel</b>.</li>
+<li>Click <b>Save</b>.</li>
+<a class="glightbox" href="../images/enable-channel-netcore.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/enable-channel-netcore.png" alt="enable netcore" title="enable netcore" style="border: 1px solid gray; zoom:75%;"></a>
+</ol>
+
+<p>The <strong>WhatsApp Business Messaging channel using Netcore</strong> is enabled successfully.</p>
 
 
 

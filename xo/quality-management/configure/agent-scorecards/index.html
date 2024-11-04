@@ -7926,7 +7926,7 @@
         
   
   <span class="md-ellipsis">
-    Agent View
+    Agent View (My Dashboard)
   </span>
   
 
@@ -7971,12 +7971,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../analyze/coaching-assignments/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8_3_3" id="__nav_5_8_3_3_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Coaching Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_8_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Coaching Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analyze/coaching-assignments-supervisor-view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervisor View
   </span>
   
 
@@ -7997,11 +8037,19 @@
         
   
   <span class="md-ellipsis">
-    Coaching Assignments - Agent View
+    Agent View
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -15392,86 +15440,92 @@
 
 <h1 id="agent-scorecards">Agent Scorecards<a class="headerlink" href="#agent-scorecards" title="Permanent link">&para;</a></h1>
 <p>Agent Scorecards facilitate the development of evaluation criteria at the individual agent level, focusing on configured performance areas such as salesmanship, product knowledge, and so on. Attributes are defined by integrating relevant evaluation metrics. Additionally, each agent is assessed based on all assigned scorecards during each call transfer, allowing for multiple scorecards per agent. Prior to creating scorecards, it is essential to create agent attributes.</p>
-<p>A supervisor has the following types of permissions for the agent scorecards:</p>
+<p>A Supervisor has the following types of permissions for the agent scorecards:</p>
 <ul>
 <li>Full access, to edit, and create agent scorecards and attributes</li>
 <li>No access, to edit, and create agent scorecards and attributes</li>
-<li>Only view access for the existing agent scorecards and attributes.<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-To view **Agent Scorecards** and **Agent Attributes**, you must have to enable the **Agent Scorecard** toggle view in the **Settings** of Quality Management.
-</code></pre></div>
-</li>
+<li>Only view access for the existing agent scorecards and attributes.</li>
 </ul>
-<p>You can view Agent Scorecards by navigating to <strong>Contact Center AI</strong> &gt; <strong>Quality Management</strong> &gt; <strong>Configure</strong> &gt; <strong>Agent Score Cards</strong>.
-<a class="glightbox" href=".//sedashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src=".//sedashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>Users can view Agent Scorecards by navigating to <strong>Contact Center AI</strong> &gt; <strong>Quality Management</strong> &gt; <strong>Configure</strong> &gt; <strong>Agent Score Cards</strong>.<br />
+<a class="glightbox" href="../agent-scorecards/images/agent-scorecard-landing-page.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/agent-scorecard-landing-page.png" alt="Agent Score Card" title="Agent Score Card" style="border: 1px solid gray; zoom:70%;"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To view <strong>Agent Scorecards</strong> and <strong>Agent Attributes</strong>, you must have to enable the <strong>Agent Scorecards</strong> toggle view in the <strong>Settings</strong> of Quality Management.</p>
+</div>
 <h2 id="create-a-new-agent-scorecard">Create a New Agent Scorecard<a class="headerlink" href="#create-a-new-agent-scorecard" title="Permanent link">&para;</a></h2>
-<p>Steps to create a new agent scorecard:</p>
+<p>Steps to create <strong>New Agent Score Card</strong>:</p>
 <ol>
-<li>Click the <strong>+New Agent Scorecard</strong>, following default new agent scorecard screen appears.<br />
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></li>
+<li>Click the <strong>+New Agent Score Card</strong>, displayed on the top-right corner of the <strong>Agent Score Card</strong> page.<br />
+    <a class="glightbox" href="../agent-scorecards/images/agent-scorcard-defult-page.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/agent-scorcard-defult-page.png" alt="New Agent Score Card" title="New Agent Score Card" style="border: 1px solid gray; zoom:70%;"></a></li>
 </ol>
 <h3 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h3>
 <ol>
-<li>In the <strong>Name</strong> field, enter the name of the agent scorecard.</li>
+<li>
+<p>Click <strong>Settings</strong> from the following <strong>Add New Agent Score Card</strong> window.<br />
+    <a class="glightbox" href="../agent-scorecards/images/add-new-agent-score-card-settings.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/add-new-agent-score-card-settings.png" alt="Agent Scorecards Settings" title="Agent Scorecards Settings" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>In the <strong>Name</strong> field, enter the name of the agent scorecard.</p>
+</li>
 <li>Enter a short <strong>Description</strong> (optional) for the newly created agent scorecard.</li>
 <li>
-<p>Enable the <strong>Mark as Default</strong> toggle option to assign the default scorecards across all agents. By default, the toggle option is enabled for the first scorecard created.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>Enable the <strong>Mark as Default</strong> toggle option to assign the default scorecards across all agents. By default, the toggle option is enabled for the first scorecard created.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There must be an active default scorecard. The first scorecard created must be a mandatory default scorecard, which is assigned to all agents. If you try to enable the default scorecard toggle view, then the following warning pop-up window appears stating that you cannot disable the default scorecard unless another scorecard is replaced with the default.   </p>
+</div>
 </li>
 <li>
 <p>The pass score must be configured (40 by default).</p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-There must be an active default scorecard. The first scorecard created must be a mandatory default scorecard, which is assigned to all agents. If you try to enable the default scorecard toggle view, then the following warning pop up appears stating that you cannot disable the default scorecard unless another scorecard is replaced with the default.
-</code></pre></div>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a>  </p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-When there is an existing default scorecard, and you try to disable the default scorecard toggle status, then you will get the following warning popup stating that the default scorecard cannot be disabled, you must assign another scorecard as default before disabling.
-</code></pre></div>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a>  </p>
+<p><a class="glightbox" href="../agent-scorecards/images/default-scorecard-alert.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/default-scorecard-alert.png" alt="default scorecard" title="default scorecard" style="border: 1px solid gray; zoom:70%;"></a>  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When there is an existing default scorecard, and you try to disable the default scorecard toggle status, then you will get the following warning pop-up window stating that the default scorecard cannot be disabled; you must assign another scorecard as default before disabling.   </p>
+</div>
+<p><a class="glightbox" href="../agent-scorecards/images/enable-default-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/enable-default-scorecard.png" alt="Enable Defualt" title="Enable Defualt" style="border: 1px solid gray; zoom:70%;"></a>  </p>
 </li>
 </ol>
 <h3 id="agent-attributes">Agent Attributes<a class="headerlink" href="#agent-attributes" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>Select <strong>Agent</strong> <strong>Attributes</strong>, the following screen appears.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Select <strong>Agent</strong> <strong>Attributes</strong>, the following screen appears.   <br />
+    <a class="glightbox" href="../agent-scorecards/images/agent-attributes.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/agent-attributes.png" alt="Add Agent Attributes" title="Add Agent Attributes" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
 <p>In the <strong>Agent Attributes</strong>, search and add more than one agent attribute.</p>
 </li>
 <li>
-<p>Click <strong>Add Agent Attributes</strong> to add to an agent scorecard. The following screen appears.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click <strong>Add Agent Attributes</strong> to add to an agent scorecard. The following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/add-agent-attributes-weightage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/add-agent-attributes-weightage.png" alt="Add Agent Attributes Weightage" title="Add Agent Attributes Weightage" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
 <p>Assign a <strong>Weightage</strong> for the agent attribute selected.</p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-
- If a scorecard is set as the default, the score displayed will be based on that default scorecard in the agent leaderboard and agent dashboard.
-</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If a scorecard is set as the default, the score displayed will be based on that default scorecard in the agent leaderboard and agent dashboard.</p>
+</div>
 </li>
 </ol>
 <h3 id="assignments">Assignments<a class="headerlink" href="#assignments" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>Select <strong>Assignments</strong>, the following screen appears.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Select <strong>Assignments</strong>, the following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/assignments.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/assignments.png" alt="Assignments" title="Assignments" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>In the <strong>Agents</strong>, assign scorecards across the required agent by searching an <strong>Agents</strong> name and click <strong>Add Agents</strong> to add agent names. </p>
+<p>In the <strong>Agents</strong>, assign scorecards across the required agent by searching an <strong>Agents</strong> name and click <strong>Add Agents</strong> to add agent names.<br />
+    <a class="glightbox" href="../agent-scorecards/images/add-agents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/add-agents.png" alt="Add Agents" title="Add Agents" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>In the Agent Groups,assign scorecards at an agent group level, search for an <strong>Agent Group</strong> name to add the agent group to a queue.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>In the Agent Groups,assign scorecards at an agent group level, search for an <strong>Agent Group</strong> name to add the agent group to a queue.  </p>
 </li>
 <li>
-<p>Click <strong>Add Groups</strong> to add the agent groups to a queue.</p>
+<p>Click <strong>Add Groups</strong> to add the agent groups to a queue.<br />
+    <a class="glightbox" href="../agent-scorecards/images/add-agent-group.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/add-agent-group.png" alt="Add Agents" title="Add Agents" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Click <strong>Create</strong>, the newly created scorecard for the agent and agent group is added as shown below and the status toggle must be enabled to start agent level scoring based on that scorecard.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click <strong>Create</strong>, the newly created scorecard for the agent and agent group is added as shown below and the status toggle must be enabled to start agent level scoring based on that scorecard.<br />
+    <a class="glightbox" href="../agent-scorecards/images/newly-created-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/newly-created-scorecard.png" alt="Newly Added Scorecard" title="Newly Added Scorecard" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 </ol>
 <p>The Agent scorecards include the following:</p>
@@ -15481,60 +15535,71 @@ When there is an existing default scorecard, and you try to disable the default 
 <li><strong>Assignee</strong>: This shows the assignee name who has assigned the scorecard to the agent.</li>
 <li><strong>Created By</strong>: This shows the user name who has created the agent scorecard.</li>
 <li><strong>Pass Score</strong>: This shows the minimum pass score that the agent has to attain.</li>
-<li><strong>Status</strong>: This shows the status of the scorecard whether it is active or inactive.<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-  If an agent scorecard has been marked as default, the assignments section of the creation modal should not be shown, and the scorecard must be assigned across all the agents present in the queues of the user.
-</code></pre></div>
+<li>
+<p><strong>Status</strong>: This shows the status of the scorecard whether it is active or inactive.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If an agent scorecard has been marked as default, the assignments section of the creation modal should not be shown, and the scorecard must be assigned across all the agents present in the queues of the user.</p>
+</div>
 </li>
 </ul>
 <h2 id="edit-agent-scorecard">Edit Agent Scorecard<a class="headerlink" href="#edit-agent-scorecard" title="Permanent link">&para;</a></h2>
 <p>Steps to edit or update the agent scorecard:</p>
 <ol>
 <li>
-<p>Select any of the agent scorecards, and right-click on the <strong>vertical ellipse</strong> button. The following screen appears.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Select any of the agent scorecards, and right-click on the <strong>Vertical Ellipse</strong> button. The following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/vertical-elipsis-edit-button.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/vertical-elipsis-edit-button.png" alt="Vertical Ellipse Edit Button" title="Vertical Ellipse Edit Button" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Click <strong>Edit</strong>. The following screen appears.
-   <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click <strong>Edit</strong> to update the existing agent scorecard details.<br />
+   <a class="glightbox" href="../agent-scorecards/images/edit-agent-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/edit-agent-scorecard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Modify the required details in the <strong>Settings</strong> and <strong>Agent Attributes</strong>.</p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-    If you want to assign a different scorecard as default, then the following warning pop-up is displayed stating that the existing default scorecard will be replaced by the new one, and upon confirming, the new scorecard gets applied or replaced as default.
+<p>Modify the required details in the <strong>Settings</strong>,  <strong>Agent Attributes</strong>, and <strong>Assignments</strong>.<br />
+   <a class="glightbox" href="../agent-scorecards/images/update-agent-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/update-agent-scorecard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+</li>
+</ol>
+<p>!!! note </p>
+<div class="language-text highlight"><pre><span></span><code>   If you want to assign a different scorecard as default, then the following warning pop-up window is displayed stating that the existing default scorecard will be replaced by the new one, and upon confirming, the new scorecard gets applied or replaced as default.  
+&lt;img src=&quot;../agent-scorecards/images/enable-default-scorecard.png&quot; alt=&quot;Enable Defualt&quot; title=&quot;Enable Defualt&quot; style=&quot;border: 1px solid gray; zoom:70%;&quot;&gt;
 </code></pre></div>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
-</li>
-<li>
-<p>Click <strong>Update</strong> to save the changes in the existing scorecard.</p>
-</li>
+<ol>
+<li>Click <strong>Update</strong> to save the changes.</li>
 </ol>
 <h2 id="delete-agent-scorecard">Delete Agent Scorecard<a class="headerlink" href="#delete-agent-scorecard" title="Permanent link">&para;</a></h2>
 <p>Steps to delete the agent scorecard:</p>
 <ol>
 <li>
-<p>Select any of the agent scorecards, and right-click on the vertical ellipse button. The following screen appears.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Select any of the agent scorecards, and right-click on the vertical ellipse button. The following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/edit and delete-agent-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/edit and delete-agent-scorecard.png" alt="Edit" title="Edit" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Click <strong>Delete</strong>. The following warning popup appears.
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
-<div class="language-text highlight"><pre><span></span><code>    !!! Note
-
-    If the user tries to delete the default scorecard, a warning pop-up dialog box appears stating that the default scorecard cannot be deleted. To do this, you have to assign another scorecard as default before deleting this scorecard. If you delete the scorecard, the associated data will be lost, which is associated with this scorecard.
-</code></pre></div>
+<p>Click <strong>Delete</strong>. The following warning popup window appears.  <br />
+    <a class="glightbox" href="../agent-scorecards/images/delete-agent-scorecard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/delete-agent-scorecard.png" alt="Delete Button" title="Delete Button" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the user tries to delete the default scorecard, a warning pop-up dialog box appears stating that the default scorecard cannot be deleted. To do this, you have to assign another scorecard as default before deleting this scorecard. If you delete the scorecard, the associated data will be lost, which is associated with this scorecard.</p>
+</div>
 </li>
 </ol>
 <h1 id="agent-attributes_1">Agent Attributes<a class="headerlink" href="#agent-attributes_1" title="Permanent link">&para;</a></h1>
-<p>This feature enables the creation of agent attributes by combining existing evaluation metrics. This calculates the Agent Attribute Score using data from evaluation metric results. Agent attributes are specific areas of performance relevant to an agent's role like Professionalism, Product Knowledge, Problem-solving skills, and Customer service skills.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>This feature enables the creation of agent attributes by combining existing evaluation metrics. This calculates the Agent Attribute Score using data from evaluation metric results. Agent attributes are specific areas of performance relevant to an agent's role like Professionalism, Product Knowledge, Problem-solving skills, and Customer service skills. </p>
+<p>Users can view <strong>Agent Attributes</strong> by navigating to <strong>Contact Center AI</strong> &gt; <strong>Quality Management</strong> &gt; <strong>Configure</strong> &gt; <strong>Agent Attributes</strong>. 
+<a class="glightbox" href="../agent-scorecards/images/agent-attributes-default-screen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/agent-attributes-default-screen.png" alt="Agent Attributes" title="Agent Attributes" style="border: 1px solid gray; zoom:70%;"></a> </p>
 <h2 id="create-a-new-agent-attribute">Create a New Agent Attribute<a class="headerlink" href="#create-a-new-agent-attribute" title="Permanent link">&para;</a></h2>
-<p>Steps to create new agent attribute:</p>
+<p>Steps to create <strong>New Agent Attribute</strong>:</p>
 <ol>
 <li>
-<p>Click the <strong>+New Agent Attribute</strong>, the new agent attribute screen appears.<br />
-<a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>From the <strong>Agent Score Cards</strong>, select the <strong>Agent Attributes</strong> tab, the following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/agent-attributes.page.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/agent-attributes.page.png" alt="Agent Attribute Tab" title="Agent Attribute Tab" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>Click the <strong>+New Agent Attribute</strong> displayed on the top-right corner of the <strong>Agent Attributes</strong> page.<br />
+    <a class="glightbox" href="../agent-scorecards/images/new-agent-attribute1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/new-agent-attribute1.png" alt="New Agent Attribute" title="New Agent Attribute" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>Upon clicking the <strong>+New Agent Attribute</strong>, the following <strong>Add New Agent Attribute</strong> screen appears. <br />
+<a class="glightbox" href="../agent-scorecards/images/add-new-agent-attribute.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/add-new-agent-attribute.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
 <p>In the <strong>Name</strong> field, enter the name of the agent attribute.</p>
@@ -15542,12 +15607,12 @@ When there is an existing default scorecard, and you try to disable the default 
 <li>Enter a short <strong>Description</strong> (optional) for the newly created agent attribute.</li>
 <li>In the <strong>Add Evaluation Metrics</strong>, search for the required evaluation metrics to add. </li>
 <li>
-<p>Click the <strong>Add Evaluation Metrics</strong> option. The following screen appears with the selected evaluation metrics.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click the <strong>Add Evaluation Metrics</strong> option. The following screen appears with the selected evaluation metrics.<br />
+    <a class="glightbox" href="../agent-scorecards/images/update-new-agent-attribute.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/update-new-agent-attribute.png" alt="Add Evaluation Metrics" title="Add Evaluation Metrics" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Click <strong>Create</strong>. The following screen appears with all the added agent attribute options.<br />
-<a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click <strong>Create</strong>. The following screen appears with all the added agent attribute options. <br />
+<a class="glightbox" href="../agent-scorecards/images/added-new-attributes.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/added-new-attributes.png" alt="Updated Attributes List" title="Updated Attributes List" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 </ol>
 <p>The Agent Attributes include the following:</p>
@@ -15560,12 +15625,12 @@ When there is an existing default scorecard, and you try to disable the default 
 <p>Steps to edit or update the agent attributes:</p>
 <ol>
 <li>
-<p>Select any of the agent attributes, and right-click on the vertical ellipse button. The following screen appears.
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Select any of the agent attributes, and right-click on the vertical ellipse button. The following screen appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/edit-attribute-list.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/edit-attribute-list.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a>   </p>
 </li>
 <li>
-<p>Click <strong>Edit</strong>. The following screen appears to update existing agent attribute details.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<p>Click <strong>Edit</strong>. The following screen appears to update existing agent attribute details.<br />
+    <a class="glightbox" href="../agent-scorecards/images/edit-attribute-option.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/edit-attribute-option.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
 <p>Modify the required field details in the <strong>Add Evaluation Metrics</strong>.</p>
@@ -15577,14 +15642,15 @@ When there is an existing default scorecard, and you try to disable the default 
 <ol>
 <li>
 <p>Select any of the agent attributes, and right-click on the vertical ellipse button. The following screen appears.<br />
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+    <a class="glightbox" href="../agent-scorecards/images/edit-attribute-list.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/edit-attribute-list.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
 </li>
 <li>
-<p>Click <strong>Delete</strong>. The following warning popup appears.</p>
-<div class="language-text highlight"><pre><span></span><code>    !!! Note
-
-    The agent cannot delete any of the existing attributes, which is already assigned for an agent scorecard. To delete this attribute, the agent has to remove it from the assigned agent scorecard before deletion. Only the unassigned agent attribute can be deleted. Once you delete the agent attribute, the associated date will be lost.
-</code></pre></div>
+<p>Click <strong>Delete</strong>. The following warning popup window appears.<br />
+    <a class="glightbox" href="../agent-scorecards/images/delete-agent-attribute.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../agent-scorecards/images/delete-agent-attribute.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The agent cannot delete any of the existing attributes, which is already assigned for an agent scorecard. To delete this attribute, the agent has to remove it from the assigned agent scorecard before deletion. Only the unassigned agent attribute can be deleted. Once you delete the agent attribute, the associated date will be lost.</p>
+</div>
 </li>
 </ol>
 

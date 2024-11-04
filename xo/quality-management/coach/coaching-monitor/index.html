@@ -7926,7 +7926,7 @@
         
   
   <span class="md-ellipsis">
-    Agent View
+    Agent View (My Dashboard)
   </span>
   
 
@@ -7971,12 +7971,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../analyze/coaching-assignments/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8_3_3" id="__nav_5_8_3_3_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Coaching Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_8_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Coaching Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analyze/coaching-assignments-supervisor-view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervisor View
   </span>
   
 
@@ -7997,11 +8037,19 @@
         
   
   <span class="md-ellipsis">
-    Coaching Assignments - Agent View
+    Agent View
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -15308,12 +15356,13 @@
 
 <h1 id="coaching-monitor">Coaching Monitor<a class="headerlink" href="#coaching-monitor" title="Permanent link">&para;</a></h1>
 <p>The Coaching Monitor feature enables supervisors to track and evaluate the coaching progress of all agents, ensuring coaching effectiveness and facilitating follow-up sessions to assess improvements in assigned attributes. It provides an overview of all coaching assignments assigned by the user and highlights the score trend of the agent attributes that were assigned for coaching, agent score trends, Kore evaluation score, and includes filters that allow supervisors to focus on particular areas of interest. This functionality also allows supervisors to engage in meaningful discussions without needing to examine each agent’s specific attributes in depth.</p>
-<p>You can view Coaching Assignments by navigating to <strong>Contact Center AI</strong> &gt; <strong>Quality Management</strong> &gt; <strong>Coach</strong> &gt; <strong>Coaching Monitor</strong>.</p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-To track score trends for individual attributes in Coaching Monitor across all agents, you must enable Auto QA for automated scoring of interactions.
+<p>Users can view <strong>Coaching Monitor</strong> by navigating to <strong>Contact Center AI</strong> &gt; <strong>Quality Management</strong> &gt; <strong>Coach</strong> &gt; <strong>Coaching Monitor</strong>.<br />
+<a class="glightbox" href="../coaching-monitor/images/coaching-monitor-landing-page.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-landing-page.png" alt="Coaching Monitor" title="Coaching Monitor" style="border: 1px solid gray; zoom:70%;"></a></p>
+<div class="language-text highlight"><pre><span></span><code>!!! note
+
+    To track score trends for individual attributes in Coaching Monitor across all agents, you must enable Auto QA for automated scoring of interactions.
 </code></pre></div>
-<p>The Coaching Monitor page shows the following list of items:</p>
+<p>The <strong>Coaching Monitor</strong> page shows the following list of items:</p>
 <ul>
 <li><strong>Name</strong>: This shows the agent name who has received the coaching assignments.</li>
 <li><strong>Assigned Date</strong>: This shows the assigned date of the coaching session.</li>
@@ -15322,8 +15371,8 @@ To track score trends for individual attributes in Coaching Monitor across all a
 <li><strong>Agent Score Card</strong>: This shows the default scorecard score of the agent. If the <strong>Compare</strong> toggle is enabled, the Spike/Dip indicator shows the trend of score from the coaching assigned date to the current date.</li>
 <li><strong>Kore Evaluation Score</strong>: This shows the default Kore Evaluation score (Auto QA Score) for the interaction based on the relevant evaluation form. If the <strong>Compare</strong> toggle is enabled, the Spike/Dip indicator shows the trend of score from the coaching assigned date to the current date.</li>
 <li>
-<p><strong>Compare</strong>: This presents a detailed breakdown of each agent's coaching progress percentage Spike/Dip indicator (Agent Scorecard and Kore Evaluation Score), emphasizing specific attributes, evaluated by comparing the assigned date to the current date. By enabling this toggle option, you will get the following details on your screen. </p>
-<p><a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p><strong>Compare</strong>: This presents a detailed breakdown of each agent's coaching progress percentage Spike/Dip indicator (Agent Scorecard and Kore Evaluation Score), emphasizing specific attributes, evaluated by comparing the assigned date to the current date. By enabling this toggle option, you will get the following details on your screen.  </p>
+<p><a class="glightbox" href="../coaching-monitor/images/coaching-monitor-compare.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-compare.png" alt="Compare" title="Compare" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 <li>
 <p><strong>Filter</strong>: This provides you with the filter selection criteria.</p>
@@ -15331,11 +15380,19 @@ To track score trends for individual attributes in Coaching Monitor across all a
 </ul>
 <h3 id="filter-criteria">Filter Criteria<a class="headerlink" href="#filter-criteria" title="Permanent link">&para;</a></h3>
 <p>Upon clicking the <strong>Filter</strong> icon, you will get the following set of parameters to analyze coaching sessions. <br />
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
+    <a class="glightbox" href="../coaching-monitor/images/coaching-monitor-filter.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-filter.png" alt="Filter" title="Filter" style="border: 1px solid gray; zoom:70%;"></a></p>
 <ul>
-<li><strong>Assigned Date</strong>: This refers to the date when the coaching session or performance review was assigned to an agent. Where you need to select either the <strong>Assigned Date</strong> range or <strong>Follow Up Date</strong> range. By default, the assigned date is selected for the last 7 days. You can change and select the desired date range.</li>
-<li><strong>Follow Up Date</strong>: This refers to the scheduled date for a follow-up session or review after the initial coaching. It ensures accountability and allows for the assessment of the agent's progress over time. By default, the current date is selected. You can change and select the desired date range.</li>
-<li><strong>Attributes</strong>: This refers to specific agent attributes used to evaluate the agents' performance. n. In this, you can search, and multi-select the different scorecard attributes from the given drop-down list. These attributes are presented as tags that allow you to add and remove individual tags. </li>
+<li>
+<p><strong>Assigned Date</strong>: This refers to the date when the coaching session or performance review was assigned to an agent. Where you need to select either the <strong>Assigned Date</strong> range or <strong>Follow Up Date</strong> range. By default, the assigned date is selected for the last 7 days. You can change and select the desired date range.<br />
+<a class="glightbox" href="../coaching-monitor/images/coaching-monitor-filter-assign-date.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-filter-assign-date.png" alt="Assigned Date" title="Assigned Date" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p><strong>Follow Up Date</strong>: This refers to the scheduled date for a follow-up session or review after the initial coaching. It ensures accountability and allows for the assessment of the agent's progress over time. By default, the current date is selected. You can change and select the desired date range.<br />
+<a class="glightbox" href="../coaching-monitor/images/coaching-monitor-filter-follow-up-date.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-filter-follow-up-date.png" alt="Follow Up Date" title="Follow Up Date" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p><strong>Attributes</strong>: This refers to specific agent attributes used to evaluate the agents' performance. n. In this, you can search, and multi-select the different scorecard attributes from the given drop-down list. These attributes are presented as tags that allow you to add and remove individual tags. </p>
+</li>
 <li><strong>Agent Group</strong>: This allows filtering by specific groups of agents, which is based on levels of experience. It helps in targeting coaching efforts to particular agent groups. Provides you to search, and multi-select any agent groups as tags that allow you to add and remove individual tags.</li>
 <li><strong>Agents</strong>:  This refers to individual agents who are being monitored for coaching. Filtering by agents enables supervisors to focus on specific performance issues or track progress. Provides you to search, and multi-select any agent as tags that allow you to add and remove individual tags.Search and multi-select.</li>
 <li><strong>Save</strong>: Allows you to apply the same filters in subsequent sessions, and streamline the monitoring process.</li>
@@ -15343,7 +15400,7 @@ To track score trends for individual attributes in Coaching Monitor across all a
 </ul>
 <h3 id="agent-progress">Agent Progress<a class="headerlink" href="#agent-progress" title="Permanent link">&para;</a></h3>
 <p>When you click on a specific agent's name in the Coaching Monitor widget, a slide-out panel will appear, displaying a drop-down for each assigned attribute. This includes all assigned attributes, their current scores, and a spike/dip indicator showing the percentage change since the assignment date.<br />
-    <a class="glightbox" href="../dashboard/images/qm-dashboard.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../dashboard/images/qm-dashboard.png" alt="Quality Management Dashboard" title="Quality Management Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
+    <a class="glightbox" href="../coaching-monitor/images/coaching-monitor-agent-progress.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../coaching-monitor/images/coaching-monitor-agent-progress.png" alt="Agent Progress" title="Agent Progress" style="border: 1px solid gray; zoom:70%;"></a></p>
 <p>You can view the following coaching progress metrics for the agent:</p>
 <ul>
 <li>All attributes assigned for coaching, along with the details for each attribute.</li>

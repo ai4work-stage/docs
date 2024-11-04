@@ -8319,7 +8319,7 @@
         
   
   <span class="md-ellipsis">
-    Agent View
+    Agent View (My Dashboard)
   </span>
   
 
@@ -8364,12 +8364,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../../quality-management/analyze/coaching-assignments/" class="md-nav__link">
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8_3_3" id="__nav_5_8_3_3_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
     Coaching Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_8_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Coaching Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../quality-management/analyze/coaching-assignments-supervisor-view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supervisor View
   </span>
   
 
@@ -8390,11 +8430,19 @@
         
   
   <span class="md-ellipsis">
-    Coaching Assignments - Agent View
+    Agent View
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -16052,7 +16100,14 @@
 <p><strong>System Busy</strong>: When all the slots assigned to an agent are occupied, the agent’s status automatically changes to system busy.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
+<ul>
+<li>
 <p>System Away and System Busy statuses are enabled by default for new accounts. To enable them for existing accounts, contact Kore Support. </p>
+</li>
+<li>
+<p>The system preserves an agent's last recorded status, such as "available," "away," or "busy," to ensure a seamless workflow. When an agent returns from a break or completes an outbound call, they automatically revert to their previous status without manual intervention. During outbound calls, the system temporarily updates the status but restores it to the prior state once the call ends. Similarly, when the system places an agent in a "busy" state due to high activity or system processes, their last status is preserved and reinstated after the busy period, enhancing efficiency and consistency in agent operations.</p>
+</li>
+</ul>
 </div>
 <h3 id="create-an-agent-status">Create an Agent Status<a class="headerlink" href="#create-an-agent-status" title="Permanent link">&para;</a></h3>
 <p>To create a new agent status, follow these steps:</p>
