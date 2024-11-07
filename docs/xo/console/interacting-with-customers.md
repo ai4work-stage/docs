@@ -841,14 +841,14 @@ Dispositions can be assigned in two ways:
 
 2. At the end of the conversation:
 
-* Select the **Conversation** in your tray.
-* You must select a **Status** from the following available options:
-    * **Resolved**: Select when the customer query is resolved.
-    * **Abandoned**: Select if the customer has abandoned the conversation and is no longer responding.
-    * **Pending**: Select if the query is still pending resolution.
-    * **Custom**: Administrators can [create custom disposition codes ](../contactcenter/agent-and-supervisors/dispositions/manage-dispositions.md#custom-disposition-codes)to address specific business needs. Select according to your use case.
-* Optionally, type a **Description** of your reason for selecting the disposition.
-* Click **_Close_** to close the conversation.
+    * Select the **Conversation** in your tray.
+    * You must select a **Status** from the following available options:
+        * **Resolved**: Select when the customer query is resolved.
+        * **Abandoned**: Select if the customer has abandoned the conversation and is no longer responding.
+        * **Pending**: Select if the query is still pending resolution.
+        * **Custom**: Administrators can [create custom disposition codes](../contactcenter/agent-and-supervisors/dispositions/manage-dispositions.md#custom-disposition-codes)to address specific business needs. Select according to your use case.
+    * Optionally, type a **Description** of your reason for selecting the disposition.
+    * Click **_Close_** to close the conversation.
 
 ## Information Provided to Agents and Customers During Live Interactions
 
@@ -886,6 +886,7 @@ Do the following to enable the typing indicator for chat conversations:
 
 1. To integrate Kore.ai bots chat capability into custom applications, install WebSDK 2.0 on your server. WebSDK 2.0 is a set of libraries that offer a quick and convenient way to do this. Refer to the [installation instructions](https://github.com/Koredotcom/web-kore-sdk/tree/v2/9.3.11) for additional information on installing WebSDK 2.0.
 2. To receive read receipts, and typing indicators, install the AgentDesktop plugin in WebSDK 2.0. The Agent Desktop plugin allows the user to interact with the agent through the bot and supports the following features:
+
     * Audio Calling
     * Video Calling
     * Co-browse
