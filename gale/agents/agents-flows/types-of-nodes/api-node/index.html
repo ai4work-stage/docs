@@ -3137,6 +3137,96 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Billing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Billing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/billing-and-usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Billing and Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/managing-usage-limits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing Usage Limits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3209,19 +3299,19 @@
 
 
 <h1 id="api-node">API Node<a class="headerlink" href="#api-node" title="Permanent link">&para;</a></h1>
-<p>The API Node lets you connect to external systems and retrieve data by making SOAP or REST API calls. You can configure the APIs and pass the necessary parameters to fetch the required information.</p>
+<p>API nodes let you connect to external systems and retrieve data by making SOAP or REST API calls. You can configure the APIs and pass the necessary parameters to fetch the required information.</p>
 <h2 id="add-and-configure-an-api-node">Add and Configure an API Node<a class="headerlink" href="#add-and-configure-an-api-node" title="Permanent link">&para;</a></h2>
-<p>Setting up an API node in an Agent Flow involves adding the node at the appropriate location in the flow and configuring various node properties, as explained below.</p>
+<p>Setting up an API node in an agent flow involves adding the node at the appropriate location in the flow and configuring various node properties.</p>
 <p>Steps to add and configure the node:</p>
 <ol>
 <li>
 <p>On the <strong>Agents</strong> tab, click the name of the agent to which you want to add the node. The Agent Flow page is displayed. </p>
 </li>
 <li>
-<p>Click the <strong>Go to flow</strong> button for the in-development version of the flow for editing.</p>
+<p>Click <strong>Go to flow</strong> to edit the in-development version of the flow.</p>
 </li>
 <li>
-<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and select <strong>API</strong> from the pop-up menu. (Alternatively, you can drag the <strong>API</strong> node from the Assets panel onto the canvas.)</p>
+<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and select <strong>API</strong> from the pop-up menu. (Alternatively, drag the <strong>API</strong> node from the Assets panel onto the canvas.)</p>
 </li>
 <li>
 <p>Click the added node to open its properties dialog box. The General Settings for the node are displayed.<br />
@@ -3241,29 +3331,29 @@
 <li>
 <p><strong>Asynchronous</strong>: </p>
 <ul>
-<li><strong>Set timeout</strong>: The allowed range is 30 seconds to 300 seconds (5 minutes). The default is 60 seconds.</li>
-<li><strong>No timeout</strong>: This allows the integration to wait indefinitely for the response without triggering a timeout error. This gives users the flexibility to automate their own processes, like approvals and checks, within their custom workflows before sending the response back. (Ensure to select the same "No timeout" setting for both the API node and the agent to prevent any timeouts.)</li>
+<li><strong>Set timeout</strong>: The allowed range is 30 to 300 seconds (5 minutes). The default is 60 seconds.</li>
+<li><strong>No timeout</strong>: This allows the integration to wait indefinitely for the response without triggering a timeout error. It allows you to automate your processes, like approvals and checks, within your custom workflows before sending the response back. (Ensure you select the same "No timeout" setting for both the API node and the agent to prevent any timeouts.)</li>
 </ul>
 </li>
 </ul>
 <p>The node will trigger a timeout error if the request is not completed within the selected time frame.</p>
-<div class="admonition notes">
+<div class="admonition note">
 <p class="admonition-title">Notes</p>
 <ul>
 <li>
 <p>The key difference between synchronous and asynchronous integration types is how the integration processes the request and response. Synchronous integrations block the client until the response is received, while asynchronous integrations allow the client to continue working while the integration processes the request.</p>
 </li>
 <li>
-<p>Timeout precedence: Agent timeout &gt; Node timeout &gt; Third-party API endpoint timeout.</p>
+<p>Timeout precedence: Agent timeout <em>is greater than</em> Node timeout <em>is greater than</em> Model timeout.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Request Definition</strong>: Define the details of the service request to make the call and fetch the data. Click <strong>Define Request</strong> and enter or select the following details in the Edit Request dialog box:<br />
+<p><strong>Request Definition</strong>: Define the service request details to make the call and fetch the data. Click <strong>Define Request</strong> and enter or select the following details in the Edit Request dialog box:<br />
 <a class="glightbox" href="../images/api-node-edit-request.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/api-node-edit-request.png" alt="Go to Flow Canvas" title="Go to Flow Canvas" style="border: 1px solid gray; zoom:80%;"></a></p>
 <ol>
-<li>Select the request type from the list - GET, PUT, POST, PATCH, or DELETE.</li>
+<li>Select the request type from the list.</li>
 <li>Paste your API Endpoint URL or cURL in the text field.</li>
 <li>In the <strong>Headers</strong> tab, specify the details of the Key and Value pair. For example,
 Key: Content-Type
@@ -3271,18 +3361,18 @@ Value: application/json</li>
 <li>The <strong>Body</strong> tab is displayed for all request types except GET. Select the body content type from the drop-down list:<ul>
 <li>application/x-www-form-urlencoded: Allows file uploads through HTTP POST requests. Add key/value pairs encoded by the platform.</li>
 <li>application/json: Transmits data between servers and web applications using JSON format without processing.</li>
-<li>application/xml: Sends XML payload for SOAP services via POST methods, with the option to include node values.</li>
+<li>application/xml: Sends XML payload for SOAP services using POST methods, with the option to include node values.</li>
 <li>Custom: Allows sending request payload in non-standard formats, such as for handling blogs or custom variables.</li>
 </ul>
 </li>
-<li>Click the <strong>Test</strong> button at the top-right corner of the dialog. The API response will appear on the <strong>Response</strong> tab.</li>
+<li>Click the <strong>Test</strong> button at the top-right corner of the dialog. The API response is displayed on the <strong>Response</strong> tab.</li>
 <li>Click <strong>Save</strong> at the top-right corner of the dialog.</li>
 </ol>
 </li>
 </ul>
 </li>
 <li>
-<p>Click the <strong>Connections</strong> icon in the left navigation and select the <strong>Go to Node</strong> for both success and failure conditions.<br />
+<p>Click the <strong>Connections</strong> icon in the left navigation and select <strong>Go to Node</strong> for success and failure conditions.<br />
 <a class="glightbox" href="../images/api-node-connections.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/api-node-connections.png" alt="API node Connections Properties" title="API node Connections Properties" style="border: 1px solid gray; zoom:80%;"></a></p>
 <ol>
 <li>
@@ -3294,12 +3384,12 @@ Value: application/json</li>
 </ol>
 </li>
 <li>
-<p>Finally, test the flow and fix any issues found: Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder.</p>
+<p>Finally, test the flow and fix any issues found. Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder and follow the onscreen instructions.</p>
 </li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>To access an API node using the context variable, use the following format: 
+<p>Use the following syntax to access an API node using the context variable: 
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>{{context.steps.Start.APINodeName}}
 </span></code></pre></div></p>
 </div>

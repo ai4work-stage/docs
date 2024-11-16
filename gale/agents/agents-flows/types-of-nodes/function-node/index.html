@@ -3128,6 +3128,96 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Billing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Billing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/billing-and-usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Billing and Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/managing-usage-limits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing Usage Limits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3191,19 +3281,19 @@
 
 
 <h1 id="function-node">Function Node<a class="headerlink" href="#function-node" title="Permanent link">&para;</a></h1>
-<p>Function nodes allow you to write custom scripts using JavaScript or Python to process context variables or other variables used in building the experience flow.</p>
+<p>Function nodes let you write custom scripts using JavaScript or Python to process context variables or other variables used in the agent flow.</p>
 <h2 id="add-and-configure-a-function-node">Add and Configure a Function Node<a class="headerlink" href="#add-and-configure-a-function-node" title="Permanent link">&para;</a></h2>
-<p>Setting up a Function node in an Agent Flow involves adding the node at the appropriate location in the flow and configuring various node properties, as explained below.</p>
+<p>Setting up a Function node in an agent flow involves adding the node at the appropriate location in the flow and configuring various node properties.</p>
 <p>Steps to add and configure the node:</p>
 <ol>
 <li>
 <p>On the <strong>Agents</strong> tab, click the name of the agent to which you want to add the node. The Agent Flow page is displayed. </p>
 </li>
 <li>
-<p>Click the <strong>Go to flow</strong> button for the in-development version of the flow for editing.</p>
+<p>Click <strong>Go to flow</strong> to edit the in-development version of the flow.</p>
 </li>
 <li>
-<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and select <strong>Function</strong> from the pop-up menu. (Alternatively, you can drag the <strong>Function</strong> node from the Assets panel onto the canvas.)</p>
+<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and select <strong>Function</strong> from the pop-up menu. (Alternatively, drag the <strong>Function</strong> node from the Assets panel onto the canvas.)</p>
 </li>
 <li>
 <p>Click the added node to open its properties dialog box. The General Settings for the node are displayed.<br />
@@ -3220,28 +3310,27 @@
 <a class="glightbox" href="../images/function-node-script-editor.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/function-node-script-editor.png" alt="Configure Function Node" title="Configure Function Node" style="border: 1px solid gray; zoom:80%;"></a></p>
 <ol>
 <li>
-<p>In the top-left corner, choose the appropriate scripting language - <strong>Javascript</strong> or <strong>Python</strong>. Enter the script in the box. You can use variables or context variables in the Script Editor. For example:</p>
-<p>To read an input variable:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>context.&lt;variable-name&gt; = context.steps.&lt;startNode-Name&gt;.&lt;inputVariable-name&gt;
+<p>In the top-left corner, choose the appropriate scripting language - <strong>Javascript</strong> or <strong>Python</strong>. Enter the script in the box. You can use variables or context variables in the Script Editor. For example, to read an input variable, use the following syntax:
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>context.&lt;variable-name&gt; = context.steps.&lt;startNode-Name&gt;.&lt;inputVariable-name&gt;
 </span></code></pre></div>
-To call a function:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>context.&lt;UserDefined-Variable-Name&gt;= UserDefined-Function-Name(context.steps.&lt;startNode-Name&gt;.&lt;inputVariable-name&gt;)
+    To call a function, use the following syntax:
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>context.&lt;UserDefined-Variable-Name&gt;= UserDefined-Function-Name(context.steps.&lt;startNode-Name&gt;.&lt;inputVariable-name&gt;)
 </span></code></pre></div></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You cannot import packages in the Function node. However, you can use pre-existing libraries such as pandas or  numpy. <a href="../script-libraries/">Learn more</a>.</p>
+<p>You cannot import packages in the Function node. However, you can use pre-existing libraries such as pandas or numpy. <a href="../script-libraries/">Learn more</a>.</p>
 </div>
 </li>
 <li>
-<p>You can use the Context input/output feature to use a variable from the previous node or when testing a function.</p>
+<p>You can use the Context input or output feature to use a variable from the previous node or when testing a function.</p>
 <ul>
-<li><strong>Context Input</strong>: Add the required variable; also, dummy input values can be given to test the defined function.</li>
+<li><strong>Context Input</strong>: Add the required variable; dummy input values can be given to test the defined function.</li>
 <li><strong>Context Output</strong>: Shows the results of the function from the given input.</li>
 <li><strong>Log</strong>: Monitor the state of the function and view the values.</li>
 </ul>
 </li>
 <li>
-<p>Click the <strong>Run</strong> button to test the script. Once the script is resolved successfully, the results are displayed in the Log section.</p>
+<p>Click <strong>Run</strong> to test the script. Once the script is resolved successfully, the results are displayed in the Log section.</p>
 </li>
 <li>Close the Script Editor.</li>
 </ol>
@@ -3249,7 +3338,7 @@ To call a function:
 </ul>
 </li>
 <li>
-<p>Click the <strong>Connections</strong> icon in the left navigation and select the <strong>Go to Node</strong> for both success and failure conditions.<br />
+<p>Click the <strong>Connections</strong> icon in the left navigation and select <strong>Go to Node</strong> for success and failure conditions.<br />
 <a class="glightbox" href="../images/function-node-connections.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/function-node-connections.png" alt="Configure Connection Settings" title="Configure Connection Settings" style="border: 1px solid gray; zoom:80%;"></a></p>
 <ol>
 <li><strong>On Success</strong> &gt; <strong>Go to Node</strong>: After the current node is successfully executed, go to a selected node in the flow to execute next. For example, you can go to a Gen AI node to use the processed data from the Function node.</li>
@@ -3257,7 +3346,7 @@ To call a function:
 </ol>
 </li>
 <li>
-<p>Finally, test the flow and fix any issues found: Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder.</p>
+<p>Finally, test the flow and fix any issues found. Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder and follow the onscreen instructions.</p>
 </li>
 </ol>
 <div class="admonition failure">

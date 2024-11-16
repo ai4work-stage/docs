@@ -1128,9 +1128,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access-the-output-of-the-gen-ai-node" class="md-nav__link">
+  <a href="#access-the-gen-ai-nodes-output" class="md-nav__link">
     <span class="md-ellipsis">
-      Access the Output of the Gen AI Node
+      Access the Gen AI Node’s Output
     </span>
   </a>
   
@@ -3137,6 +3137,96 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Billing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Billing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/billing-and-usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Billing and Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/billing/managing-usage-limits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing Usage Limits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3182,9 +3272,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access-the-output-of-the-gen-ai-node" class="md-nav__link">
+  <a href="#access-the-gen-ai-nodes-output" class="md-nav__link">
     <span class="md-ellipsis">
-      Access the Output of the Gen AI Node
+      Access the Gen AI Node’s Output
     </span>
   </a>
   
@@ -3209,19 +3299,19 @@
 
 
 <h1 id="gen-ai-node">Gen AI Node<a class="headerlink" href="#gen-ai-node" title="Permanent link">&para;</a></h1>
-<p>The Gen AI Node is a key component in GALE's Agent Flow that allows users to leverage LLMs for specific use cases. The node processes inputs and generates responses, which can be integrated into larger workflows within the Agent Flow.</p>
+<p>A Gen AI node is a key component in GALE's agent flow that lets you leverage LLMs for specific use cases. The node processes inputs and generates responses, which can be integrated into larger workflows within the agent flow.</p>
 <h2 id="add-and-configure-a-gen-ai-node">Add and Configure a Gen AI Node<a class="headerlink" href="#add-and-configure-a-gen-ai-node" title="Permanent link">&para;</a></h2>
-<p>Setting up a Gen AI node in an Agent Flow involves adding the node at the appropriate location in the flow and configuring various properties of the node, as explained below.</p>
+<p>Setting up a Gen AI node in an agent flow involves adding the node at the appropriate location in the flow and configuring various node properties.</p>
 <p>Steps to add and configure the node:</p>
 <ol>
 <li>
 <p>On the <strong>Agents</strong> tab, click the name of the agent to which you want to add the node. The Agent Flow page is displayed. </p>
 </li>
 <li>
-<p>Click the <strong>Go to flow</strong> button for the in-development version of the flow for editing.</p>
+<p>Click <strong>Go to flow</strong> to edit the in-development version of the flow.</p>
 </li>
 <li>
-<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and and select <strong>Gen AI</strong> from the pop-up menu. (Alternatively, you can drag the <strong>Gen AI</strong> node from the Assets panel onto the canvas.)  </p>
+<p>In the flow builder, click the “<strong>+</strong>” icon on any existing node on the canvas and and select <strong>Gen AI</strong> from the pop-up menu. (Alternatively, drag the <strong>Gen AI</strong> node from the Assets panel onto the canvas.)  </p>
 </li>
 <li>
 <p>Click the added node to open its properties dialog box. The General Settings for the node are displayed.<br />
@@ -3234,35 +3324,29 @@
 <p><strong>Custom Name</strong>: Enter an appropriate name for the node.</p>
 </li>
 <li>
-<p><strong>Select Model</strong>: Select a model from the list of configured models (For more information on models, see Model Studio).</p>
+<p><strong>Select Model</strong>: Select a model from the list of configured models.</p>
 </li>
 <li>
-<p><strong>System Prompt</strong>: Enter the System Prompt for your use case. 
-For example, “Generate a summary of the transcription of a conversation in a maximum of 5 lines without returning any special characters.”</p>
+<p><strong>System Prompt</strong>: Enter the system prompt for your use case. For example, “Generate a summary of the transcription of a conversation in a maximum of 5 lines without returning any special characters.”</p>
 </li>
 <li>
-<p><strong>Prompt</strong>: It allows you to pass a variable to the System Prompt. For example, you can store the conversation transcript in a variable named “conversation” and pass it on in the Prompt.<br />
-Format:</p>
-<p><code>{{context.variable_name}}</code></p>
-<p>Example:</p>
-<p><code>{{context.conversation}}</code></p>
+<p><strong>Prompt</strong>: It allows you to pass a variable to the system prompt. For example, you can store the conversation transcript in a variable named “conversation” and pass it on in the prompt.<br />
+Syntax: <code>{{context.variable_name}}</code></p>
+<p>Example: <code>{{context.conversation}}</code></p>
 </li>
 <li>
-<p><strong>Few shot examples</strong>: Add a few relevant examples to guide the model. Click the arrow to add examples of User input and expected AI output.<br />
+<p><strong>Few-shot examples</strong>: Add a few relevant examples to guide the model. Click the arrow to add examples of user input and expected AI output.<br />
 <a class="glightbox" href="../images/gen-ai-node-summarization.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/gen-ai-node-summarization.png" alt="Configure System Prompt and Prompt" title="Configure System Prompt and Prompt" style="border: 1px solid gray; zoom:60%;"></a> </p>
 </li>
 <li>
-<p><strong>Timeout</strong>: Select the timeout duration from the allowed range.
-The allowed Range is 30 to 180 seconds (3 minutes). The
-default is 60 Seconds (1 minute).
-The node will trigger a timeout error if the request is not completed within the selected time frame.</p>
+<p><strong>Timeout</strong>: Select the timeout duration from the allowed range. The allowed range is 30 to 180 seconds (3 minutes). The default is 60 seconds (1 minute). The node triggers a timeout error if the request is not completed within the selected time frame.    </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Timeout precedence: Agent timeout &gt; Node timeout &gt; Model timeout.</p>
+<p>Timeout precedence: Agent timeout <em>is greater than</em> Node timeout <em>is greater than</em> Model timeout.</p>
 </div>
 </li>
 <li>
-<p><strong>Hyperparameters</strong>: Hyperparameters allow you to fine-tune the AI model's behavior to suit your needs. While the default settings work well for most cases, you can adjust them to find the right balance for your use case.</p>
+<p><strong>Hyperparameters</strong>: Use hyperparameters to fine-tune the AI model's behavior to suit your needs. While the default settings work well for most cases, you can adjust them to find the right balance for your use case.</p>
 <ul>
 <li>
 <p><strong>Temperature</strong>: Controls the randomness of the model's responses. Higher values lead to more random outputs, while lower values result in more focused outputs.</p>
@@ -3271,10 +3355,10 @@ The node will trigger a timeout error if the request is not completed within the
 <p><strong>Max Tokens</strong>: Sets the maximum length of the model's output. Lower values generate shorter responses, while higher values produce longer responses.</p>
 </li>
 <li>
-<p><strong>Frequency Penalty</strong>: Penalizes common or frequent tokens, making the model's output less generic. Higher values produce more unique outputs, while lower values result in more common outputs.</p>
+<p><strong>Frequency Penalty</strong>: Penalizes common or frequent tokens, making the model's output less generic. Higher values produce more unique outputs, while lower values produce more common outputs.</p>
 </li>
 <li>
-<p><strong>Presence Penalty</strong>: Penalizes new or rare tokens, making the model's output more common. Higher values lead to more common outputs, while lower values result in more unique outputs.</p>
+<p><strong>Presence Penalty</strong>: Penalizes new or rare tokens, making the model's output more common. Higher values lead to more common outputs, while lower values produce more unique outputs.</p>
 </li>
 <li>
 <p><strong>Top P</strong>: Controls the diversity of the model's output by considering only the top tokens whose cumulative probability exceeds a threshold. Higher values produce more diverse outputs, while lower values result in more deterministic outputs.</p>
@@ -3284,7 +3368,7 @@ The node will trigger a timeout error if the request is not completed within the
 </ul>
 </li>
 <li>
-<p>Click the <strong>Connections</strong> icon and select the <strong>Go to Node</strong> for both success and failure conditions.<br />
+<p>Click the <strong>Connections</strong> icon and select the <strong>Go to Node</strong> for success and failure conditions.<br />
 <a class="glightbox" href="../images/gen-ai-connections.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/gen-ai-connections.png" alt="Gen AI Actions" title="Gen AI Actions" style="border: 1px solid gray; zoom:70%;"></a></p>
 <ol>
 <li>
@@ -3296,19 +3380,19 @@ The node will trigger a timeout error if the request is not completed within the
 </ol>
 </li>
 <li>
-<p>Finally, test the flow and fix any issues found: Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder.</p>
+<p>Finally, test the flow and fix any issues found. Click the <strong>Run Flow</strong> button at the top-right corner of the flow builder and follow the onscreen instructions.</p>
 </li>
 </ol>
 <div class="admonition failure">
 <p class="admonition-title">Standard Error</p>
 <p>When the Model is not selected, the prompt details are not provided, or both, the following error message is displayed: “Proper data needs to be provided in the LLM node”.</p>
 </div>
-<h2 id="access-the-output-of-the-gen-ai-node">Access the Output of the Gen AI Node<a class="headerlink" href="#access-the-output-of-the-gen-ai-node" title="Permanent link">&para;</a></h2>
-<p>The output of the Gen AI node is stored in a context variable and can be accessed via</p>
-<p><code>{{context.steps.GenAINodeName.output}}</code></p>
+<h2 id="access-the-gen-ai-nodes-output">Access the Gen AI Node’s Output<a class="headerlink" href="#access-the-gen-ai-nodes-output" title="Permanent link">&para;</a></h2>
+<p>The node’s output is stored in a context variable. You can access the variable using the following syntax:
+<code>{{context.steps.GenAINodeName.output}}</code></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>GALE can automatically recognize variables/outputs. To do this, just type "context.steps." and you will see available context variables/nodes, including the nodes' outputs.</p>
+<p>GALE can automatically recognize variables and outputs. To do so, type "context.steps." and you will see available variables and nodes, including the nodes' outputs.</p>
 </div>
 
 
