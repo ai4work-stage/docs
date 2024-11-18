@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="Rajasekhar Balla">
+        <meta name="author" content="Kore ai Content Experience Team">
       
       
       
@@ -2076,7 +2076,7 @@
         
   
   <span class="md-ellipsis">
-    Release Communications
+    Release Communication
   </span>
   
 
@@ -3827,6 +3827,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Manage Default Responses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#handling-lengthy-responses-and-improving-readability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling Lengthy Responses and Improving Readability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -3867,9 +3882,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-do-conditional-responses-work" class="md-nav__link">
+  <a href="#how-conditional-responses-work" class="md-nav__link">
     <span class="md-ellipsis">
-      How Do Conditional Responses Work?
+      How Conditional Responses Work
     </span>
   </a>
   
@@ -6137,6 +6152,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../searchai/content-sources/connectors/custom-connector/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Connector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../searchai/content-sources/connectors/dotcms/" class="md-nav__link">
         
   
@@ -8290,7 +8326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../quality-management/analyze/Supervisor-view-agent-specific-dashboard/" class="md-nav__link">
+      <a href="../../../quality-management/analyze/Supervisor-view-agent-dashboard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -12467,7 +12503,7 @@
         
   
   <span class="md-ellipsis">
-    Automation APIs
+    Automation AI
   </span>
   
 
@@ -12488,7 +12524,7 @@
         
   
   <span class="md-ellipsis">
-    Search APIs
+    Search AI
   </span>
   
 
@@ -12509,7 +12545,7 @@
         
   
   <span class="md-ellipsis">
-    Contact Center APIs
+    Contact Center AI
   </span>
   
 
@@ -12530,7 +12566,7 @@
         
   
   <span class="md-ellipsis">
-    Agent APIs
+    Agent AI
   </span>
   
 
@@ -15703,6 +15739,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Manage Default Responses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#handling-lengthy-responses-and-improving-readability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling Lengthy Responses and Improving Readability
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -15743,9 +15794,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-do-conditional-responses-work" class="md-nav__link">
+  <a href="#how-conditional-responses-work" class="md-nav__link">
     <span class="md-ellipsis">
-      How Do Conditional Responses Work?
+      How Conditional Responses Work
     </span>
   </a>
   
@@ -15806,19 +15857,27 @@
 <div class="admonition warning">
 <p class="admonition-title">Important</p>
 <ul>
-<li>The <strong>Manage KG</strong> option is available only for enterprise accounts.</li>
-<li>There is a limit of 50k FAQs over 20k nodes to avoid performance issues.</li>
+<li>The <strong>Manage KG</strong> option is available for enterprise accounts only.</li>
+<li>Limited to 50k FAQs across 20k nodes to avoid performance issues.</li>
 </ul>
 </div>
-<p>All features explained here are supported by the Few-Shot Knowledge Graph, except for the following:</p>
+<p>The Few-Shot Knowledge Graph supports all features explained in this document, except the following:</p>
 <ul>
-<li>Adding the Root Term/Node without an ontology structure. However, you can create one to improve intent detection.</li>
-<li>Default terms. The only exception is when you switch from an Ontology Graph, in which case existing Default terms are stored as such until updated. Afterward, Default terms become Organizer terms and can be set as Mandatory.</li>
-<li>Lemmatization using Parts of Speech Search in Answer and Contextual Paths Qualification. Please see the Knowledge Graph Types Comparison Table for a detailed list of supported features.</li>
-<li>Path Level and Knowledge Graph Synonyms are only supported for Mandatory Terms and for Tags.</li>
+<li>
+<p>Adding the root term or node without an ontology structure. However, you can create one to improve intent detection.</p>
+</li>
+<li>
+<p>When switching from Ontology Graph, existing default terms stay until updated. After updating, they become organizer terms and can be set as mandatory.</p>
+</li>
+<li>
+<p>Lemmatization using Parts of Speech Search is unavailable for answer and contextual paths qualification. See the <a href="../knowledge-graph-overview/#compare-knowledge-graph-types" target="_blank">Knowledge Graph Types Comparison Table</a> for a detailed list of supported features.</p>
+</li>
+<li>
+<p>Path Level and Knowledge Graph Synonyms are supported only for mandatory terms and tags.</p>
+</li>
 </ul>
 <h2 id="add-faqs">Add FAQs<a class="headerlink" href="#add-faqs" title="Permanent link">&para;</a></h2>
-<p>To add an FAQ, follow the below steps:</p>
+<p>Step to add an FAQ:</p>
 <ol>
 <li>Go to <strong>Virtual Assistant</strong> &gt; <strong>Knowledge AI</strong> &gt; <strong>FAQs</strong> &gt; <strong>Manage KG</strong>. </li>
 <li>
@@ -15837,81 +15896,85 @@
 <li>(Optional) If there are alternate responses, add them in the <strong>+ Alternate Response</strong> field. Repeat the step for all the alternative responses you want to add.</li>
 <li>If you want to add condition-based responses for the FAQ, enable the <strong>Conditional Response</strong> toggle and provide the details. Learn more about <a href="./#faq-conditional-responses">conditional responses</a>. </li>
 <li>(Optional) Add a <strong>Reference Id</strong>. This field is used to reference any external content used as a source for this FAQ.</li>
-<li>(Optional) Enable or disable the <strong>Intent Status</strong> for the FAQ intents. The Knowledge Graph does not use the FAQs intents that are disabled. These intents do not participate in the intent recognition process during testing and end-user interaction.</li>
+<li>(Optional) Enable or disable the <strong>Intent Status</strong> for the FAQ intents. The Knowledge Graph does not use the disabled FAQ intents. These intents do not participate in the intent recognition process during testing and end-user interaction.<br />
+<a class="glightbox" href="../images/add-faq-form.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/add-faq-form.gif" alt="add faq form" title="add faq form" style="border: 1px solid gray; zoom:75%;"></a></li>
 </ol>
-<p><a class="glightbox" href="../images/add-faq-form.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/add-faq-form.gif" alt="add faq form" title="add faq form" style="border: 1px solid gray; zoom:75%;"></a></p>
-<p>As you enter these questions, pay attention to terms that you can further add to your FAQ hierarchy. <a href="../knowledge-graph-terminology/">Learn more</a>.</p>
+<p>As you enter these questions, consider terms you can further add to your FAQ hierarchy. <a href="../knowledge-graph-terminology/">Learn more</a>.</p>
 <h2 id="manage-default-responses">Manage Default Responses<a class="headerlink" href="#manage-default-responses" title="Permanent link">&para;</a></h2>
-<p>For the FAQ Response, you can compose a simple or complex channel-specific reply. The editor is like any other prompt editor on the Platform, for example, messages for dialog nodes. <a href="../../use-cases/dialogs/prompt-editor/#prompt-editor" target="_blank">Learn more</a>.</p>
+<p>You can compose a simple or complex channel-specific reply for the FAQ Response. The editor is like any other prompt editor on the Platform, such as messages for dialog nodes. <a href="../../use-cases/dialogs/prompt-editor/#prompt-editor" target="_blank">Learn more</a>.</p>
 <p>You can add channel-specific responses to questions in your Knowledge Graph. By creating varying responses with different language and formatting options, you can leverage the dynamic responses on the selected channels. </p>
 <p>To add a channel-specific response, select the channel from the channels list before typing the response.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>We recommend adding one response for All Channels so that it is triggered in the absence of a channel-specific response.</p>
+<p>Add at least one response for All Channels, which will be triggered in the absence of a channel-specific response.</p>
 </div>
-<p><strong>Handling Lengthy Reponses and Improving Readability</strong></p>
-<p>Sometimes the FAQ responses are quite lengthy or may include nice-to-have information along with the primary response. To improve the readability of such responses, you can do one of the following:</p>
+<h3 id="handling-lengthy-responses-and-improving-readability">Handling Lengthy Responses and Improving Readability<a class="headerlink" href="#handling-lengthy-responses-and-improving-readability" title="Permanent link">&para;</a></h3>
+<p>Sometimes, the FAQ responses are lengthy or may include nice-to-have information along with the primary response. To improve the readability of such responses, you can do one of the following:</p>
 <ul>
 <li>
 <p>Split information into easy-to-read chunks that go as separate messages in a sequence by clicking <strong>Add Extended Response</strong> on the top-right of the <strong>Bot Response</strong> window.</p>
 </li>
 <li>
-<p>Select <strong>Add Alternate Response</strong> if your question can have more than one answer. Repeat the step for all the alternative responses you want to add. At runtime, the platform picks one response at random.</p>
+<p>Select <strong>Add Alternate Response</strong> if your question has multiple answers. Repeat the step for all the alternative responses you want to add. At runtime, the Platform picks one response at random.</p>
 </li>
 </ul>
 <h2 id="add-faqs-from-an-existing-source">Add FAQs from an Existing Source<a class="headerlink" href="#add-faqs-from-an-existing-source" title="Permanent link">&para;</a></h2>
 <p>When the Knowledge Graph you are trying to build is large and complex, it's important to have all the FAQs in one place and Import or Extract them as required. </p>
-<p>Adding FAQs from an existing source is the most effective method to implement in this case. The different ways to accomplish this include the following:</p>
+<p>Adding FAQs from an existing source is the most effective implementation method. The different ways to accomplish this include:</p>
 <ul>
-<li>Use the Knowledge Graph Generator to generate Knowledge Graph from a FAQ list and import it to your VA. <a href="../generate-a-knowledge-graph/" target="_blank">Learn more</a>.</li>
+<li>Use the Knowledge Graph Generator to generate a Knowledge Graph from an FAQ list and import it to your VA. <a href="../generate-a-knowledge-graph/" target="_blank">Learn more</a>.</li>
 <li>Select the <strong>Import</strong> option to import a Knowledge Graph exported from another VA. <a href="../import-and-export-knowledge-graph/#import" target="_blank">Learn more</a>.</li>
 <li>Leverage an existing list of Q&amp;As from <strong>Knowledge Extraction</strong> to populate the Questions and Responses. <a href="../knowledge-extraction/" target="_blank">Learn more</a>.</li>
 </ul>
 <h2 id="move-faqs-between-nodes">Move FAQs Between Nodes<a class="headerlink" href="#move-faqs-between-nodes" title="Permanent link">&para;</a></h2>
-<p>You can move one or more Questions and Response sets between nodes in your Knowledge Graph, with the steps below:</p>
+<p>You can move one or more Questions and Response sets between nodes in your Knowledge Graph.</p>
+<p>Steps to move FAQs between nodes:</p>
 <ol>
-<li>On the Knowledge Graph, click the name of the node from which you want to move the FAQ. The intents associated to the node display on the right pane.</li>
-<li>Identify the FAQ that you want to move, and select the checkbox next to it. You can select multiple items.</li>
-<li>Drag the FAQ and drop it on the relevant node. The node is highlighted and the FAQ displays on the right pane of the node.</li>
-</ol>
-<p>The demo below shows you how this works.
+<li>
+<p>On the Knowledge Graph, click the node name from which you want to move the FAQ. The intents associated with the node are displayed on the right pane.</p>
+</li>
+<li>
+<p>Identify the FAQ you want to move and select the checkbox next to it. You can select multiple items.</p>
+</li>
+<li>
+<p>Drag the FAQ and drop it on the relevant node. The node is highlighted, and the FAQ is displayed on the right pane of the node.<br />
 <a class="glightbox" href="../images/move-faq-to-new-node.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/move-faq-to-new-node.gif" alt="move faq between nodes demo" title="move faq between nodes demo" style="border: 1px solid gray; zoom:75%;"></a></p>
+</li>
+</ol>
 <h2 id="edit-faqs-and-responses">Edit FAQs and Responses<a class="headerlink" href="#edit-faqs-and-responses" title="Permanent link">&para;</a></h2>
+<p>Steps to edit FAQs and responses:</p>
 <ol>
-<li>From the nodes hierarchy, select the relevant term.</li>
-<li>FAQs associated with the term appear on the right pane.</li>
-<li>Hover over the Question or Response to edit it and click the <strong>edit</strong> icon.</li>
-<li>Make changes to the Question or Response and click <strong>Save</strong>.</li>
-<li>You can delete the Question using the <strong>bin</strong> icon.
+<li>From the nodes hierarchy, select the relevant term. FAQs associated with the term appear on the right pane.</li>
+<li>Hover over the intent or response and click the <strong>Edit</strong> icon.</li>
+<li>Make changes and click <strong>Save</strong>.</li>
+<li>To delete the question, click the <strong>Bin</strong> icon.
 <a class="glightbox" href="../images/edit-delete-faq-responses.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/edit-delete-faq-responses.png" alt="edit or delete faq responses" title="edit or delete faq responses" style="border: 1px solid gray; zoom:75%;"></a>
-Selecting multiple intents lets you delete them in bulk.
+You can also select multiple intents to delete them in bulk.
 <a class="glightbox" href="../images/delete-multiple-intents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/delete-multiple-intents.png" alt="delete selected intents" title="delete selected intents" style="border: 1px solid gray; zoom:75%;"></a></li>
 </ol>
 <h2 id="faq-conditional-responses">FAQ Conditional Responses<a class="headerlink" href="#faq-conditional-responses" title="Permanent link">&para;</a></h2>
-<p>The FAQ Conditional Responses feature allows you to provide dynamic responses to FAQs so that you can provide personalized, context-aware responses to your users.</p>
-<h3 id="how-do-conditional-responses-work">How Do Conditional Responses Work?<a class="headerlink" href="#how-do-conditional-responses-work" title="Permanent link">&para;</a></h3>
+<p>The feature lets you define rules for different responses to FAQs depending on specific conditions. It helps you handle complex scenarios while giving users more relevant, context-aware answers.</p>
+<h3 id="how-conditional-responses-work">How Conditional Responses Work<a class="headerlink" href="#how-conditional-responses-work" title="Permanent link">&para;</a></h3>
 <p>When the conditional responses are present, it works as follows:</p>
 <ol>
-<li>The platform identifies the appropriate FAQ using the regular process based on the selected model, training, and alternate questions.</li>
+<li>The Platform identifies the appropriate FAQ using the regular process based on the selected model, training, and alternate questions.</li>
 <li>Once the FAQ is identified, the conditions are evaluated in the order they're defined.</li>
 <li>If a condition is met, its corresponding response is selected.</li>
 <li>If no conditions are met, the default response is used.</li>
-<li>The platform prioritizes channel-specific responses for both conditional and default responses.<ul>
-<li>Channel-Specific Priority<ul>
-<li>If a condition is met and has a response for the user's channel, that response is used. For example, if the user interacts via MS Teams and the first condition is passed Which has two responses, one for “MS Teams” and one for "All Channels", the MS Teams response will be delivered.</li>
-</ul>
+<li>
+<p>Channel-specific responses take priority for both conditional and default responses.</p>
+<ul>
+<li>
+<p>Channel-specific priority: If a matching condition has a response for the user's channel, use that response first. For example, for MS Teams users, the MS Teams response is used over the "All Channels" response.</p>
 </li>
-<li>"All Channels" Fallback<ul>
-<li>If conditional responses are available for Slack and All Channels, the "All Channels" response will be delivered on MS Teams.</li>
-</ul>
+<li>
+<p>"All Channels" fallback: If no channel-specific response exists, use the "All Channels" response. For example, MS Teams users get the "All Channels" response when only the Slack and "All Channels" options exist.</p>
 </li>
-<li>Condition Skipping<ul>
-<li>If the conditional responses are for Slack and Twitter only, the platform skips the conditional response and checks the next condition. If no conditions match, the default response is delivered.</li>
-</ul>
+<li>
+<p>Condition skipping: If responses exist only for other channels, skip to the next condition. For example, skip responses that are meant only for Slack and Twitter. If no conditions match, deliver the default response.</p>
 </li>
-<li>Default Response Selection<ul>
-<li>For default responses, the platform first attempts to select a channel-specific response. If none is available, the default "All Channels" response will be presented.</li>
-</ul>
+<li>
+<p>Default response selection: For default responses, first attempt to select a channel-specific response. If none is available, deliver the default "All Channels" response.</p>
 </li>
 </ul>
 </li>
@@ -15938,49 +16001,70 @@ Selecting multiple intents lets you delete them in bulk.
 <p>Default (No condition met):</p>
 <ul>
 <li>Web: "International shipping rates vary. Please check our shipping page for detailed information on rates and delivery times."</li>
-<li>Mobile: "Int'l shipping rates vary. Tap here for your location's rates and times."</li>
+<li>Mobile: "International shipping rates vary. Tap here for your location's rates and times."</li>
 <li>All Channels: "Shipping options depend on your location. Please contact our customer service for specific shipping information."</li>
 </ul>
 <p><strong>Scenarios</strong></p>
-<p>Let's see how the answers/responses are selected in different scenarios:</p>
-<p>Scenario 1: Customer from the United States accessing via Web</p>
+<p>Let's see how the responses are selected in different scenarios:</p>
+<p>Scenario 1: Customer from the United States accessing using Web</p>
 <ul>
 <li>Condition "Customer Location Equals To United States" is satisfied for the Web.</li>
 <li>Selected Response: "We offer free standard shipping on orders over $50 within the United States. Express shipping is available for $15."</li>
 </ul>
-<p>Scenario 2: Customer from Canada accessing via Mobile</p>
+<p>Scenario 2: Customer from Canada accessing using Mobile</p>
 <ul>
 <li>Condition "Customer Location Equals To Canada" is satisfied for Mobile.</li>
 <li>Selected Response: "Canada shipping: $10 flat rate. Free on $100+ orders. Tap for info."</li>
 </ul>
-<p>Scenario 3: Customer from the United Kingdom accessing via Web</p>
+<p>Scenario 3: Customer from the United Kingdom accessing using Web</p>
 <ul>
 <li>Condition "Customer Location Equals To United Kingdom" is satisfied for the Web.</li>
 <li>Selected Response: "Shipping to the UK is £5 for standard delivery. Free shipping on orders over £75."</li>
 </ul>
-<p>Scenario 4: Customer from France accessing via Mobile</p>
+<p>Scenario 4: Customer from France accessing using Mobile</p>
 <ul>
-<li>Channel-specific as well as "All Channels" conditions are not satisfied.</li>
-<li>Selected Response (default): "Int'l shipping rates vary. Tap here for your location's rates and times."</li>
+<li>Channel-specific and "All Channels" conditions are not satisfied.</li>
+<li>Selected Response (default): "International shipping rates vary. Tap here for your location's rates and times."</li>
 </ul>
 </div>
 <h3 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h3>
-<p>When creating your conditional responses:</p>
+<p>When setting up conditional responses:</p>
 <ul>
-<li>Identify the most important factors for your FAQ (e.g., location, time, user metadata like customer type, products/services, etc).</li>
-<li>Create specific conditions for these factors.</li>
-<li>Order your conditions from most to least specific </li>
-<li>Use AND logic for more specific scenarios OR logic for wider coverage.</li>
-<li>Always provide a default response for cases where no conditions are met. </li>
-<li>When using variables from the context object to define the conditional responses, it is recommended to have these variables as part of the ‘BotUserSession’ (context.session.BotUserSession) as they will be available across the session between the user and the bot.  </li>
+<li>
+<p>Identify important factors like location, customer type, products, and services.</p>
+</li>
+<li>
+<p>Create specific conditions for these factors.</p>
+</li>
+<li>
+<p>Order your conditions from most to least specific.</p>
+</li>
+<li>
+<p>Use ‘AND’ for specific scenarios and ‘OR’ for broader ones.</p>
+</li>
+<li>
+<p>Always set a default response.</p>
+</li>
+<li>
+<p>Create only a few conditions or nested rules; too many conditions can make the graph overly complex and difficult to manage.</p>
+</li>
+<li>
+<p>When using variables from the context object to define the conditional responses, use only ‘BotUserSession’ variables (context.session.BotUserSession), as they will be available across the session between the user and the bot.</p>
+</li>
+<li>
+<p>Create context, environment, or content variables before using them in conditional responses.</p>
+</li>
+<li>
+<p>Save and train the FAQ after changes; publish to update the end channel.</p>
+</li>
 </ul>
 <h3 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">&para;</a></h3>
 <ul>
-<li>A maximum of 10 conditions are allowed per FAQ. </li>
-<li>A maximum of up to 10 nested rules are allowed per condition.</li>
-<li>It is not recommended to create too many conditions or nested rules, as this can make the graph overly complex and difficult to manage.</li>
+<li>Maximum 10 conditions per FAQ.</li>
+<li>Maximum 10 nested rules per condition.</li>
 </ul>
 <h3 id="setting-up-conditional-responses">Setting Up Conditional Responses<a class="headerlink" href="#setting-up-conditional-responses" title="Permanent link">&para;</a></h3>
+<p>Steps to set up conditional responses:</p>
 <ol>
 <li>Navigate to the FAQ management section in your dashboard. </li>
 <li>Select the FAQ you want to enhance with conditional responses. </li>
@@ -15989,7 +16073,7 @@ Selecting multiple intents lets you delete them in bulk.
 <a class="glightbox" href="../images/conditional-response.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/conditional-response.png" alt="conditional-response" title="conditional-response" style="border: 1px solid gray; zoom:75%;"></a></p>
 </li>
 <li>
-<p>Define conditions based on content, context, and environmental variables. The condition must be defined properly without any discontinuation.
+<p>Define conditions based on content, context, and environmental variables. The condition must be defined properly without any discontinuation.<br />
 For example: <code>context.session.Usercontext.emailID Equals To xxx@xmail.com</code></p>
 </li>
 <li>Select an appropriate operator from the dropdown list: Exists, Does Not Exist, Equals To, or Not Equals To. </li>
@@ -15999,15 +16083,18 @@ For example: <code>context.session.Usercontext.emailID Equals To xxx@xmail.com</
 <li>Optionally, specify channel-specific variations of the response by selecting the channel from the dropdown menu of <strong>All Channels.</strong></li>
 </ol>
 <div class="admonition note">
-<p class="admonition-title">Important Points</p>
-<ol>
-<li>When a new app is created, it will only use the Fewshot model. However, if an old app or a bot converted to an app is imported, the model may be set to Ontology. To verify this, navigate to <strong>Natural Language</strong> &gt; <strong>NLU config</strong> &gt; <strong>Knowledge Graph</strong> &gt; <strong>KG type</strong> and check for the Fewshot model.</li>
-<li>Ensure to save and train the FAQ after each creation or edit. Without training, the changes will not be reflected in the RTM. The updates will only be visible in the end channel after publishing.</li>
-<li>Enabling <strong>Conditional Response</strong> removes any existing extended responses.</li>
-<li>Disabling the <strong>Conditional Response</strong> will permanently erase all data entered in the conditional responses, and this action is irreversible.</li>
-<li>Ensure the context, environment, or content variables are created before implementing the <strong>Conditional Response</strong>.</li>
-<li><strong>Conditional Responses</strong> are included only when the Knowledge Graph is exported in JSON format. Conditional responses are not supported in the CSV format. </li>
-</ol>
+<p class="admonition-title">Notes</p>
+<ul>
+<li>
+<p>New apps use the Few-Shot model; imported apps may use the Ontology model. Check the model in <strong>NLU Config</strong> &gt; <strong>Knowledge Graph</strong> &gt; <strong>KG Type</strong>.</p>
+</li>
+<li>
+<p>Enabling conditional responses removes extended responses. Disabling conditional response permanently deletes conditional response data.</p>
+</li>
+<li>
+<p>Exporting the Knowledge Graph as JSON includes conditional responses; exporting as CSV does not.</p>
+</li>
+</ul>
 </div>
 
 
