@@ -1,6 +1,5 @@
 ---
 hide:
-  - toc
   - feedback
 ---
 
@@ -59,7 +58,7 @@ Beyond individual productivity gains, AI for Work enables a fundamental shift in
  
 <hr>
 
-# Unified Architecture for Enterprise Productivity
+## Unified Architecture for Enterprise Productivity
 
 Architecturally, AI for Work is designed to provide a unified and flexible framework for implementing AI capabilities within an enterprise context. It combines pre-built components, customization options, and integration capabilities to address a wide range of business needs while ensuring security and compliance.
 
@@ -92,14 +91,10 @@ Architecturally, AI for Work is designed to provide a unified and flexible frame
     
     * Analytics Tools: Built-in analytics capabilities help organizations measure and optimize the performance of AI agents and workflows.   
 
-7: **Enterprise Systems**: Common enterprise systems that AI for Work can integrate with, such as SharePoint, Salesforce, ServiceNow, Enterprise databases, and Email systems.
-
+7. **Enterprise Systems**: Common enterprise systems that AI for Work can integrate with, such as SharePoint, Salesforce, ServiceNow, Enterprise databases, and Email systems.
 
 <hr>
 
-# Implementation and Deployment Approach
+## Implementation and Deployment Approach
 
-The platform follows a pragmatic deployment strategy, starting with basic capabilities in a few weeks and progressively expanding to custom solutions within a few months. This measured approach ensures quick wins while building toward comprehensive enterprise AI capabilities.
-
-Enterprises can start with high-impact, readily deployable capabilities in areas like IT service automation and enterprise search. They can then progress to additional pre-built AI agents for HR and Recruitment and create custom AI solutions for unique departmental needs.
-
+The platform follows a pragmatic deployment strategy, starting with basic capabilities in a few weeks and progressively expanding to custom solutions within a few months. The modular structure allows organizations to start with pre-built solutions and gradually extend the platform with custom AI agents and integrations as their needs evolve. This measured approach ensures quick wins while building toward comprehensive enterprise AI capabilities.
