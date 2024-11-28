@@ -49,7 +49,7 @@ Beyond individual productivity gains, AI for Work enables a fundamental shift in
 
 AI for Work is designed to provide a unified and flexible framework for implementing AI capabilities within an enterprise context. It combines pre-built components, customization options, and integration capabilities to address a wide range of business needs while ensuring security and compliance.
 
-**Key components and layers that make up the platform**:
+**Key Layers and Components of the Platform**:
 
 <img src="../images/ai-for-work-architecture-diagram.svg" alt="AI for Work Architecture" title="AI for Work Architecture" style="border: 0px solid gray; zoom:100%;">
 
