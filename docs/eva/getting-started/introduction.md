@@ -82,4 +82,6 @@ AI for Work is designed to provide a unified and flexible framework for implemen
 
 ## Implementation and Deployment Approach
 
-The platform follows a pragmatic deployment strategy, starting with basic capabilities in a few weeks and progressively expanding to custom solutions within a few months. The modular structure allows organizations to start with pre-built solutions and gradually extend the platform with custom AI agents and integrations as their needs evolve. This measured approach ensures quick wins while building toward comprehensive enterprise AI capabilities.
+The platform follows a pragmatic deployment strategy, starting with basic capabilities in a few weeks and progressively expanding to custom solutions within a few months. 
+
+The modular structure allows organizations to start with pre-built solutions and gradually extend the platform with custom AI agents and integrations as their needs evolve. This measured approach ensures quick wins while building toward comprehensive enterprise AI capabilities.
