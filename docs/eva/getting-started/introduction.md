@@ -33,7 +33,7 @@ At its core, AI for Work is designed to make work more efficient, intelligent, a
 
 * **Intelligent Task Automation**: AI for Work streamlines work by automating routine and repetitive activities. From generating reports to processing documents to handling common service requests, the platform leverages AI to take care of the mundane, freeing employees to focus on more impactful work. Intelligent workflows and pre-built integrations enable end-to-end automation across business processes.  
 
-* **No-Code AI Tools**: With AI for Work, every employee can leverage the power of AI without needing technical expertise. The platform provides intuitive, no-code tools that allow users to easily build and customize AI-powered solutions for their specific needs. From creating virtual assistants to automating workflows to analyzing data, AI for Work empowers employees to leverage AI for their day-to-day work.  
+* **No-Code AI Tools**: With AI for Work, every employee can leverage the power of AI without needing technical expertise. The platform provides intuitive, no-code tools that allow users to easily build and customize AI-powered solutions for their specific needs. This empowers employees across the organization to leverage AI in their day-to-day work, regardless of their technical background.  
 
 ## Drive Enterprise Transformation
 

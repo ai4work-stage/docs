@@ -58,7 +58,7 @@ At its core, AI for Work is designed to make work more efficient, intelligent, a
 
 === "No-Code AI Tools"
 
-    With AI for Work, every employee can leverage the power of AI without needing technical expertise. The platform provides intuitive, no-code tools that allow users to easily build and customize AI-powered solutions for their specific needs. From creating virtual assistants to automating workflows to analyzing data, AI for Work empowers employees to leverage AI for their day-to-day work. 
+    With AI for Work, every employee can leverage the power of AI without needing technical expertise. The platform provides intuitive, no-code tools that allow users to easily build and customize AI-powered solutions for their specific needs. This empowers employees across the organization to leverage AI in their day-to-day work, regardless of their technical background. 
 
 
 <hr>
