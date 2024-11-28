@@ -92,15 +92,15 @@ AI for Work is designed to provide a unified and flexible framework for implemen
 
 === "Access Points"
 
-   * Users can access AI for Work through a web-based interface or mobile applications.
+    * Users can access AI for Work through a web-based interface or mobile applications.
 
 === "Universal Orchestrator"
 
-   * This is the central intelligence layer that coordinates and manages interactions between different components of the platform.    
+    * This is the central intelligence layer that coordinates and manages interactions between different components of the platform.    
 
 === "AI Agents"
 
-   * Pre-Built Solutions: Ready-to-use AI solutions that can be quickly deployed for common common department needs, such as IT support automation, HR service management, and Recruitment process automation.
+    * Pre-Built Solutions: Ready-to-use AI solutions that can be quickly deployed for common common department needs, such as IT support automation, HR service management, and Recruitment process automation.
     
     * Pre-Built Agents: AI for Work includes a set of pre-configured AI agents that can be easily customized and integrated into workflows.
     
@@ -108,15 +108,15 @@ AI for Work is designed to provide a unified and flexible framework for implemen
 
 === "Enterprise RAG"
 
-   * This component powers intelligent information retrieval and processing capabilities within the platform.  
+    * This component powers intelligent information retrieval and processing capabilities within the platform.  
 
 === "Security & Compliance"
 
-   * This layer ensures the platform adheres to enterprise security standards and compliance regulations.  
+    * This layer ensures the platform adheres to enterprise security standards and compliance regulations.  
 
 === "Development Tools"
 
-   * No-Code Tools: AI for Work provides no-code tools that allow users to build and customize AI solutions without requiring programming skills.
+    * No-Code Tools: AI for Work provides no-code tools that allow users to build and customize AI solutions without requiring programming skills.
     
     * Integration Tools: These tools enable integration with various enterprise systems and data sources.
     
@@ -124,7 +124,7 @@ AI for Work is designed to provide a unified and flexible framework for implemen
 
 === "Enterprise Systems"
 
-   * Common enterprise systems that AI for Work can integrate with, such as SharePoint, Salesforce, ServiceNow, Enterprise databases, and Email systems.
+    * Common enterprise systems that AI for Work can integrate with, such as SharePoint, Salesforce, ServiceNow, Enterprise databases, and Email systems.
 
 
 <hr>
