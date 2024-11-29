@@ -25,26 +25,6 @@ The AI for Work platform delivers four core capabilities that collectively enabl
 
 * **Advanced Knowledge Work Support**: It enables accelerated content creation and analysis, real-time summarization and insights, contextual assistance across all work activities, and progressive automation of routine knowledge tasks.
 
-## Empower Employees with Intelligent Automation
-
-At its core, AI for Work is designed to make work more efficient, intelligent, and valuable for every employee. The platform combines powerful AI capabilities with a user-friendly interface, putting the benefits of intelligent automation at everyone's fingertips:
-
-* **Unified Information Access**: With AI for Work, employees can instantly retrieve the information they need from across the enterprise. The platform breaks down data silos, providing a single point of access to knowledge scattered across different systems. Powered by intelligent orchestration, it understands context and intent to deliver accurate, relevant results.  
-
-* **Intelligent Task Automation**: AI for Work streamlines work by automating routine and repetitive activities. From generating reports to processing documents to handling common service requests, the platform leverages AI to take care of the mundane, freeing employees to focus on more impactful work. Intelligent workflows and pre-built integrations enable end-to-end automation across business processes.  
-
-* **No-Code AI Tools**: With AI for Work, every employee can leverage the power of AI without needing technical expertise. The platform provides intuitive, no-code tools that allow users to easily build and customize AI-powered solutions for their specific needs. This empowers employees across the organization to leverage AI in their day-to-day work, regardless of their technical background.  
-
-## Drive Enterprise Transformation
-
-Beyond individual productivity gains, AI for Work enables a fundamental shift in how enterprises operate. The platform provides a scalable, secure foundation for organization-wide AI adoption and value creation:
-
-* **Scalable Architecture**: AI for Work is built on a modular, extensible architecture that enables seamless scalability across the enterprise. Organizations can start with specific use cases and gradually expand the platform's footprint as their needs evolve. The architecture supports the development and deployment of custom AI solutions alongside pre-built capabilities.
-
-* **Enterprise-Grade Security**: Security and compliance are paramount in enterprise contexts. AI for Work incorporates comprehensive security controls and governance frameworks to ensure the protection of sensitive data and adherence to regulatory requirements.    
-
-* **Measurable Value Creation**: AI for Work delivers measurable business value by improving efficiency, reducing costs, and enabling data-driven decision making. The platform provides built-in analytics and reporting capabilities to track key performance indicators and quantify the impact of AI-powered automation. Organizations can monitor adoption, measure productivity gains, and identify areas for continuous improvement.
-
 ## Unified Architecture for Enterprise Productivity
 
 AI for Work is designed to provide a unified and flexible framework for implementing AI capabilities within an enterprise context. It combines pre-built components, customization options, and integration capabilities to address a wide range of business needs while ensuring security and compliance.
