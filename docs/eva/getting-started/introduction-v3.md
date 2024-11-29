@@ -49,6 +49,20 @@ AI for Work is a unified enterprise AI platform that significantly enhances ente
 
 The AI for Work platform delivers four core capabilities that collectively enable intelligent automation and enhanced productivity across the enterprise:
 
+<div class="grid cards" markdown>
+
+-  __Intelligent Information Access and Synthesis__ It provides unified access to knowledge across structured and unstructured sources, synthesizes information from multiple systems in real time, generates context-aware responses that understand business terminology, and automatically maintains security and compliance boundaries.
+
+</div>
+
+<div class="grid cards" markdown>
+
+-  __Multi-step Workflow Automation__ It can execute actions across multiple enterprise applications, handle complex multi-step business workflows, manage.
+
+</div>
+
+<hr>
+
 * **Intelligent Information Access and Synthesis**: It provides unified access to knowledge across structured and unstructured sources, synthesizes information from multiple systems in real time, generates context-aware responses that understand business terminology, and automatically maintains security and compliance boundaries.
 
 * **Multi-step Workflow Automation**: It can execute actions across multiple enterprise applications, handle complex multi-step business workflows, manage enterprise system interactions and data flow, and automate routine business transactions and processes.
