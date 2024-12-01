@@ -12,17 +12,33 @@ AI for Work is a unified enterprise platform that significantly enhances enterpr
 
 ## Key Capabilities
 
-#### Intelligent Information Management
-The platform provides unified access to enterprise knowledge across structured and unstructured sources. It synthesizes information from multiple sources in real time and generates context-aware responses while maintaining security compliance.
+<div class="grid cards" markdown>
 
-#### Multi-step Workflow Automation
-The platform can execute actions across multiple enterprise applications, handle complex multi-step business workflows, manage enterprise system interactions and data flow, and automate routine business transactions and processes.
+-   __Intelligent Information Management__
 
-#### Intelligent Orchestration
-An intelligent coordination layer called the Universal Orchestrator maintains contextual awareness across scenarios, routes requests to appropriate AI agents, executes multi-step flows while preserving context, and handles seamless handoffs between different AI capabilities.
+    ---
 
-#### Knowledge Work Enhancement
-The platform accelerates content creation, provides real-time analysis and insights, and offers contextual assistance across work activities. It progressively automates routine knowledge tasks while preserving context and ensuring accuracy.
+    The platform provides unified access to enterprise knowledge across structured and unstructured sources. It synthesizes information from multiple sources in real time and generates context-aware responses while maintaining security compliance.  
+
+-   __Multi-step Workflow Automation__
+
+    ---
+
+    The platform can execute actions across multiple enterprise applications, handle complex multi-step business workflows, manage enterprise system interactions and data flow, and automate routine business transactions and processes.
+
+-   __Intelligent Orchestration__
+
+    ---
+    
+    An intelligent coordination layer called the Universal Orchestrator maintains contextual awareness across scenarios, routes requests to appropriate AI agents, executes multi-step flows while preserving context, and handles seamless handoffs between different AI capabilities.
+
+-   __Knowledge Work Enhancement__
+
+    ---
+    
+    The platform accelerates content creation, provides real-time analysis and insights, and offers contextual assistance across work activities. It progressively automates routine knowledge tasks while preserving context and ensuring accuracy.
+
+</div>
 
 ## Unified Architecture for Enterprise Productivity
 AI for Work is designed to provide a unified and flexible framework for implementing AI capabilities within an enterprise context. It combines pre-built components, customization options, and integration capabilities to address a wide range of business needs while ensuring security and compliance.
