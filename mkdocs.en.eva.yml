@@ -111,7 +111,8 @@ copyright: |
 nav:
   - Home : home.md
   - Getting Started: 
-    - AI for Work Overview: getting-started/introduction.md        
+    - AI for Work Overview: getting-started/introduction.md   
+    - Accessing AI for Work: getting-started/sign-up-sign-in.md     
   - Agents: 
     - About Agents: agents/overview.md
     - Create an Agent: agents/create-a-new-agent.md
