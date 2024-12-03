@@ -37,9 +37,9 @@ AI for Work is designed to provide a unified and flexible framework for implemen
     
 3. **AI Agents**:
 
-    * Pre-Built Solutions: Ready-to-use AI solutions that can be quickly deployed for common common department needs, such as IT support automation, HR service management, and Recruitment process automation.
+    * Pre-built Solutions: Ready-to-use AI solutions that can be quickly deployed for common common department needs, such as IT support automation, HR service management, and Recruitment process automation.
     
-    * Pre-Built Agents: AI for Work includes a set of pre-configured AI agents that can be easily customized and integrated into workflows.
+    * Pre-built Agents: AI for Work includes a set of pre-configured AI agents that can be easily customized and integrated into workflows.
     
     * Custom Agents: Enterprises can develop their own custom AI agents tailored to their specific requirements.       
 
