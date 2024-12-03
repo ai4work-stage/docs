@@ -113,8 +113,6 @@ nav:
   - Getting Started: 
     - AI for Work Overview: getting-started/introduction.md   
     - Accessing AI for Work: getting-started/sign-up-sign-in.md
-  - Pre-built Agents:
-	  - Gale Agent: ai-agents/gale-agents.md
   - Custom Agents:
     - API agent: ai-search/api-agents.md
   - Solutions:
