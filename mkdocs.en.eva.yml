@@ -118,11 +118,9 @@ nav:
   - Custom Agents:
     - API agent: ai-search/api-agents.md
   - Solutions:
-    - Pre-Built Solutions:
-      - Overview: pre-built-solution/overview.md
+    - Overview: pre-built-solution/overview.md
   - Configuration:
-    - Assist Configuration:
-	    - LLL Configuration: assistant-configuration/llm-configuration.md
+    - LLL Configuration: assistant-configuration/llm-configuration.md
   - Security:
 	  - SSO: security/sso.md
 
