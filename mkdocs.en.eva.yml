@@ -122,7 +122,8 @@ nav:
   - Custom Agents:
     - Overview: ai-search/overview.md
     - API Agent: ai-search/api-agents.md
-  - Analytics: dashboard/dashboard.md
+  - Analytics: 
+    - Dashboard: dashboard/dashboard.md
   - Administration:
     - Overview: admin-overview.md
     - Assist Configuration:
