@@ -113,16 +113,25 @@ nav:
   - Getting Started: 
     - AI for Work Overview: getting-started/introduction.md   
     - Accessing AI for Work: getting-started/sign-up-sign-in.md
+    - Dashboard: dashboard/dashboard.md
+  - Pre-built Solutions:
+    - Overview: pre-built-solution/overview.md
+    - IT Assist: pre-built-solution/it-assist.md
   - Pre-built Agents:
+    - Overview: ai-agents/overview.md
     - Gale Agent: ai-agents/gale-agents.md
   - Custom Agents:
+    - Overview: ai-search/overview.md
     - API agent: ai-search/api-agents.md
-  - Solutions:
-    - Pre-built Solution: pre-built-solution/overview.md
-  - Configuration:
-    - LLL Configuration: assistant-configuration/llm-configuration.md
-  - Security:
-    - SSO: security/sso.md
+  - Administration:
+    - Assist Configuration:
+      - LLM Configuration: assistant-configuration/llm-configuration.md
+    - User Management:
+      - User Enrollments: user-management/user-enrollments.md
+    - Security:
+      - SSO: security/sso.md
+
+
 
 
       
