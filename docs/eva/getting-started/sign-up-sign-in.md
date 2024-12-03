@@ -9,7 +9,7 @@ Use the latest version of Google Chrome, Microsoft Edge, Safari, or Firefox.
 
 To sign up for a new account on AI for work, follow these steps:
 
-1. Visit [AI for Work Homepage](https://eva.kore.ai/login). You will be directed to the login page.
+1. Visit [AI for Work](https://eva.kore.ai/login). You will be directed to the login page.
 2.  On the login page, enter your work email ID in the **Email** field. Click **Send code.**  
 <img src="../images/email.png" alt="Email" title="Email" style="border: 1px solid gray; zoom:60%;">
 
@@ -38,7 +38,7 @@ After signing up, users are guided through the onboarding process as follows:
 <img src="../images/take-tour.png" alt="take-tour" title="take-tour" style="border: 1px solid gray; zoom:80%;">
 
 4. Select the system for which you'd like to begin the setup tour, and then follow the onscreen instructions to connect with the agents. To modify your system selection, click **Edit**.  
-<img src="../images/guided-setup.png" alt="take-tour" title="take-tour" style="border: 1px solid gray; zoom:80%;"> 
+<img src="../images/guided-setup.png" alt="guided-setup" title="guided-setup" style="border: 1px solid gray; zoom:80%;"> 
 
 
  Your **AI for Work** is now ready to use.
