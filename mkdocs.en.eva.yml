@@ -124,6 +124,7 @@ nav:
     - API Agent: ai-search/api-agents.md
   - Analytics: dashboard/dashboard.md
   - Administration:
+    - Overview: admin-overview.md
     - Assist Configuration:
       - LLM Configuration: assistant-configuration/llm-configuration.md
     - User Management:
