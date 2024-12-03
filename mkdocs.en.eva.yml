@@ -112,6 +112,19 @@ nav:
   - Home : home.md
   - Getting Started: 
     - AI for Work Overview: getting-started/introduction.md   
-    - Accessing AI for Work: getting-started/sign-up-sign-in.md     
+    - Accessing AI for Work: getting-started/sign-up-sign-in.md
+  - Pre-built Agents:
+	  - Gale Agent: ai-agents/gale-agents.md
+  - Custom Agents:
+    - API agent: ai-search/api-agents.md
+  - Solutions:
+    - Pre-Built Solutions:
+      - Overview: pre-built-solution/overview.md
+  - Configuration:
+    - Assist Configuration:
+	    - LLL Configuration: assistant-configuration/llm-configuration.md
+  - Security:
+	  - SSO: security/sso.md
+
 
       
