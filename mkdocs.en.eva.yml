@@ -113,7 +113,8 @@ nav:
   - Getting Started: 
     - AI for Work Overview: getting-started/introduction.md   
     - Accessing AI for Work: getting-started/sign-up-sign-in.md
-    - Dashboard: dashboard/dashboard.md
+    - Dashboard: 
+      - Overview: dashboard/dashboard.md
   - Pre-built Solutions:
     - Overview: pre-built-solution/overview.md
     - IT Assist: pre-built-solution/it-assist.md
@@ -122,7 +123,7 @@ nav:
     - Gale Agent: ai-agents/gale-agents.md
   - Custom Agents:
     - Overview: ai-search/overview.md
-    - API agent: ai-search/api-agents.md
+    - API Agent: ai-search/api-agents.md
   - Administration:
     - Assist Configuration:
       - LLM Configuration: assistant-configuration/llm-configuration.md
