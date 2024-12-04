@@ -35,7 +35,7 @@ Steps to configure a Custom LLM:
 
 1. Go to **Admin Console > Assist configurations > General purpose**.  
 2.  Click **New** and choose **Custom LLM** from the dropdown.
-3. Enter the details like **Integration Name**, **Model Name**, **Endpoint URL**,and **Auth**. Select the **Method** and **Max request tokens** from the dropdown.  
+3. Enter the details like **Integration Name**, **Model Name**, **Endpoint URL**, and **Auth**. Select the **Method** and **Max request tokens** from the dropdown.  
 <img src="../images/custom-llm.png" alt="custom-llm" title="custom-llm" style="border: 1px solid gray; zoom:80%;">
  
 4. Click **+ Add a header** and enter the key and value.  
@@ -49,7 +49,7 @@ Steps to configure a Custom LLM:
 
 ## Embedding models
 
-This feature allows you to connect and configure models for generating embeddings. AI for work supports both pre-built models (like OpenAI and Azure OpenAI) and custom LLMs for this purpose.
+This feature allows you to connect and configure models for generating embeddings. AI for work supports both pre-built models (OpenAI and Azure OpenAI) and custom LLMs for this purpose.
 
 The procedure for Integrating Embedding Models is similar to integrating General-purpose LLMs.
 
