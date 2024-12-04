@@ -1584,28 +1584,40 @@
 <h3 id="saml">SAML<a class="headerlink" href="#saml" title="Permanent link">&para;</a></h3>
 <p>Security Assertion Markup Language (SAML) is a standard protocol for web browser Single Sign-On (SSO) using secure tokens. SAML eliminates all passwords and uses standard cryptography and digital signatures to pass a secure sign-in token from an identity provider to a SaaS application.</p>
 <p>SAML provides a solution to allow your identity provider and service provider to exist separately. When a user logs into a SAML-enabled application, the service provider requests authorization from the appropriate identity provider. The identity provider authenticates the user’s credentials and then returns the authorization for the user to the service provider, and the user can now use the application.</p>
-<p>Complete the following steps to configure Single Sign-On (SSO) using SAML protocol in the Admin Console of <strong>AI for Work</strong>.
-1. Go to <strong>Admin Console &gt; Security &gt; Single Sign-On</strong> and turn on the toggle <strong>Enable SSO</strong>.
-2. In the <strong>Select a suitable Sign-On Protocol</strong> section, select <strong>SAML</strong>.
-3. In the <strong>Configure</strong> section, select an identity provider, and then define the settings for:
-    1. <strong>Okta</strong>
-        * <strong>Okta Single Sign-On URL</strong> – The SSO URL for <em>Okta.</em> This is to enable Service Provider-initiated SAML flow.
-        * <strong>Identity Provider Issuer</strong> – The entity that provides the user identities, including the ability to authenticate a user.
-        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
-    2. <strong>onelogin</strong>
-        * <strong>SAML 2.0 Endpoint</strong> – The HTTP SSO endpoint for _OneLogin _to enable Service Provider-initiated SAML flow.
-        * <strong>Issuer URL</strong> – The URL for the <em>OneLogin</em> issuer.
-        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature.
-    3. <strong>BITIUM</strong>
-        * <strong>Single Sign-On URL</strong> – The HTTP SSO endpoint for <em>BITIUM</em> to enable Service Provider-initiated SAML flow.
-        * <strong>Issuer URL</strong> – The URL for the <em>BITIUM</em> issuer.
-        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
-    4. <strong>Other</strong>
-        * <strong>Single Sign-On URL</strong> – The HTTP SSO endpoint to enable Service Provider-initiated SAML flow.
-        * <strong>Issuer URL</strong> – The URL for the issuer.
-        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
-4. Click <strong>Save.</strong><br />
-<a class="glightbox" href="../security/images/saml.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../security/images/saml.png" alt="saml" title="saml" style="border: 1px solid gray; zoom:80%;"></a></p>
+<p>Complete the following steps to configure Single Sign-On (SSO) using SAML protocol in the Admin Console of <strong>AI for Work</strong>.</p>
+<ol>
+<li>Go to <strong>Admin Console &gt; Security &gt; Single Sign-On</strong> and turn on the toggle <strong>Enable SSO</strong>.</li>
+<li>In the <strong>Select a suitable Sign-On Protocol</strong> section, select <strong>SAML</strong>.</li>
+<li>In the <strong>Configure</strong> section, select an identity provider, and then define the settings for:<ol>
+<li><strong>Okta</strong><ul>
+<li><strong>Okta Single Sign-On URL</strong> – The SSO URL for <em>Okta.</em> This is to enable Service Provider-initiated SAML flow.</li>
+<li><strong>Identity Provider Issuer</strong> – The entity that provides the user identities, including the ability to authenticate a user.</li>
+<li><strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. </li>
+</ul>
+</li>
+<li><strong>onelogin</strong><ul>
+<li><strong>SAML 2.0 Endpoint</strong> – The HTTP SSO endpoint for _OneLogin _to enable Service Provider-initiated SAML flow.</li>
+<li><strong>Issuer URL</strong> – The URL for the <em>OneLogin</em> issuer.</li>
+<li><strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature.</li>
+</ul>
+</li>
+<li><strong>BITIUM</strong><ul>
+<li><strong>Single Sign-On URL</strong> – The HTTP SSO endpoint for <em>BITIUM</em> to enable Service Provider-initiated SAML flow.</li>
+<li><strong>Issuer URL</strong> – The URL for the <em>BITIUM</em> issuer.</li>
+<li><strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. </li>
+</ul>
+</li>
+<li><strong>Other</strong><ul>
+<li><strong>Single Sign-On URL</strong> – The HTTP SSO endpoint to enable Service Provider-initiated SAML flow.</li>
+<li><strong>Issuer URL</strong> – The URL for the issuer.</li>
+<li><strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. </li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Click <strong>Save.</strong><br />
+<a class="glightbox" href="../images/saml.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/saml.png" alt="saml" title="saml" style="border: 1px solid gray; zoom:80%;"></a></li>
+</ol>
 
 
 
