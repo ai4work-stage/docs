@@ -1199,6 +1199,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    LLM Configuration
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1208,6 +1219,69 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Purpose
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Purpose">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-built-llm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-built LLM Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-llm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom LLM Integration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedding models
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1479,6 +1553,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Purpose
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Purpose">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-built-llm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-built LLM Integration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-llm-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom LLM Integration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#embedding-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedding models
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1496,7 +1620,63 @@
 
 
 <h1 id="llm-configuration">LLM Configuration<a class="headerlink" href="#llm-configuration" title="Permanent link">&para;</a></h1>
-<p>Coming Soon</p>
+<p>To use Generative AI features with AI for Work, you must configure the integration with a pre-built or custom LLM. By leveraging LLM and Generative AI capabilities, AI for work can create intelligent, human-like conversational experiences for your end-users.</p>
+<h2 id="general-purpose">General Purpose<a class="headerlink" href="#general-purpose" title="Permanent link">&para;</a></h2>
+<h3 id="pre-built-llm-integration">Pre-built LLM Integration<a class="headerlink" href="#pre-built-llm-integration" title="Permanent link">&para;</a></h3>
+<p>AI for work offers seamless integration with leading AI services like Azure OpenAI, OpenAI, and Anthropic. You can effortlessly tap into these services' core capabilities using pre-configured prompts and APIs.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This document outlines the procedure for configuring OpenAI. Similar steps apply for Azure OpenAI and Anthropic integration.        </p>
+</div>
+<p>Steps to configure a pre-built LLM:</p>
+<ol>
+<li>
+<p>Go to <strong>Admin Console &gt; Assist configuration &gt; General purpose</strong>.<br />
+<a class="glightbox" href="../images/general-purpose-llm.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/general-purpose-llm.png" alt="general-purpose-llm" title="general-purpose-llm" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>Click <strong>New</strong> and choose the LLM you want to configure from the dropdown.<br />
+<a class="glightbox" href="../images/general-purpose-llm-new.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/general-purpose-llm-new.png" alt="general-purpose-llm" title="general-purpose-llm" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>Enter authorization details like <strong>Integration Name</strong> and <strong>API Key</strong>. Select <strong>Model Name</strong> from drop down. </p>
+</li>
+<li>
+<p>Read the <strong>Policy Guidelines</strong>, select the checkbox, and click <strong>Save</strong>.<br />
+<a class="glightbox" href="../images/open-ai.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/open-ai.png" alt="open-ai" title="open-ai" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>The configured model is listed in the <strong>General LLM Integrations</strong>.<br />
+<a class="glightbox" href="../images/configured-model.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/configured-model.png" alt="configured-model" title="configured-model" style="border: 1px solid gray; zoom:80%;"></a>  </p>
+</li>
+</ol>
+<h3 id="custom-llm-integration">Custom LLM Integration<a class="headerlink" href="#custom-llm-integration" title="Permanent link">&para;</a></h3>
+<p>AI for work enables enterprises to power up their virtual assistants with any Large Language Model (LLM) of their preference. The bring-your-own (BYO) model framework supports integrations with externally hosted models by third parties as well as models hosted by the enterprises themselves.</p>
+<p>Steps to configure a Custom LLM:</p>
+<ol>
+<li>Go to <strong>Admin Console &gt; Assist configurations &gt; General purpose</strong>.  </li>
+<li>Click <strong>New</strong> and choose <strong>Custom LLM</strong> from the dropdown.</li>
+<li>
+<p>Enter the details like <strong>Integration Name</strong>, <strong>Model Name</strong>, <strong>Endpoint URL</strong>,and <strong>Auth</strong>. Select the <strong>Method</strong> and <strong>Max request tokens</strong> from the dropdown.<br />
+<a class="glightbox" href="../images/custom-llm.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/custom-llm.png" alt="custom-llm" title="custom-llm" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>Click <strong>+ Add a header</strong> and enter the key and value.<br />
+<a class="glightbox" href="../images/add-header.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/add-header.png" alt="add-header.png" title="add-header" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>Enter the test payload and then click <strong>Test</strong> to check the connection. If the LLM connection is successful during the test call, it displays a success message. If not, it shows an error message.<br />
+<a class="glightbox" href="../images/success-message.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/success-message.png" alt="success-message" title="success-message" style="border: 1px solid gray; zoom:80%;"></a></p>
+</li>
+<li>
+<p>Read the <strong>Policy Guidelines</strong>, select the checkbox, and click <strong>Save</strong>.</p>
+</li>
+<li>The success confirmation message is displayed on the screen. The configured model is listed in the <strong>General LLM Integrations</strong>.</li>
+</ol>
+<h2 id="embedding-models">Embedding models<a class="headerlink" href="#embedding-models" title="Permanent link">&para;</a></h2>
+<p>This feature allows you to connect and configure models for generating embeddings. AI for work supports both pre-built models (like OpenAI and Azure OpenAI) and custom LLMs for this purpose.</p>
+<p>The procedure for Integrating Embedding Models is similar to integrating General-purpose LLMs.</p>
+<p><a class="glightbox" href="../images/embedding-model.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/embedding-model.png" alt="embedding-model.png" title="embedding-model.png" style="border: 1px solid gray; zoom:80%;"></a></p>
 
 
 
