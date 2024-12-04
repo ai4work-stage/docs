@@ -21,7 +21,7 @@ Alternatively, you can use Google or Microsoft Office profiles to sign up for th
 
 !!!Note
     
-    **Login with SSO** is available only after your email domain is configured for Single Sign-On. For guidance on enabling SSO, refer to  [Using Single Sign-On].
+    **Login with SSO** is available only after your email domain is configured for Single Sign-On. For guidance on enabling SSO, refer to [Using Single Sign-On](../security/sso.md) .
 
 
 ## Guided Onboarding
