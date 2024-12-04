@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sso" class="md-skip">
+        <a href="#using-single-sign-on" class="md-skip">
           Skip to content
         </a>
       
@@ -1341,6 +1341,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    SSO
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1350,6 +1361,69 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-sign-on-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure Sign-on Protocol
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure Sign-on Protocol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-id-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open ID Connect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ws-federation" class="md-nav__link">
+    <span class="md-ellipsis">
+      WS-Federation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saml" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAML
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1393,6 +1467,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configure-sign-on-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure Sign-on Protocol
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure Sign-on Protocol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-id-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open ID Connect
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ws-federation" class="md-nav__link">
+    <span class="md-ellipsis">
+      WS-Federation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saml" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAML
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1409,8 +1533,79 @@
   
 
 
-<h1 id="sso">SSO<a class="headerlink" href="#sso" title="Permanent link">&para;</a></h1>
-<p>Coming Soon</p>
+<h1 id="using-single-sign-on">Using Single Sign-On<a class="headerlink" href="#using-single-sign-on" title="Permanent link">&para;</a></h1>
+<p>SSO enables easy access to the application of <strong>AI for Work</strong> using your existing identity provider. With SSO, your users can log on once, for example, to your company account, and when accessing their AI for Work application, the system can automatically use the same login credentials.</p>
+<p>Administrators can configure Single Sign-On (SSO) authentication for <strong>AI for Work</strong> using one of the following sign-on protocols or methods:</p>
+<ul>
+<li>OpenID Connect</li>
+<li>Security Assertion Markup Language (SAML)</li>
+<li>WS-Federation sign-on protocol.</li>
+</ul>
+<p>Depending on the security required for your company, you can enable or disable Single Sign-On (SSO) for users accessing the <strong>AI for Work</strong>. Turn on the toggle <strong>Enable SSO</strong> to enable Single Sign-On.<br />
+<a class="glightbox" href="../images/sso.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/sso.png" alt="sso" title="sso" style="border: 1px solid gray; zoom:80%;"></a></p>
+<h2 id="configure-sign-on-protocol">Configure Sign-on Protocol<a class="headerlink" href="#configure-sign-on-protocol" title="Permanent link">&para;</a></h2>
+<h3 id="open-id-connect">Open ID Connect<a class="headerlink" href="#open-id-connect" title="Permanent link">&para;</a></h3>
+<p>Refer to the below steps to configure SSO using the Open ID Connect protocol.</p>
+<ol>
+<li>Go to <strong>Admin Console &gt; Security &gt; Single Sign-On</strong> and turn on the toggle <strong>Enable SSO</strong>.</li>
+<li>In the <strong>Select a suitable Sign-On Protocol</strong> section, select <strong>Open ID connect</strong>.</li>
+<li>In the <strong>Configure</strong> section, select an identity provider, for example, <strong>Sign in with Google</strong>.</li>
+<li>Optionally, turn on the toggle to <strong>Configure service account for your G-Suite domain</strong> and then define the settings:<ol>
+<li>Client Email</li>
+<li>Admin Email</li>
+<li>Private key</li>
+</ol>
+</li>
+<li>Click <strong>Save</strong>.</li>
+<li>The <em>Identity Provider information successfully updated</em> message is displayed at the top of the page.<br />
+<a class="glightbox" href="../images/success-message.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/success-message.png" alt="success-message" title="success-message" style="border: 1px solid gray; zoom:80%;"></a></li>
+</ol>
+<h3 id="ws-federation">WS-Federation<a class="headerlink" href="#ws-federation" title="Permanent link">&para;</a></h3>
+<p>Refer to the below steps to configure SSO using the WS-Federation protocol.</p>
+<ol>
+<li>Go to <strong>Admin Console &gt; Security &gt; Single Sign-On</strong> and turn on the toggle <strong>Enable SSO</strong>.</li>
+<li>In the <strong>Select a suitable Sign-On Protocol</strong>, select <strong>WS-Federation</strong>.</li>
+<li>In the <strong>Configure</strong> section, select an identity provider, and then define the settings for:<ol>
+<li><strong>Windows Azure®</strong><ul>
+<li><strong>Azure AD sign-on endpoint URL</strong> – The URL that <strong>AI for Work</strong> must use for sign-on and sign-off/out requests using <em>Azure</em>. </li>
+<li><strong>Azure AD Federation metadata Document</strong> – The URL for the federation metadata document used for authentication with <em>Azure</em> Active Directory.</li>
+</ul>
+</li>
+<li><strong>Other</strong> – Generic WS-Federation identity provider configuration, other than Azure<ul>
+<li><strong>AD Sign-On endpoint URL</strong> – The URL that <strong>AI for Work</strong> must use for sign-on and sign-off/out requests using your WS-Federation identity provider.</li>
+<li><strong>AD Federation metadata Document URL</strong> – The URL for the WS-Federation metadata document used for authentication with Active Directory.</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Click <strong>Save</strong>.<br />
+<a class="glightbox" href="../images/ws-federation.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/ws-federation.png" alt="ws-federation" title="ws-federation" style="border: 1px solid gray; zoom:80%;"></a></li>
+</ol>
+<h3 id="saml">SAML<a class="headerlink" href="#saml" title="Permanent link">&para;</a></h3>
+<p>Security Assertion Markup Language (SAML) is a standard protocol for web browser Single Sign-On (SSO) using secure tokens. SAML eliminates all passwords and uses standard cryptography and digital signatures to pass a secure sign-in token from an identity provider to a SaaS application.</p>
+<p>SAML provides a solution to allow your identity provider and service provider to exist separately. When a user logs into a SAML-enabled application, the service provider requests authorization from the appropriate identity provider. The identity provider authenticates the user’s credentials and then returns the authorization for the user to the service provider, and the user can now use the application.</p>
+<p>Complete the following steps to configure Single Sign-On (SSO) using SAML protocol in the Admin Console of <strong>AI for Work</strong>.
+1. Go to <strong>Admin Console &gt; Security &gt; Single Sign-On</strong> and turn on the toggle <strong>Enable SSO</strong>.
+2. In the <strong>Select a suitable Sign-On Protocol</strong> section, select <strong>SAML</strong>.
+3. In the <strong>Configure</strong> section, select an identity provider, and then define the settings for:
+    1. <strong>Okta</strong>
+        * <strong>Okta Single Sign-On URL</strong> – The SSO URL for <em>Okta.</em> This is to enable Service Provider-initiated SAML flow.
+        * <strong>Identity Provider Issuer</strong> – The entity that provides the user identities, including the ability to authenticate a user.
+        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
+    2. <strong>onelogin</strong>
+        * <strong>SAML 2.0 Endpoint</strong> – The HTTP SSO endpoint for _OneLogin _to enable Service Provider-initiated SAML flow.
+        * <strong>Issuer URL</strong> – The URL for the <em>OneLogin</em> issuer.
+        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature.
+    3. <strong>BITIUM</strong>
+        * <strong>Single Sign-On URL</strong> – The HTTP SSO endpoint for <em>BITIUM</em> to enable Service Provider-initiated SAML flow.
+        * <strong>Issuer URL</strong> – The URL for the <em>BITIUM</em> issuer.
+        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
+    4. <strong>Other</strong>
+        * <strong>Single Sign-On URL</strong> – The HTTP SSO endpoint to enable Service Provider-initiated SAML flow.
+        * <strong>Issuer URL</strong> – The URL for the issuer.
+        * <strong>Certificate</strong> – The public certificate stored by the service provider from the identity provider used to validate a user signature. 
+4. Click <strong>Save.</strong><br />
+<a class="glightbox" href="../security/images/saml.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../security/images/saml.png" alt="saml" title="saml" style="border: 1px solid gray; zoom:80%;"></a></p>
 
 
 
