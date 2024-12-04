@@ -94,6 +94,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ip-restriction" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1356,6 +1361,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    IP Restriction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1366,6 +1384,36 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#restrict-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrict Access
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1469,6 +1517,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#restrict-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrict Access
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1486,9 +1553,40 @@
   
 
 
-  <h1>IP Restriction</h1>
-
-
+<h1 id="ip-restriction">IP restriction<a class="headerlink" href="#ip-restriction" title="Permanent link">&para;</a></h1>
+<p>This document provides instructions for setting up IP address restrictions. With IP restriction, administrators can control access to ensure that only authorized IP ranges can interact with the application. </p>
+<p>By default, users can access AI for Work from any IP address, as long as they have valid credentials.</p>
+<p>Additionally, you can restrict access to a specified range of IP addresses. When you specify a list of IP addresses in the <strong>Restrict</strong> section, users within your account attempting to access the Platform from any other IP addresses will be restricted.</p>
+<h2 id="restrict-access">Restrict Access<a class="headerlink" href="#restrict-access" title="Permanent link">&para;</a></h2>
+<p>Administrators have two options for access control:</p>
+<ol>
+<li><strong>No Restriction</strong>: Users can access the account from any IP address.</li>
+<li><strong>Restrict Access</strong>: Users are limited to specific IP addresses or IP ranges as defined by the administrator.</li>
+</ol>
+<p><strong>Steps to Restrict Access</strong></p>
+<ol>
+<li><strong>Select Access Option</strong>:<ul>
+<li><strong>No Restriction</strong>: Allow all users to access from any IP address.</li>
+<li><strong>Restrict Access</strong>: Limit access to specified IP addresses only.</li>
+</ul>
+</li>
+<li><strong>Add IP Range</strong>:<ul>
+<li>You can add individual IP addresses or ranges to allow access.</li>
+<li>Click <strong>Add field</strong> to insert a new row for each IP address or range.</li>
+<li>In each row, enter the <strong>IP Address</strong> range and provide a <strong>Description</strong> and <strong>Name</strong> to identify the range.</li>
+</ul>
+</li>
+<li><strong>Edit and Delete IP Ranges</strong>:<ul>
+<li>Once added, hover over an IP range to view <strong>Delete</strong> icon, which can be used to remove unwanted ranges.</li>
+</ul>
+</li>
+<li><strong>Save Configuration</strong>:<ul>
+<li>After entering valid IP ranges, the <strong>Save</strong> button will be enabled.</li>
+<li>Click <strong>Save</strong> to apply the restrictions.  </li>
+</ul>
+</li>
+</ol>
+<p><a class="glightbox" href="../images/ip-restriction.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/ip-restriction.png" alt="ip-restriction" title="ip-restriction" style="border: 1px solid gray; zoom:80%;"></a> </p>
 
 
 

@@ -94,6 +94,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#domain-management" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1377,6 +1382,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1469,6 +1476,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1486,9 +1495,18 @@
   
 
 
-  <h1>Domain Management</h1>
-
-
+<h1 id="domain-management">Domain Management<a class="headerlink" href="#domain-management" title="Permanent link">&para;</a></h1>
+<p>This document provides instructions on managing domains within your Kore.ai account. Domain management allows administrators to configure primary and child domains, enabling controlled access to the account via organization SSO for verified domains.</p>
+<p>The <strong>Primary Domain</strong> is the main domain associated with your account, and it is listed by default. Users cannot edit or delete the primary domain.</p>
+<p>Administrators can add <strong>Child Domains</strong> to extend access to other approved subdomains within the organization.</p>
+<p><strong>Steps to Add a Child Domain</strong></p>
+<ol>
+<li>Click <strong>Add New</strong>. A pop-up window appears where you can enter the new child domain details.</li>
+<li>Once the details are entered, submit the child domain for verification. The system will review and verify the child domain.</li>
+<li>Successfully verified child domains will be added to the account. Users from these domains can log in via the organization’s SSO.
+If a child domain is rejected, it will not be added to the account. However, it will be listed with a <strong>Rejected</strong> status for record purposes.  </li>
+</ol>
+<p><a class="glightbox" href="../images/domain-management.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/domain-management.png" alt="domain-management" title="domain-management" style="border: 1px solid gray; zoom:80%;"></a> </p>
 
 
 

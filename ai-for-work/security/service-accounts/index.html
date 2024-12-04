@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#service-accounts" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1417,6 +1422,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1467,6 +1474,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1484,9 +1493,26 @@
   
 
 
-  <h1>Service Accounts</h1>
-
-
+<h1 id="service-accounts">Service accounts<a class="headerlink" href="#service-accounts" title="Permanent link">&para;</a></h1>
+<p>This guide provides instructions for connecting, managing, and setting default service accounts in the system.</p>
+<p>The system supports integration with multiple service accounts, including <strong>Google</strong>, <strong>Microsoft</strong>, and <strong>LDAP</strong>.  </p>
+<p>To connect:</p>
+<ol>
+<li>Select a service account type, which will open a form specific to the chosen account.</li>
+<li>Complete and submit the form to create the service account.</li>
+</ol>
+<p>After creation, service accounts are listed and managed through options available in a three-dot menu:</p>
+<ul>
+<li><strong>Edit</strong>: Modify the service account details.</li>
+<li><strong>Delete</strong>: Remove the service account from the list.</li>
+<li><strong>Set as Default</strong>: Mark the service account as the system default.</li>
+</ul>
+<p>The default service account is used for relevant configurations across the system.  </p>
+<p><a class="glightbox" href="../images/service-account.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/service-account.png" alt="service-account" title="service-account" style="border: 1px solid gray; zoom:80%;"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Attempting to delete a service account linked to user enrollment will trigger a pop-up, informing the admin that deletion is restricted due to the account’s association with user enrollment.</p>
+</div>
 
 
 
