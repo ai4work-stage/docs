@@ -132,8 +132,10 @@ nav:
       - User Enrollments: user-management/user-enrollments.md
     - Security:
       - SSO: security/sso.md
-
-
+      - IP Restriction: security/ip-restriction.md
+      - Domain Management: security/domain-management.md
+      - Kore Connector: security/kore-connector.md
+      - Service Accounts: security/service-accounts.md
 
 
       
