@@ -135,9 +135,9 @@ Follow these steps to add a field meta resolver:
 3. The import URL pop-up is displayed. Paste the URL and click **Import**.
 <img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 4. Type in the **Sample Input** and click **Run**.
-<img src="../images/agent(21).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/agent(29).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 5. The Output Fields are displayed.
-<img src="../images/agent(10).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 6. Close the pop-up. The ID resolver is displayed.
 <img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 7. Click **Continue**.
@@ -184,13 +184,13 @@ Follow these steps to create a URL:
 
 1. To configure the URL, click  **+ Create URL**.
 2. The Open URL pop-up is displayed.
-<img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+    <img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 3. Enter the Static URL. For example, https://koreteam.atlassian.net/browse/.
-    !!! note
+!!! note
 
-        You can create a Dynamic URL using the response objects. 
+    You can create a Dynamic URL using the response objects. 
 4. The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e **Key,** and close the pop-up.
-<img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+    <img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 5. Click **Done**. The Open option and the configured link are displayed.
-<img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 6.  Click **Continue**.
