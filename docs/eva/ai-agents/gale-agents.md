@@ -1,3 +1,0 @@
-# Gale Agents
-
-Coming Soon
