@@ -20,12 +20,16 @@ Data Agents Builder is a powerful feature that allows users to build data agents
 
     Currently, data agents can handle a maximum of 500 records per API response and support only standard REST APIs.
 
-[https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c](https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c)
 
+
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AI for Work Overview" frameborder="0" allow="autoplay; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<hr>
 
 ## Create a Data Agent
 
-Users can create a data agent from the **User Profile** > **Admin Console**> **AI Search** > **API Agents**>** + Create Agent**. The setup wizard guides you through the entire process, from initial setup to deployment.
+Users can create a data agent from the **User Profile** > **Admin Console**> **AI Search** > **API Agents**> **+ Create Agent**. The setup wizard guides you through the entire process, from initial setup to deployment.
 
 
 <img src="../images/image9.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
@@ -101,7 +105,7 @@ Add the Purpose of action and click **Continue**.
 This section contains all the field configurations necessary for processing the data.
 
 
-#### **Have Definition API**
+#### Have Definition API
 
 You can choose one of the following options to define the data structure: 
 
@@ -150,7 +154,7 @@ Follow these steps to add schema API:
 
 
 
-#### **Label Selection**
+#### Label Selection
 
 The system displays sample records from imported data in JSON format. You must select a key to serve as the field label name for end users, as the default key may be difficult to understand. The chosen key applies to all corresponding fields in the dataset.
 
@@ -163,7 +167,7 @@ On the **Label Selection** tab, the attributes are displayed. Select the label a
 
 
 
-#### **Data API**
+#### Data API
 
 You can define the data API manually or via the **CURL Import** option. This API provides the actual data. The system uses the authorization in the CURL URL, overriding previous user auth selections.
 
@@ -184,7 +188,7 @@ Follow these steps to add data API:
 
 
 
-#### **Field Selection**
+#### Field Selection
 
 Field selection determines which data is visible to users and available for search queries, optimizing the user interface and the search functionality. You can select up to 10 fields from the API response for practical use within the system.
 
@@ -199,7 +203,7 @@ You can navigate through records using the "Prev field" and "Next field" options
 
 
 
-#### **Field Configuration**
+#### Field Configuration
 
 The Field Configuration tab lets you configure the fields that you selected earlier. The tab shows the following fields/attributes that can be configured: 
 
@@ -242,7 +246,7 @@ Follow these steps to add a field value resolver:
 2. The Value Resolver pop-up is displayed.
     1. If the field value resolver didn't find the JSON, the following value resolver pop-up is displayed. Click **Define API** to resolve the id.
     <img src="../images/agent(2).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
-        1. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#bookmark=kix.ydh0q0ricc12).
+        1. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#dictionary).
         <img src="../images/agent(5).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
         2. The import URL pop-up is displayed. Paste the URL and click **Import**.
         <img src="../images/agent(8).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
@@ -308,19 +312,19 @@ Follow these steps to add a field meta resolver:
 
 
 1. Click the **+** (Plus) icon in the field meta resolver for the field type object.
-2. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#bookmark=kix.ydh0q0ricc12).
+2. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#dictionary).
 <img src="../images/agent(28).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 3. The import URL pop-up is displayed. Paste the URL and click **Import**.
-<img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 4. Type in the **Sample Input** and click **Run**.
 <img src="../images/agent(29).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 5. The Output Fields are displayed.
-<img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/agent(10).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 6. Close the pop-up. The ID resolver is displayed.
 <img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 7. Click **Continue**.
 
-**Dictionary**
+##### **Dictionary**
 
 If API support is unavailable, you can use a dictionary as a local data store to map and resolve IDs or metadata. It acts as a cache, storing data fetched from APIs for fast, local queries, reducing the need for repeated API calls. You can schedule automatic updates to keep the dictionary current. Once created, it can be shared across agents or modules within the same account, making it a useful tool for improving performance and reducing dependency on APIs.
 
@@ -348,7 +352,7 @@ Follow these steps to create a dictionary:
 
 
 
-#### **Preview**
+#### Preview
 
 Displays processed data to users, initially showing five records with an option to load more. Users can configure an “open” option that appears when hovering over any record. Clicking it will open a record in a new tab. 
 
@@ -362,20 +366,17 @@ Follow these steps to create a URL:
 
 1. To configure the URL, click  **+ Create URL**.
 2. The Open URL pop-up is displayed.
-    <img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 3. Enter the Static URL. For example, https://koreteam.atlassian.net/browse/.
-!!! note
+    !!! note
 
-    You can create a Dynamic URL using the response objects. 
+        You can create a Dynamic URL using the response objects. 
 4. The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e **Key,** and close the pop-up.
-    <img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
+<img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 5. Click **Done**. The Open option and the configured link are displayed.
 <img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 6.  Click **Continue**.
 
-
-
---------------------------------------------------------------------
 
 
 ### Step 4.3: Query Filters
