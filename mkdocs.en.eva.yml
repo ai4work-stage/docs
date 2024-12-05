@@ -128,7 +128,9 @@ nav:
     - Overview: admin-overview.md
     - Assist Configuration:
       - LLM Configuration: assistant-configuration/llm-configuration.md
-      - Business Rules: assistant-configuration/business-rules.md 
+      - Business Rules: assistant-configuration/business-rules.md
+      - Email Template: assistant-configuration/email-template.md
+      - Rate Limit: assistant-configuration/rate-limit.md
     - User Management:
       - User Enrollments: user-management/user-enrollments.md
     - Security:
