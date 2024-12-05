@@ -246,7 +246,7 @@ Follow these steps to add a field value resolver:
 2. The Value Resolver pop-up is displayed.
     1. If the field value resolver didn't find the JSON, the following value resolver pop-up is displayed. Click **Define API** to resolve the id.
     <img src="../images/agent(2).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
-        1. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#bookmark=kix.ydh0q0ricc12).
+        1. Click **CURL Import**. You can also use a dictionary instead of a CURL import. Learn [how to create one](#dictionary).
         <img src="../images/agent(5).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
         2. The import URL pop-up is displayed. Paste the URL and click **Import**.
         <img src="../images/agent(8).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
