@@ -1140,6 +1140,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Field Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dictionary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1872,6 +1887,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Field Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dictionary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1978,9 +2008,12 @@
 <p class="admonition-title">Note</p>
 <p>Currently, data agents can handle a maximum of 500 records per API response and support only standard REST APIs.</p>
 </div>
-<p><a href="https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c">https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c</a></p>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AI for Work Overview" frameborder="0" allow="autoplay; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<hr>
+
 <h2 id="create-a-data-agent">Create a Data Agent<a class="headerlink" href="#create-a-data-agent" title="Permanent link">&para;</a></h2>
-<p>Users can create a data agent from the <strong>User Profile</strong> &gt; <strong>Admin Console</strong>&gt; <strong>AI Search</strong> &gt; <strong>API Agents</strong>&gt;** + Create Agent**. The setup wizard guides you through the entire process, from initial setup to deployment.</p>
+<p>Users can create a data agent from the <strong>User Profile</strong> &gt; <strong>Admin Console</strong>&gt; <strong>AI Search</strong> &gt; <strong>API Agents</strong>&gt; <strong>+ Create Agent</strong>. The setup wizard guides you through the entire process, from initial setup to deployment.</p>
 <p><a class="glightbox" href="../images/image9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image9.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
 <p>The Data Agent creation process consists of the following steps:</p>
 <p><a href="#step-1-purpose-of-agent">Step 1: Define the purpose of the Agent.</a><P></p>
@@ -2012,7 +2045,7 @@
 <p><a class="glightbox" href="../images/image13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image13.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
 <h3 id="step-42-data">Step 4.2: Data<a class="headerlink" href="#step-42-data" title="Permanent link">&para;</a></h3>
 <p>This section contains all the field configurations necessary for processing the data.</p>
-<h4 id="have-definition-api"><strong>Have Definition API</strong><a class="headerlink" href="#have-definition-api" title="Permanent link">&para;</a></h4>
+<h4 id="have-definition-api">Have Definition API<a class="headerlink" href="#have-definition-api" title="Permanent link">&para;</a></h4>
 <p>You can choose one of the following options to define the data structure: </p>
 <ul>
 <li><strong>API defining the fields</strong>: Select this if you have an API that explicitly defines data fields.  This helps with field names in the actual API and prefills values for single-select and multi-select.</li>
@@ -2043,13 +2076,13 @@
 <li>The success pop-up is displayed. Click <strong>Continue</strong>.
 <a class="glightbox" href="../images/image21.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image21.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 </ol>
-<h4 id="label-selection"><strong>Label Selection</strong><a class="headerlink" href="#label-selection" title="Permanent link">&para;</a></h4>
+<h4 id="label-selection">Label Selection<a class="headerlink" href="#label-selection" title="Permanent link">&para;</a></h4>
 <p>The system displays sample records from imported data in JSON format. You must select a key to serve as the field label name for end users, as the default key may be difficult to understand. The chosen key applies to all corresponding fields in the dataset.</p>
 <p>You should map or replace existing keys with more appropriate definitions. This process replaces original field names with user-defined labels when loading the Data API into the system. This ensures that field names are meaningful and easily interpretable within the business context.</p>
 <p>You can navigate through records using the "Prev field" and "Next field" options.</p>
 <p>On the <strong>Label Selection</strong> tab, the attributes are displayed. Select the label and click <strong>Continue</strong>.
 <a class="glightbox" href="../images/image19.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image19.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<h4 id="data-api"><strong>Data API</strong><a class="headerlink" href="#data-api" title="Permanent link">&para;</a></h4>
+<h4 id="data-api">Data API<a class="headerlink" href="#data-api" title="Permanent link">&para;</a></h4>
 <p>You can define the data API manually or via the <strong>CURL Import</strong> option. This API provides the actual data. The system uses the authorization in the CURL URL, overriding previous user auth selections.</p>
 <p>Follow these steps to add data API:</p>
 <ol>
@@ -2063,14 +2096,14 @@
 <a class="glightbox" href="../images/image23.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image23.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 </ol>
 <hr />
-<h4 id="field-selection"><strong>Field Selection</strong><a class="headerlink" href="#field-selection" title="Permanent link">&para;</a></h4>
+<h4 id="field-selection">Field Selection<a class="headerlink" href="#field-selection" title="Permanent link">&para;</a></h4>
 <p>Field selection determines which data is visible to users and available for search queries, optimizing the user interface and the search functionality. You can select up to 10 fields from the API response for practical use within the system.</p>
 <p>Example: In a Jira context, you can choose fields like assignee, status, priority, key, and summary for filtering and display. If you select only two out of five available fields, the system restricts search and display to those two fields only.</p>
 <p>The screenshot below shows that the query can be generated using three selected fields - id, amount, and dealname.</p>
 <p>On the <strong>Select Fields</strong> section, click the <strong>field</strong> to select. Click <strong>Continue</strong>.
 You can navigate through records using the "Prev field" and "Next field" options.</p>
 <p><a class="glightbox" href="../images/agent(19).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(19).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<h4 id="field-configuration"><strong>Field Configuration</strong><a class="headerlink" href="#field-configuration" title="Permanent link">&para;</a></h4>
+<h4 id="field-configuration">Field Configuration<a class="headerlink" href="#field-configuration" title="Permanent link">&para;</a></h4>
 <p>The Field Configuration tab lets you configure the fields that you selected earlier. The tab shows the following fields/attributes that can be configured: </p>
 <p><strong>Primary Field</strong>: Select the primary field for the data table. This field will be the leftmost column presented to users.</p>
 <p><strong>Field Key</strong>: It shows user-chosen fields (non-editable) used to construct API requests. Each field corresponds to a specific API key, which may differ from the user-visible label. For example, "JIRA ID" might be displayed to users, but the API request uses "id" as the parameter.</p>
@@ -2095,7 +2128,7 @@ You can navigate through records using the "Prev field" and "Next field" options
 <li>The Value Resolver pop-up is displayed.<ol>
 <li>If the field value resolver didn't find the JSON, the following value resolver pop-up is displayed. Click <strong>Define API</strong> to resolve the id.
 <a class="glightbox" href="../images/agent(2).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(2).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a><ol>
-<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#bookmark=kix.ydh0q0ricc12">how to create one</a>.
+<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#dictionary">how to create one</a>.
 <a class="glightbox" href="../images/agent(5).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(5).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>The import URL pop-up is displayed. Paste the URL and click <strong>Import</strong>.
 <a class="glightbox" href="../images/agent(8).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(8).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
@@ -2161,19 +2194,19 @@ You can navigate through records using the "Prev field" and "Next field" options
 <p>Follow these steps to add a field meta resolver:</p>
 <ol>
 <li>Click the <strong>+</strong> (Plus) icon in the field meta resolver for the field type object.</li>
-<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#bookmark=kix.ydh0q0ricc12">how to create one</a>.
+<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#dictionary">how to create one</a>.
 <a class="glightbox" href="../images/agent(28).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(28).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>The import URL pop-up is displayed. Paste the URL and click <strong>Import</strong>.
-<a class="glightbox" href="../images/agent(25).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
+<a class="glightbox" href="../images/image15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Type in the <strong>Sample Input</strong> and click <strong>Run</strong>.
 <a class="glightbox" href="../images/agent(29).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(29).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>The Output Fields are displayed.
-<a class="glightbox" href="../images/image15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
+<a class="glightbox" href="../images/agent(10).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(10).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Close the pop-up. The ID resolver is displayed.
 <a class="glightbox" href="../images/agent(26).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Click <strong>Continue</strong>.</li>
 </ol>
-<p><strong>Dictionary</strong></p>
+<h5 id="dictionary"><strong>Dictionary</strong><a class="headerlink" href="#dictionary" title="Permanent link">&para;</a></h5>
 <p>If API support is unavailable, you can use a dictionary as a local data store to map and resolve IDs or metadata. It acts as a cache, storing data fetched from APIs for fast, local queries, reducing the need for repeated API calls. You can schedule automatic updates to keep the dictionary current. Once created, it can be shared across agents or modules within the same account, making it a useful tool for improving performance and reducing dependency on APIs.</p>
 <p>You can use the existing dictionary if any. To select, toggle <strong>Use Dictionary</strong>, select the dictionary, and click <strong>Run</strong>. The output fields are displayed.</p>
 <p><a class="glightbox" href="../images/agent(21).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(21).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
@@ -2192,28 +2225,26 @@ You can navigate through records using the "Prev field" and "Next field" options
 <a class="glightbox" href="../images/agent(18).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(18).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Click <strong>Done</strong>. The dictionary is saved.</li>
 </ol>
-<h4 id="preview"><strong>Preview</strong><a class="headerlink" href="#preview" title="Permanent link">&para;</a></h4>
+<h4 id="preview">Preview<a class="headerlink" href="#preview" title="Permanent link">&para;</a></h4>
 <p>Displays processed data to users, initially showing five records with an option to load more. Users can configure an “open” option that appears when hovering over any record. Clicking it will open a record in a new tab. </p>
 <p><a class="glightbox" href="../images/agent(7).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(7).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
 <p>Follow these steps to create a URL:</p>
 <ol>
 <li>To configure the URL, click  <strong>+ Create URL</strong>.</li>
 <li>The Open URL pop-up is displayed.
-    <a class="glightbox" href="../images/agent(22).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Enter the Static URL. For example, <a href="https://koreteam.atlassian.net/browse/">https://koreteam.atlassian.net/browse/</a>.</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can create a Dynamic URL using the response objects. </p>
-</div>
+<a class="glightbox" href="../images/agent(22).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
+<li>Enter the Static URL. For example, <a href="https://koreteam.atlassian.net/browse/">https://koreteam.atlassian.net/browse/</a>.
+    !!! note<div class="language-text highlight"><pre><span></span><code>You can create a Dynamic URL using the response objects.
+</code></pre></div>
 <ol>
 <li>The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e <strong>Key,</strong> and close the pop-up.
-    <a class="glightbox" href="../images/agent(6).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
+<a class="glightbox" href="../images/agent(6).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Click <strong>Done</strong>. The Open option and the configured link are displayed.
 <a class="glightbox" href="../images/agent(3).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
 <li>Click <strong>Continue</strong>.</li>
 </ol>
-<hr />
+</li>
+</ol>
 <h3 id="step-43-query-filters">Step 4.3: Query Filters<a class="headerlink" href="#step-43-query-filters" title="Permanent link">&para;</a></h3>
 <p>There are two types of query filters:</p>
 <h4 id="field-filters">Field Filters<a class="headerlink" href="#field-filters" title="Permanent link">&para;</a></h4>

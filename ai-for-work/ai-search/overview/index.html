@@ -955,17 +955,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Overview
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -975,54 +964,6 @@
   
 
       </a>
-      
-        
-
-  
-
-<nav class="md-nav md-nav--secondary" aria-label="On this Page">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this Page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#field-selection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Field Selection
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#field-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Field Configuration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#preview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Preview
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1569,41 +1510,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this Page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#field-selection" class="md-nav__link">
-    <span class="md-ellipsis">
-      Field Selection
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#field-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Field Configuration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#preview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Preview
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1622,156 +1528,6 @@
 
 <h1 id="ai-search">AI Search<a class="headerlink" href="#ai-search" title="Permanent link">&para;</a></h1>
 <p>Coming Soon</p>
-<h4 id="field-selection"><strong>Field Selection</strong><a class="headerlink" href="#field-selection" title="Permanent link">&para;</a></h4>
-<p>Field selection determines which data is visible to users and available for search queries, optimizing the user interface and the search functionality. You can select up to 10 fields from the API response for practical use within the system.</p>
-<p>Example: In a Jira context, you can choose fields like assignee, status, priority, key, and summary for filtering and display. If you select only two out of five available fields, the system restricts search and display to those two fields only.</p>
-<p>The screenshot below shows that the query can be generated using three selected fields - id, amount, and dealname.</p>
-<p>On the <strong>Select Fields</strong> section, click the <strong>field</strong> to select. Click <strong>Continue</strong>.
-You can navigate through records using the "Prev field" and "Next field" options.</p>
-<p><a class="glightbox" href="../images/agent(19).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(19).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<h4 id="field-configuration"><strong>Field Configuration</strong><a class="headerlink" href="#field-configuration" title="Permanent link">&para;</a></h4>
-<p>The Field Configuration tab lets you configure the fields that you selected earlier. The tab shows the following fields/attributes that can be configured: </p>
-<p><strong>Primary Field</strong>: Select the primary field for the data table. This field will be the leftmost column presented to users.</p>
-<p><strong>Field Key</strong>: It shows user-chosen fields (non-editable) used to construct API requests. Each field corresponds to a specific API key, which may differ from the user-visible label. For example, "JIRA ID" might be displayed to users, but the API request uses "id" as the parameter.</p>
-<p>This mapping ensures accurate data retrieval by translating user-friendly labels into the correct API parameters. The system creates precise API queries with selected fields and keys, balancing clarity and accuracy in data retrieval.</p>
-<p><strong>Field Label</strong>: Sourced from the schema API response and field selection tab. You can modify or add missing labels as needed. If the schema API doesn't provide a label, you can input one manually.</p>
-<p><a class="glightbox" href="../images/agent(13).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(13).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<p><strong>Field Type</strong>: The field type determines how users can query each field. This information is crucial for constructing appropriate filter APIs. For example, text fields require different query parameters compared to object fields.</p>
-<p>Field types are primarily derived from the schema API. Additionally, the system employs internal logic to set field types when necessary. Some fields, like assignee, status, and priority, may be represented as nested JSON structures.</p>
-<p>Accurate field types ensure the system generates correct query syntax for each field, enabling accurate and efficient data filtering. It also helps display appropriate options to users when they construct queries. </p>
-<p><a class="glightbox" href="../images/agent(11).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(11).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<p><strong>Field Value Resolver</strong>: It's applicable only to object field types. A Field Value Resolver can help with the following:</p>
-<ul>
-<li>Handles and renders information returned from a data API.</li>
-<li>Maps values to appropriate labels and icons.</li>
-<li>Extracts and displays relevant data from nested JSON objects in a user-friendly format.</li>
-</ul>
-<p>Field Value Resolvers maintain data integrity in presentation and interaction, bridging user-friendly labels with technical API requirements.</p>
-<p>Follow these steps to add a field value resolver:</p>
-<ol>
-<li>Click the <strong>+</strong> (Plus) icon in the field value resolver for the field type object.
-<a class="glightbox" href="../images/agent(3).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>The Value Resolver pop-up is displayed.<ol>
-<li>If the field value resolver didn't find the JSON, the following value resolver pop-up is displayed. Click <strong>Define API</strong> to resolve the id.
-<a class="glightbox" href="../images/agent(2).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(2).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a><ol>
-<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#bookmark=kix.ydh0q0ricc12">how to create one</a>.
-<a class="glightbox" href="../images/agent(5).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(5).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>The import URL pop-up is displayed. Paste the URL and click <strong>Import</strong>.
-<a class="glightbox" href="../images/agent(8).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(8).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Type in the <strong>Sample Input</strong> and click <strong>Run</strong>.</li>
-<li>The Output Fields are displayed.
-<a class="glightbox" href="../images/agent(14).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(14).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Close the pop-up. The ID resolver is displayed.
-<a class="glightbox" href="../images/agent(16).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(16).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-</ol>
-</li>
-<li>If the field value resolver finds the JSON, the following value resolver pop-up is displayed.
-<a class="glightbox" href="../images/agent(23).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(23).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a><ol>
-<li>Click <strong>Goto Mapper</strong>.
-<a class="glightbox" href="../images/agent(27).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(27).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Map Value</strong>. Select fields pop-up is displayed. This step resolves the fields.
-<a class="glightbox" href="../images/agent(15).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(15).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Select the field which is displayed to the user and close the pop-up. For example, "displayName".</li>
-<li>Click <strong>Map ID</strong>. Select fields pop-up is displayed.
-<a class="glightbox" href="../images/agent(1).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(1).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Select the field that will be passed to the API and close the pop-up. For example, "accountId".</li>
-<li>If Map Color, Map Icon, and Map Icon Color information is available, map the required fields and close the pop-up.
-<a class="glightbox" href="../images/agent(12).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(12).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li>The field value resolver mapping is completed.</li>
-</ol>
-<p><strong>Field Options</strong>: Field Options are predefined choices for single-select or multi-select fields, helping users filter and retrieve data accurately. These options are activated when a field is identified as single-select or multi-select and are typically fetched from the schema API.</p>
-<p>Each option includes a label, value, display order, and visibility status. This structure allows for flexible and customizable presentation of choices to the user.</p>
-<p><strong>A crucial feature of Field Options is the mapping between user-friendly labels and technical keys required for API requests</strong>. For example, while a user might see a "Priority" field with options like "High," "Medium," and "Low," the API might use corresponding numerical or string values. This mapping ensures accurate data retrieval by configuring what is displayed to the user and what is sent in API requests.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This field is applicable only if the Field Type is Single Select or Multi Select.</p>
-</div>
-<p>Follow these steps to add field options:</p>
-<ol>
-<li>Click the <strong>+</strong> (Plus) icon in the field option for the field type Single Select or Multi Select.</li>
-<li>The options pop-up is displayed.
-<a class="glightbox" href="../images/agent(4).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(4).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Enter the <strong>Map Value</strong> (Displayed to the user) and <strong>Map Label</strong> (sent to the API) for each priority.<ol>
-<li>If the schema API is mapped:<ol>
-<li>Click <strong>Map Value</strong>, the JSON object is displayed.</li>
-<li>Select the field that will be passed to the API.</li>
-<li>Click <strong>Map Lable</strong>, the JSON object is displayed.</li>
-<li>Select the field which will be displayed to the user.</li>
-<li>Rest all the choices are automatically populated.</li>
-</ol>
-</li>
-<li>If the schema API is not mapped, manually enter map value and map label for each choice. For example, if you have high, medium, and low priority choices.
-<a class="glightbox" href="../images/agent(25).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-</ol>
-</li>
-<li>Close the pop-up.</li>
-</ol>
-<p><strong>Field Meta Resolver</strong>: The Field Meta Resolver interprets user-provided meta-information and determines the correct value to send to the API. It resolves specific field values at runtime before making API calls, ensuring data retrieval and filtering accuracy.</p>
-<p>This resolver includes an API module for defining and testing with sample input. It works similarly to an ID resolver, requiring the definition of the API call and the input mapping for both value and ID.</p>
-<p>A key function of the Field Meta Resolver is retrieving the id of entities extracted from the user query.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This field is applicable only if the Field Type is Object.</p>
-</div>
-<p>Follow these steps to add a field meta resolver:</p>
-<ol>
-<li>Click the <strong>+</strong> (Plus) icon in the field meta resolver for the field type object.</li>
-<li>Click <strong>CURL Import</strong>. You can also use a dictionary instead of a CURL import. Learn <a href="#bookmark=kix.ydh0q0ricc12">how to create one</a>.
-<a class="glightbox" href="../images/agent(28).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(28).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>The import URL pop-up is displayed. Paste the URL and click <strong>Import</strong>.
-<a class="glightbox" href="../images/agent(25).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(25).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Type in the <strong>Sample Input</strong> and click <strong>Run</strong>.
-<a class="glightbox" href="../images/agent(29).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(29).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>The Output Fields are displayed.
-<a class="glightbox" href="../images/image15.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/image15.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Close the pop-up. The ID resolver is displayed.
-<a class="glightbox" href="../images/agent(26).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Continue</strong>.</li>
-</ol>
-<p><strong>Dictionary</strong></p>
-<p>If API support is unavailable, you can use a dictionary as a local data store to map and resolve IDs or metadata. It acts as a cache, storing data fetched from APIs for fast, local queries, reducing the need for repeated API calls. You can schedule automatic updates to keep the dictionary current. Once created, it can be shared across agents or modules within the same account, making it a useful tool for improving performance and reducing dependency on APIs.</p>
-<p>You can use the existing dictionary if any. To select, toggle <strong>Use Dictionary</strong>, select the dictionary, and click <strong>Run</strong>. The output fields are displayed.</p>
-<p><a class="glightbox" href="../images/agent(21).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(21).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<p>Follow these steps to create a dictionary:</p>
-<ol>
-<li>On the field value resolver or field meta resolver popup, toggle the <strong>Use Dictionary</strong>.
-<a class="glightbox" href="../images/agent(24).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(24).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>+ Create</strong>.</li>
-<li>On the Name &amp; API tab, enter the <strong>dictionary name</strong>, <strong>API call details</strong> to feed the dictionary, and <strong>pagination</strong> details if required.
-<a class="glightbox" href="../images/agent(9).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(9).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Run API</strong>. The field selection tab is displayed.</li>
-<li>On the Field Selection tab, <strong>select the fields</strong> to be searched, <strong>ID resolver field</strong>, <strong>Schedule to Pool data</strong> frequency, and enter the <strong>meta resolver field</strong>.
-<a class="glightbox" href="../images/agent(17).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(17).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Pool data into the dictionary</strong>. The preview tab is displayed.</li>
-<li>On the Preview tab, the pooled data is displayed.
-<a class="glightbox" href="../images/agent(18).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(18).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Done</strong>. The dictionary is saved.</li>
-</ol>
-<h4 id="preview"><strong>Preview</strong><a class="headerlink" href="#preview" title="Permanent link">&para;</a></h4>
-<p>Displays processed data to users, initially showing five records with an option to load more. Users can configure an “open” option that appears when hovering over any record. Clicking it will open a record in a new tab. </p>
-<p><a class="glightbox" href="../images/agent(7).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(7).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></p>
-<p>Follow these steps to create a URL:</p>
-<ol>
-<li>To configure the URL, click  <strong>+ Create URL</strong>.</li>
-<li>The Open URL pop-up is displayed.
-    <a class="glightbox" href="../images/agent(22).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Enter the Static URL. For example, <a href="https://koreteam.atlassian.net/browse/">https://koreteam.atlassian.net/browse/</a>.</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can create a Dynamic URL using the response objects. </p>
-</div>
-<ol>
-<li>The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e <strong>Key,</strong> and close the pop-up.
-    <a class="glightbox" href="../images/agent(6).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Done</strong>. The Open option and the configured link are displayed.
-<a class="glightbox" href="../images/agent(3).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;"></a></li>
-<li>Click <strong>Continue</strong>.</li>
-</ol>
 
 
 
