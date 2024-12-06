@@ -1,7 +1,5 @@
 # RAG Agents
 
-## Introduction
-
 RAG stands for **Retrieval Augmented Generation**. RAG Agents combine retrieval
 and generation techniques to provide accurate and contextually relevant answers
 to user queries. RAG agents leverage existing knowledge bases to find and
@@ -108,14 +106,14 @@ The **RAG Agent creation** wizard will take you through the following steps:
 ### Step 1: Details and Purpose
 
 Provide a suitable and unique **name** for the agent. Briefly describe the
-**purpose** of the agent. Defining the agent’s purpose enables EVA to accurately
+**purpose** of the agent. Defining the agent’s purpose enables the system to accurately
 recognize the agent’s capabilities and effectively utilize them to respond to
 user queries aligned with the specified intent. It is essential to clearly
 outline the specific use cases for which the agent is designed. This ensures
 that it is used to generate responses to the intended queries.
 
 For instance, if an agent is designed to answer all the user queries related to
-Kore Products, specifying it as the purpose helps EVA use this agent whenever a
+Kore Products, specifying it as the purpose helps the system use this agent whenever a
 user sends a query related to any Kore products.
 
 ![](images/detailandpurpose.png)
@@ -144,7 +142,7 @@ under the **Manage** tab. Refer to
 
 ### Step 3: Preview
 
-Review the skills generated for the agent based on the purpose defined.EVA uses
+Review the skills generated for the agent based on the purpose defined. The system uses
 Generative AI to create sample queries to which the agent can respond. You can
 **add, modify, or remove** sample queries to refine the agent's interaction
 capabilities.
