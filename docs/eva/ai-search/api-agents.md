@@ -1,12 +1,9 @@
 
-# API/Data Agents
+# API Agents
 
 API Agents builder is a powerful feature that allows users to build API agents and integrate them with their legacy systems using APIs and a no-code builder. API agent enable business users to interact seamlessly with their data through natural language queries.
 
-
 ## Key Features 
-
-
 
 * **Easy Setup**: Users can create API agent through a step-by-step wizard in the admin console.
 * **Flexible Configuration**: The tool supports various API types, authentication methods, and data processing options.
@@ -19,9 +16,6 @@ API Agents builder is a powerful feature that allows users to build API agents a
 !!! note
 
     Currently, API agent can handle a maximum of 500 records per API response and support only standard REST APIs.
-
-
-
 
 
 ## Create a API Agent
@@ -46,8 +40,7 @@ The API agent creation process consists of the following steps:
 
 Prerequisites:
 
-
-* Administrator access to EVA and the system you want to integrate.
+* Administrator access to AI for Work and the system you want to integrate.
 * API documentation for Schema API and Action API of the system.
 * Curl commands for the ID resolver and the meta resolver of the system.
 
@@ -385,7 +378,7 @@ There are two types of query filters:
 
 #### Field Filters
 
-Field Filters lets you define which fields are available for querying and filtering data. Fields can be marked as queryable and mandatory. When a field is mandatory, users must specify its value to retrieve data. For instance, if "Project" is set as mandatory in Jira issue queries, EVA prompts you to specify the project before returning any results.
+Field Filters lets you define which fields are available for querying and filtering data. Fields can be marked as queryable and mandatory. When a field is mandatory, users must specify its value to retrieve data. For instance, if "Project" is set as mandatory in Jira issue queries, the system prompts you to specify the project before returning any results.
 
 Additionally, field filters generate a sample query based on the selected fields and the uploaded API document. Running this query automatically produces a configuration builder script. This script manages various field combinations and compound queries, saving you from manual scripting. Field Filters provide filter configurations for different fields, combinations, and data types. Ensure you test the generated configurations and refine the script if necessary.
 
