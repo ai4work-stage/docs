@@ -15,9 +15,8 @@ GPT agents operate using two distinct components:
     will utilize to ensure consistency and adherence to specific formatting
     guidelines.
 
-## Create a new GPT Agent
+## Create a GPT Agent
 
- 
 
 You can create a new GPT agent to assist users in completing various tasks by
 utilizing the GPT capabilities.

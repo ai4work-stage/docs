@@ -14,7 +14,7 @@ To use this bot:
 
 -   Input the transfer amount and confirm the transaction. Funds are transferred effortlessly from a single platform, and a summary of the conversation is automatically generated.
 
-##  Create a new Bot Agent
+##  Create a Bot Agent
 
 You can create a new Bot agent to assist users in completing various tasks by
 utilizing the Bot created using the XO Platform.
