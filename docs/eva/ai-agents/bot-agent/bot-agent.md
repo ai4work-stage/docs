@@ -1,32 +1,18 @@
 # Bot Agents
 
-##  Introduction
+Administrators can create bot agents for users using the bot agent builder, significantly improving overall efficiency. Workflows designed on the XO Platform can be seamlessly integrated, allowing actions to be executed directly when a workflow is triggered and eliminating the need for other platforms.
 
-As an administrator, you can create Bot agents in the Bot Agent Builder for
-users, significantly improving overall efficiency. Workflows designed on the XO
-Platform can be seamlessly integrated, allowing actions to be executed directly
-when a workflow is triggered, eliminating the need for other platforms.
+For complex workflows involving multiple system integrations and logic, users can build bots using the XO Platform. These bots can be triggered through conversations using the UI or NLP intent, streamlining the entire process.
 
-For complex workflows involving multiple system integrations and logic, users
-can build bots using the XO Platform. These bots can be triggered through
-conversations via the UI or NLP intent, streamlining the entire process.
-
-For example, consider a Fund Transfer Bot Agent. By creating this bot on the XO
-Platform, you can automate fund transfers to clients' designated accounts,
-capturing key details such as client names, account information, and transfer
-amounts. Once integrated with your organization’s systems, the bot allows
-seamless conversational interactions, simplifying fund transfer operations.
+For example, consider a Fund Transfer Bot Agent. By creating this bot on the XO Platform, you can automate fund transfers to clients' designated accounts, capturing key details such as client names, account information, and transfer amounts. Once integrated with your organization’s systems, the bot allows seamless conversational interactions, simplifying fund transfer operations.
 
 To use this bot:
 
 -   Click the “Internal transfer bot” agent to view sample queries.
 
--   Select “Transfer funds” from the list. The system will prompt you to enter
-    the client’s name, followed by the recipient’s name.
+-   Select “Transfer funds” from the list. The system will prompt you to enter the client’s name, followed by the recipient’s name.
 
--   Input the transfer amount and confirm the transaction.  
-    Funds are transferred effortlessly from a single platform, and a summary of
-    the conversation is automatically generated.
+-   Input the transfer amount and confirm the transaction. Funds are transferred effortlessly from a single platform, and a summary of the conversation is automatically generated.
 
 ##  Create a new Bot Agent
 

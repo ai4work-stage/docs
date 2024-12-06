@@ -1,11 +1,6 @@
 # GPT Agents
 
-## Introduction
-
-As an administrator, you can create GPT agents in the GPT agent builder that
-users can utilize. These agents collect specific user inputs as variables to
-customize prompts, enabling various use cases such as content generation,
-language translation, and text summarization.
+GPT agents collect specific user inputs as variables to customize prompts, enabling various use cases such as content generation, language translation, and text summarization. Administrators can create GPT agents for users using the GPT agent builder. 
 
 GPT agents operate using two distinct components:
 

@@ -1,21 +1,19 @@
-# Workflow agent/GALE agent
+# GALE Agent
 
-## Introduction
-
-The Workflow agent / GALE Agent allows users to build agents directly with the
+The GALe or Workflow Agent allows users to build agents directly with the
 **GALE platform** to deliver precise, contextually relevant responses to user
 queries in real time. This streamlined approach simplifies the process of
 creating intelligent agents, enabling businesses to deploy solutions quickly and
 efficiently.
 
-Workflow agent / GALE Agent leverage APIs and combine retrieval and generation
+The leverage APIs and combine retrieval and generation
 techniques to provide accurate and contextually relevant answers to user
 queries. These agents are highly configurable, allowing users to select and
 fine-tune models from a variety of available options within the GALE platform.
 Once configured, these agents dynamically adapt to user inputs, providing
 real-time, intelligent answers in response.
 
-##  Create Workflow agent / GALE Agent
+##  Create GALE Agent
 
 To create a GALE Agent, follow the steps outlined below:
 
