@@ -134,7 +134,9 @@ nav:
       - Rate Limit: assistant-configuration/rate-limit.md
     - User Management:
       - User Enrollments: user-management/user-enrollments.md
-    - Security:
+      - Add Users: user-management/managing your users.md
+      - Manage Groups: user-management/managing-your-groups.md
+    - Security: 
       - SSO: security/sso.md
       - IP Restriction: security/ip-restriction.md
       - Domain Management: security/domain-management.md

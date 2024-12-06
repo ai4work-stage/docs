@@ -16,9 +16,9 @@ Only users who have been invited will be added to the account as members.
 
 This option allows the admin to manage accounts using Active Directory synchronization, enabling auto-invitation, removal, or management of users by syncing with Google, Microsoft, and LDAP directory groups, all of which can be managed in the service account section.
 
-1. Click **Manage users with AD Sync**A pop-up window appears listing the number of users currently in the account.
+1. Click **Manage users with AD Sync** A pop-up window appears listing the number of users currently in the account.
 2. Click **Confirm** to proceed.
-3. Select a distribution list (DL) from the chosen service account and assign it a role. Ensure that all users enrolling through this DL receive the assigned role, with the highest role applied if a user is enrolled in multiple roles, following the hierarchy Admin > Custom Admins > Members. 
+3. Select a distribution list (DL) from the chosen service account and assign it a role. Ensure that all users enrolling through this DL receive the assigned role, with the highest role applied if a user is enrolled in multiple roles, following the hierarchy **Admin > Custom Admins > Members**. 
 
 !!!Note
     
