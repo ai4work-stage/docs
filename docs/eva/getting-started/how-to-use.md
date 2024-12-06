@@ -29,5 +29,3 @@ For instance, if you're connected to Jira, you can type “Get my Jira issues”
 5. For the third action, a draft email is created. Review and edit the draft, then click **Send** to complete the task.
 
 <img src="../images/agentic-flow-2.gif" alt="agentic-flow" title="agentic-flow" style="border: 1px solid gray; zoom:60%;">
-
-
