@@ -39,13 +39,13 @@ To create a new GPT Agent, follow these steps:
 3.  The **Prompt Agent creation** wizard will take you through the following
     steps:
 
-    -   **Detail and Purpose** of the agent and provide the details.
+    1.   **Step 1: Define and Purpose**
 
-    -   **Source** to design a form, upload files, and provide the required prompts.
+    2.   **Step 2: Source Configuration** 
 
-    -   **Review the Agent configuration.**
+    3.   **Step 3: Review the Agent configuration**
 
-    -   **Publish the Agent.**
+    4.   **Step 3: Publish the Agent**
 
 ### Step 1: Details and Purpose
 
@@ -67,7 +67,7 @@ the previous step. For example, if the purpose is "summarization", fields might
 include Word Count, Summary Format
 etc.![](images/source.png)
 
-#### **User Input**
+#### User Input
 
 To configure user input, follow the steps outlined below:
 
@@ -105,7 +105,7 @@ To configure user input, follow the steps outlined below:
     and click **Done**.
 
 
-#### **Knowledge**
+#### Knowledge
 
 1.  Click on the **+ Upload** button to upload any file. These uploaded files
     can be used as prompts. For example, if you uploaded a “Sample JD template”
