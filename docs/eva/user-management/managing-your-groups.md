@@ -95,8 +95,8 @@ You may no longer need a group of users in your account. Complete the steps in t
 <img src="../images/delete-user-group.png" alt="delete-user-group" title="delete-user-group" style="border: 1px solid gray; zoom:80%;"> 
 
 
-!!! Warning
+    !!! Warning
   
-    This operation is permanent and cannot be undone.
+        This operation is permanent and cannot be undone.
 
 4. The group is deleted.
