@@ -71,7 +71,7 @@ steps outlined below:
         endpoint. Once the agent completes its process, GALE posts the response
         back to the specified endpoint.
 
-![](images/config_galeFlow.png)
+    ![](images/config_galeFlow.png)
 
 2.  For Async Mode, enter the **POST URL** and **Access
     token**.![](images/async.png)  

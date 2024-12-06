@@ -124,6 +124,7 @@ nav:
   - Custom Agents:
     - API Agent: ai-search/api-agents.md
     - RAG Agent: ai-search/rag-agent/rag-agent.md
+    - Default RAG: ai-search/default-rag/default-rag.md
   - Analytics: 
     - Dashboard: dashboard/dashboard.md
   - Administration:
