@@ -4,7 +4,7 @@ You can ask an open-ended question to **AI for Work**.
 
 For instance, if you're connected to Jira, you can type “Get my Jira issues” in the **Ask or search anything** search box. The Jira agent will be triggered and retrieve your Jira issues.
 
-<img src="../images/ask-a-question.png" alt="ask-a-question" title="ask-a-question" style="border: 1px solid gray; zoom:80%;">
+<img src="../images/ask-a-question.png" alt="ask-a-question" title="ask-a-question" style="border: 1px solid gray; zoom0%;">
 
 **AI for Work** can also manage complex workflows by organizing tasks into a structured sequence, each handled by a specialized “agent.” In this approach, each agent performs a unique function and automatically executes its task in the correct order. By passing information seamlessly from one agent to the next, the flow ensures efficient, sequential completion of each step, allowing multiple instructions to be handled with minimal manual effort. This streamlined solution is known as **Agentic Flow**.
 
