@@ -122,9 +122,9 @@ nav:
     - GPT Agent: ai-agents/gpt-agent/gpt-agents.md
     - GALE Agent: ai-agents/gale-agent/gale-agents.md
   - Custom Agents:
-    - API Agent: ai-search/api-agents.md
     - Default RAG: ai-search/default-rag/default-rag.md
     - RAG Agent: ai-search/rag-agent/rag-agent.md
+    - API Agent: ai-search/api-agents.md
   - Analytics: 
     - Dashboard: dashboard/dashboard.md
   - Administration:
