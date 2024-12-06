@@ -1,14 +1,14 @@
 
-# API Agent / Data Agent
+# API/Data Agents
 
-Data Agents Builder is a powerful feature that allows users to build data agents and integrate them with their legacy systems using APIs and a no-code builder. Data agents enable business users to interact seamlessly with their data through natural language queries.
+API Agents builder is a powerful feature that allows users to build API agents and integrate them with their legacy systems using APIs and a no-code builder. API agent enable business users to interact seamlessly with their data through natural language queries.
 
 
 ## Key Features 
 
 
 
-* **Easy Setup**: Users can create data agents through a step-by-step wizard in the admin console.
+* **Easy Setup**: Users can create API agent through a step-by-step wizard in the admin console.
 * **Flexible Configuration**: The tool supports various API types, authentication methods, and data processing options.
 * **Customizable Fields**: Users can select and configure up to ten fields for querying and data representation.
 * **Intelligent Querying**: The system handles simple lookups, compound queries, and computational requests.
@@ -18,23 +18,20 @@ Data Agents Builder is a powerful feature that allows users to build data agents
 
 !!! note
 
-    Currently, data agents can handle a maximum of 500 records per API response and support only standard REST APIs.
+    Currently, API agent can handle a maximum of 500 records per API response and support only standard REST APIs.
 
 
 
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.loom.com/share/5324886f6acb459a9301bb19670ec9f2?sid=16db806f-85bf-4eae-b66a-c8962234154c" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AI for Work Overview" frameborder="0" allow="autoplay; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-<hr>
+## Create a API Agent
 
-## Create a Data Agent
-
-Users can create a data agent from the **User Profile** > **Admin Console**> **AI Search** > **API Agents**> **+ Create Agent**. The setup wizard guides you through the entire process, from initial setup to deployment.
+Users can create a API Agent from the **User Profile** > **Admin Console**> **AI Search** > **API Agents**> **+ Create Agent**. The setup wizard guides you through the entire process, from initial setup to deployment.
 
 
 <img src="../images/image9.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 
-The Data Agent creation process consists of the following steps:
+The API agent creation process consists of the following steps:
 
 [Step 1: Define the purpose of the Agent.](#step-1-purpose-of-agent)<P>
 
@@ -42,7 +39,7 @@ The Data Agent creation process consists of the following steps:
 
 [Step 3: Set up a connection for data retrieval from an external system.](#step-3-connection-setup)
 
-[Step 4: Define the specific Actions the data agent can perform.](#step-4-actions)
+[Step 4: Define the specific Actions the API agent can perform.](#step-4-actions)
 
 [Step 5: Publish the Agent.](#step-5-publish)
 
@@ -57,7 +54,7 @@ Prerequisites:
 
 ## Step 1: Purpose of Agent
 
-Briefly describe the system you want to integrate and the desired actions you want to perform in 50 words. Example: "Integrate Jira system to manage tickets. Actions include getting ticket details, creating new tickets, or updating existing tickets." This purpose helps Data Agents understand your system's capabilities and accurately interpret user intents/requests using Generative AI.
+Briefly describe the system you want to integrate and the desired actions you want to perform in 50 words. Example: "Integrate Jira system to manage tickets. Actions include getting ticket details, creating new tickets, or updating existing tickets." This purpose helps API Agent understand your system's capabilities and accurately interpret user intents/requests using Generative AI.
 
 Enter the purpose and click **Continue**.
 
@@ -68,7 +65,7 @@ Enter the purpose and click **Continue**.
 
 ## Step 2: Basic Details
 
-In the Basic Details step, you can provide the Agent's name and select a logo. You can choose the logo from preset options or upload a custom image. The name and logo will represent the data agent in the user interface, helping users identify the source of information.
+In the Basic Details step, you can provide the Agent's name and select a logo. You can choose the logo from preset options or upload a custom image. The name and logo will represent the API agent in the user interface, helping users identify the source of information.
 
 Enter a name for the **Agent** **Name**, select an appropriate **Logo**, and click **Continue**.
 
@@ -88,7 +85,7 @@ Connection Setup currently uses admin-provided profiles. The system accesses dat
 
 ### Step 4.1: Purpose
 
-Briefly describe the specific action your data agent can perform, including what information the Agent can retrieve and from which fields. For example, "Get the Jira issues based on assignee, priority, status, and due date." The description helps the Agent understand and execute user requests accurately using Generative AI.
+Briefly describe the specific action your API agent can perform, including what information the Agent can retrieve and from which fields. For example, "Get the Jira issues based on assignee, priority, status, and due date." The description helps the Agent understand and execute user requests accurately using Generative AI.
 
 Currently, the Agent supports GET and POST actions, meaning the Agent can be configured to retrieve and write information.
 
@@ -255,9 +252,9 @@ Follow these steps to add a field value resolver:
         <img src="../images/agent(14).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
         5. Close the pop-up. The ID resolver is displayed.
         <img src="../images/agent(16).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
-    2. If the field value resolver finds the JSON, the following value resolver pop-up is displayed.
+    2. If the field value resolver finds the JSON, the following value resolver pop-up is displayed.  
     <img src="../images/agent(23).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
-        1. Click **Goto Mapper**.
+        1. Click **Goto Mapper**.  
         <img src="../images/agent(27).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
         2. Click **Map Value**. Select fields pop-up is displayed. This step resolves the fields.
         <img src="../images/agent(15).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
@@ -265,7 +262,7 @@ Follow these steps to add a field value resolver:
         9. Click **Map ID**. Select fields pop-up is displayed.
         <img src="../images/agent(1).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
         10. Select the field that will be passed to the API and close the pop-up. For example, "accountId".
-        11. If Map Color, Map Icon, and Map Icon Color information is available, map the required fields and close the pop-up.
+        11. If Map Color, Map Icon, and Map Icon Color information is available, map the required fields and close the pop-up.  
         <img src="../images/agent(12).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 3. The field value resolver mapping is completed.
 
@@ -324,7 +321,7 @@ Follow these steps to add a field meta resolver:
 <img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 7. Click **Continue**.
 
-##### **Dictionary**
+#### Dictionary
 
 If API support is unavailable, you can use a dictionary as a local data store to map and resolve IDs or metadata. It acts as a cache, storing data fetched from APIs for fast, local queries, reducing the need for repeated API calls. You can schedule automatic updates to keep the dictionary current. Once created, it can be shared across agents or modules within the same account, making it a useful tool for improving performance and reducing dependency on APIs.
 
@@ -340,7 +337,7 @@ Follow these steps to create a dictionary:
 1. On the field value resolver or field meta resolver popup, toggle the **Use Dictionary**.
 <img src="../images/agent(24).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 2. Click **+ Create**.
-3. On the Name & API tab, enter the **dictionary name**, **API call details** to feed the dictionary, and **pagination** details if required.
+3. On the Name & API tab, enter the **dictionary name**, **API call details** to feed the dictionary, and **pagination** details if required.  
 <img src="../images/agent(9).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 4. Click **Run API**. The field selection tab is displayed.
 5. On the Field Selection tab, **select the fields** to be searched, **ID resolver field**, **Schedule to Pool data** frequency, and enter the **meta resolver field**.
@@ -365,15 +362,17 @@ Follow these steps to create a URL:
 
 
 1. To configure the URL, click  **+ Create URL**.
-2. The Open URL pop-up is displayed.
+2. The Open URL pop-up is displayed.  
 <img src="../images/agent(22).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 3. Enter the Static URL. For example, https://koreteam.atlassian.net/browse/.
+
     !!! note
 
-        You can create a Dynamic URL using the response objects. 
-4. The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e **Key,** and close the pop-up.
+        You can create a Dynamic URL using the response objects.
+
+4. The Variable mapper pop-up is displayed. Select the dynamic part of the URL i,e **Key,** and close the pop-up.  
 <img src="../images/agent(6).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
-5. Click **Done**. The Open option and the configured link are displayed.
+5. Click **Done**. The Open option and the configured link are displayed.  
 <img src="../images/agent(3).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 6.  Click **Continue**.
 
@@ -450,9 +449,9 @@ Click **Answering Rule** and enter the **Rule**. Click **Activate** and click **
 
 ### Step 4.4: Sample Queries
 
-Sample queries are automatically generated based on the system's purpose and actions. These queries serve as quick references and starting points for users interacting with the data agent.
+Sample queries are automatically generated based on the system's purpose and actions. These queries serve as quick references and starting points for users interacting with the API agent.
 
-When a data agent is triggered, the sample queries are displayed. The user can click them to execute the associated actions. 
+When a API agent is triggered, the sample queries are displayed. The user can click them to execute the associated actions. 
 
 You can manually add sample queries based on specific system requirements. This can be done using the **+ Add Query** option. Click **Continue**.
 <img src="../images/image20.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
@@ -462,10 +461,10 @@ You can manually add sample queries based on specific system requirements. This 
 
 ## Step 5: Publish
 
-When publishing the Data Agent, name the version and choose recipients - admins, selected user groups/users, or everyone in the account. Select authentication - user-based or admin-based. Review and edit steps before publishing. If you choose admin-based, admin tokens extract the data. If you choose user-based, user tokens extract the data. After publishing, the log shows the version name, publication date, and publisher. This process allows customized sharing and authentication while maintaining a published version record.
+When publishing the API agent, name the version and choose recipients - admins, selected user groups/users, or everyone in the account. Select authentication - user-based or admin-based. Review and edit steps before publishing. If you choose admin-based, admin tokens extract the data. If you choose user-based, user tokens extract the data. After publishing, the log shows the version name, publication date, and publisher. This process allows customized sharing and authentication while maintaining a published version record.
 
 Select **Publish to** and **Authentication type**. Click **Publish**.
 
-The success message and the data agent are displayed on the Agents page.
+The success message and the API agent are displayed on the Agents page.
 <img src="../images/image22.png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 
