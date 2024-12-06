@@ -6,7 +6,7 @@ to user queries. RAG agents leverage existing knowledge bases to find and
 retrieve relevant information and then use LLM models to generate an accurate
 and precise response.
 
-**RAG agents in EVA** can be implemented through **Search AI** applications.
+**RAG agents in AI for Work** can be implemented through **Search AI** applications.
 Search AI allows you to configure and index content from various knowledge
 bases, files, and websites in the application, which is then used to dynamically
 provide answers to user queries. RAG Agents interact with the Search AI
