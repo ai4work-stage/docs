@@ -26,17 +26,16 @@ To create a GALE Agent, follow the steps outlined below:
 2.  On the Workflow Agents page, click **+Create
     Agent**.![](images/create_agent.png)
 
-3.  The **Workflow Agent** / **GALE Agent creation** wizard will take you
+3.  The **Workflow** / **GALE Agent creation** wizard will take you
     through the following steps:
 
--   **Detail and Purpose** of the agent and provide the details.
+    1.   **Step 1: Define the purpose of the Agent**
 
--   **Configure GALE Flow** to set up the interaction between the GALE platform
-    and the agent.
+    2.   **Step 2: Configure GALE Flow** 
 
--   **Review the Agent configuration.**
+    3.   **Step 3: Review the Agent configuration**
 
--   **Publish the Agent.**
+    4.   **Step 3: Publish the Agent**
 
 ###  Step 1: Details and Purpose
 
