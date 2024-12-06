@@ -44,13 +44,8 @@ To create a new GPT Agent, follow these steps:
 
 ### Step 1: Details and Purpose
 
-Provide a suitable and unique name for the agent and describe the purpose of the
-agent. Defining the agent’s purpose enables EVA to accurately recognize the
-agent’s capabilities and effectively utilize them to respond to user queries
-aligned with the specified intent. It is essential to clearly outline the
-specific use cases for which the agent is designed. It is important to add a
-purpose, as all the fields, queries, and prompts are auto-generated based on the
-purpose provided.
+Provide a suitable and unique name for the agent and describe the purpose of the agent. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the
+specific use cases for which the agent is designed. It is important to add a purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.
 
 ![](images/detail_and_purpose.png)
 

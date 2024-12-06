@@ -120,7 +120,7 @@ nav:
     - Overview: ai-agents/overview.md   
     - Bot Agent: ai-agents/bot-agent/bot-agent.md
     - GPT Agent: ai-agents/gpt-agent/gpt-agents.md
-    - Gale Agent: ai-agents/gale-agent/gale-agents.md
+    - GALE Agent: ai-agents/gale-agent/gale-agents.md
   - Custom Agents:
     - API Agent: ai-search/api-agents.md
     - RAG Agent: ai-search/rag-agent/rag-agent.md
