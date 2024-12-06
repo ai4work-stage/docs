@@ -1,6 +1,6 @@
-# How to use AI for Work
+# How to use AI for Work Assistant
 
-You can ask an open-ended question to **AI for Work**.
+You can ask an open-ended question to the assistant of **AI for Work**.
 
 For instance, if you're connected to Jira, you can type “Get my Jira issues” in the **Ask or search anything** search box. The Jira agent will be triggered and retrieve your Jira issues.
 
