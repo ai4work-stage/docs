@@ -92,7 +92,7 @@ You may no longer need a group of users in your account. Complete the steps in t
 
 3. In the **Delete User group** confirmation dialog, click **Delete**.  
 
-<img src="../images/delete-user-group.png" alt="delete-user-group" title="delete-user-group" style="border: 1px solid gray; zoom:80%;"> 
+    <img src="../images/delete-user-group.png" alt="delete-user-group" title="delete-user-group" style="border: 1px solid gray; zoom:80%;"> 
 
 
     !!! Warning

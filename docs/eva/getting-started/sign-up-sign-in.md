@@ -49,9 +49,3 @@ After signing up, users are guided through the onboarding process as follows:
 
 <img src="../images/agents.png" alt="agents" title="agents" style="border: 1px solid gray; zoom:80%;">
 
-## Ask a Question
-You can ask an open-ended question to **AI for Work**.
-
-For instance, if you're connected to Jira, you can type “Get my Jira issues” in the **Ask or search anything** search box. The Jira agent will be triggered and retrieve your Jira issues.
-
-<img src="../images/ask-a-question.png" alt="ask-a-question" title="ask-a-question" style="border: 1px solid gray; zoom:80%;">
