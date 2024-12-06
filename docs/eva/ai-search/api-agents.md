@@ -321,7 +321,7 @@ Follow these steps to add a field meta resolver:
 <img src="../images/agent(26).png" alt="API Agent" title="" style="border: 1px solid gray; zoom:70%;">
 7. Click **Continue**.
 
-##### **Dictionary**
+#### Dictionary
 
 If API support is unavailable, you can use a dictionary as a local data store to map and resolve IDs or metadata. It acts as a cache, storing data fetched from APIs for fast, local queries, reducing the need for repeated API calls. You can schedule automatic updates to keep the dictionary current. Once created, it can be shared across agents or modules within the same account, making it a useful tool for improving performance and reducing dependency on APIs.
 
