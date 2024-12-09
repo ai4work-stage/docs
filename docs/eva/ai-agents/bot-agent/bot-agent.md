@@ -6,13 +6,6 @@ For complex workflows involving multiple system integrations and logic, users ca
 
 For example, consider a Fund Transfer Bot Agent. By creating this bot on the XO Platform, you can automate fund transfers to clients' designated accounts, capturing key details such as client names, account information, and transfer amounts. Once integrated with your organization’s systems, the bot allows seamless conversational interactions, simplifying fund transfer operations.
 
-To use this bot:
-
--   Click the “Internal transfer bot” agent to view sample queries.
-
--   Select “Transfer funds” from the list. The system will prompt you to enter the client’s name, followed by the recipient’s name.
-
--   Input the transfer amount and confirm the transaction. Funds are transferred effortlessly from a single platform, and a summary of the conversation is automatically generated.
 
 ##  Create a Bot Agent
 
@@ -34,7 +27,7 @@ To create a new Bot Agent, follow these steps:
     complete the integration process, follow these steps:
 
     1.  Log in to the **XO Platform**. Open the virtual assistant or bot you
-        want to add the channels to. Go to **Deploy \> Channels**\> **Add
+        want to add the channels to. Navigate to **Deploy \> Channels**\> **Add
         More\>Webhook**. The Webhook dialog will
         appear.![](images/webhook.png)
 
@@ -45,9 +38,7 @@ To create a new Bot Agent, follow these steps:
         Work** platform to complete the
         integration.![](images/webhook_botID.png)
 
-    4.  Under the **Configured Channels** section, click the **\<\<Name of the
-        Bot\>\>** you have created and want to integrate with **AI for Work**.
-        The channel you have created is now enabled. For more information, see
+    4.  Under the **Configured Channels** section, click the <**Name of the Bot**> you have created and want to integrate with **AI for Work**. The channel you have created is now enabled. For more information, see
         [Channel
         Enablement](https://developer.kore.ai/docs/bots/channel-enablement/adding-channels-to-your-bot/).
 
@@ -57,8 +48,7 @@ To create a new Bot Agent, follow these steps:
 
 ###  Step 1: Details and Purpose
 
-Provide a suitable and unique name for the agent and describe the purpose of the
-agent. Defining the agent’s purpose enables it to accurately recognize the
+Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables it to accurately recognize the
 agent’s capabilities and effectively utilize them to respond to user queries
 aligned with the specified intent. It is essential to clearly outline the
 specific use cases for which the agent is designed.
@@ -102,7 +92,7 @@ required.
 
 -   Select the **Enablement type** option. If you select **Always enabled**, the
     user will not have the choice to disable the agent. If you select the
-    **Users choice**, the user can enable/ disable the agent based on the
+    **Users choice**, the user can enable or disable the agent based on the
     requirement.
 
     ![](images/publish.png)
