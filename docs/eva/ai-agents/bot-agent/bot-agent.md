@@ -122,9 +122,9 @@ You can change the form if required.
 
 To modify the agent, follow these steps:
 
-1.  Click the three dots icon corresponding to the agents' names on the Agents
-    list page. A pop-up with a list of options will then appear.
+1.  Click the three dots icon corresponding to the agents' names on the **Agents
+    List** page. A pop-up menu will be displayed.
 
     ![](images/modify.png)
 
-2.  Click the **Edit** option from the options to modify the form.
+2.  Click the **Edit** from the list of options to start modifying the agent.
