@@ -999,7 +999,7 @@
           <li class="md-nav__item">
   <a href="#user-input" class="md-nav__link">
     <span class="md-ellipsis">
-      User Input
+      User Input 
     </span>
   </a>
   
@@ -1015,9 +1015,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#prompt" class="md-nav__link">
+  <a href="#prompts" class="md-nav__link">
     <span class="md-ellipsis">
-      Prompt
+      Prompts
     </span>
   </a>
   
@@ -1826,7 +1826,7 @@
           <li class="md-nav__item">
   <a href="#user-input" class="md-nav__link">
     <span class="md-ellipsis">
-      User Input
+      User Input 
     </span>
   </a>
   
@@ -1842,9 +1842,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#prompt" class="md-nav__link">
+  <a href="#prompts" class="md-nav__link">
     <span class="md-ellipsis">
-      Prompt
+      Prompts
     </span>
   </a>
   
@@ -1969,31 +1969,37 @@ utilizing the GPT capabilities.</p>
     steps:</p>
 <ol>
 <li>
-<p><strong>Step 1: Define and Purpose</strong></p>
+<p><a href="#details">Step 1: Define and Purpose</a></p>
 </li>
 <li>
-<p><strong>Step 2: Source Configuration</strong> </p>
+<p><a href="#source">Step 2: Source Configuration</a></p>
 </li>
 <li>
-<p><strong>Step 3: Review the Agent configuration</strong></p>
+<p><a href="#preview">Step 3: Preview the Agent configuration</a></p>
 </li>
 <li>
-<p><strong>Step 3: Publish the Agent</strong></p>
+<p><a href="#publish">Step 4: Publish the Agent</a></p>
 </li>
 </ol>
 </li>
 </ol>
-<h3 id="step-1-details-and-purpose">Step 1: Details and Purpose<a class="headerlink" href="#step-1-details-and-purpose" title="Permanent link">&para;</a></h3>
-<p>Provide a suitable and unique name for the agent and describe the purpose of the agent. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the
-specific use cases for which the agent is designed. It is important to add a purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.</p>
+<h3 id="step-1-details-and-purpose"><a id="details">Step 1: Details and Purpose</a><a class="headerlink" href="#step-1-details-and-purpose" title="Permanent link">&para;</a></h3>
+<p>Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the specific use cases and define the agent's purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.</p>
 <p><a class="glightbox" href="../images/detail_and_purpose.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/detail_and_purpose.png" /></a></p>
-<h3 id="step-2-source">Step 2: Source<a class="headerlink" href="#step-2-source" title="Permanent link">&para;</a></h3>
-<p>In the Sources section, you can configure user input, Knowledge and prompts. The
-parameters fields are provided based on the Purpose of the agent you provided in
+<h3 id="step-2-source"><a id="source">Step 2: Source</a><a class="headerlink" href="#step-2-source" title="Permanent link">&para;</a></h3>
+<p>In the Sources section, you can configure the following fields </p>
+<ul>
+<li><a href="#userinput">User Input</a></li>
+<li><a href="#knowledge">Knowledge</a></li>
+<li><a href="#prompts">Prompts</a></li>
+<li><a href="#multiprompt">Multiprompt</a></li>
+<li><a href="#multiresponse">Multiresponse</a></li>
+</ul>
+<p>The parameters fields are provided based on the purpose of the agent you provided in
 the previous step. For example, if the purpose is "summarization", fields might
 include Word Count, Summary Format
 etc.<a class="glightbox" href="../images/source.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/source.png" /></a></p>
-<h4 id="user-input">User Input<a class="headerlink" href="#user-input" title="Permanent link">&para;</a></h4>
+<h4 id="user-input"><a id="userinput">User Input </a><a class="headerlink" href="#user-input" title="Permanent link">&para;</a></h4>
 <p>To configure user input, follow the steps outlined below:</p>
 <ol>
 <li>
@@ -2039,7 +2045,7 @@ etc.<a class="glightbox" href="../images/source.png" data-type="image" data-widt
     and click <strong>Done</strong>.</p>
 </li>
 </ol>
-<h4 id="knowledge">Knowledge<a class="headerlink" href="#knowledge" title="Permanent link">&para;</a></h4>
+<h4 id="knowledge"><a id="knowledge">Knowledge</a><a class="headerlink" href="#knowledge" title="Permanent link">&para;</a></h4>
 <ol>
 <li>
 <p>Click on the <strong>+ Upload</strong> button to upload any file. These uploaded files
@@ -2047,30 +2053,24 @@ etc.<a class="glightbox" href="../images/source.png" data-type="image" data-widt
     file, you can write a prompt that says, “Create a JD which is in the same
     format as in the Sample JD template
     file.”<a class="glightbox" href="../images/Knowledge.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/Knowledge.png" /></a></p>
-<p><strong>Note</strong>: If the file size is larger, it affects the models due to the context
-size limitation, and an error message is displayed with the list of models.
-Only a certain limit of information is taken as context for generation.
-Still, when the limit of files is exceeded, all the knowledge files uploaded
-are used for answering but not for generation.</p>
+<p><strong>Note</strong>: If the file size exceeds the context size limitation, it impacts the models, and an error message is displayed along with a list of models. Only a limited amount of information is used as context for generation. However, when the file limit is exceeded, all uploaded knowledge files are referenced for answering but not for generation.</p>
 </li>
 <li>
-<p>Select the <strong>Model</strong> required from the Model selection drop-down list, which
+<p>Select the model required from the <strong>Model selection</strong> drop-down list, which
     displays all the integrated
     models.<a class="glightbox" href="../images/model.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/model.png" /></a></p>
 </li>
 <li>
-<p>Enable the <strong>Show to users</strong> toggle button to show this prompt to the user.
-    Once you click the toggle button to ON, you can select whether you want it
-    in <strong>Read-only</strong> or <strong>Editable</strong>.
+<p>Toggle the <strong>Show to users</strong> button to display this prompt to the user. After switching the toggle to ON, you can choose between <strong>Read-only</strong> or <strong>Editable</strong> modes.
     <a class="glightbox" href="../images/show_to_users.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/show_to_users.png" /></a></p>
 </li>
 </ol>
-<h4 id="prompt">Prompt<a class="headerlink" href="#prompt" title="Permanent link">&para;</a></h4>
+<h4 id="prompts"><a id="prompts">Prompts</a><a class="headerlink" href="#prompts" title="Permanent link">&para;</a></h4>
 <p>A default prompt is automatically generated based on the purpose defined earlier
 and can be customized using variables. For example, if the purpose is "Job
 Finder," the default prompt might include, “Company Name, Job Title,
 Responsibilities etc”<a class="glightbox" href="../images/prompt.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/prompt.png" /></a></p>
-<h4 id="multiprompt">Multiprompt<a class="headerlink" href="#multiprompt" title="Permanent link">&para;</a></h4>
+<h4 id="multiprompt"><a id="multiprompt">Multiprompt</a><a class="headerlink" href="#multiprompt" title="Permanent link">&para;</a></h4>
 <p>For a multi-prompt setup within the agent builder, users can generate multiple
 prompts and select one from the form field based on the specific context.</p>
 <p>To add another prompt, click on the <strong>+ Add another prompt</strong> button. You can
@@ -2102,11 +2102,11 @@ which will contain a prompt selector.</p>
 <p>Click <strong>Done</strong><a class="glightbox" href="../images/drag_prompt.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/drag_prompt.png" /></a></p>
 </li>
 </ol>
-<h4 id="multi-response">Multi Response<a class="headerlink" href="#multi-response" title="Permanent link">&para;</a></h4>
+<h4 id="multi-response"><a id="multiresponse">Multi Response</a><a class="headerlink" href="#multi-response" title="Permanent link">&para;</a></h4>
 <p>To allow users to generate multiple responses,</p>
 <ol>
 <li>
-<p>enable the <strong>Allow users to generate multiple responses</strong> toggle button in
+<p>Enable the <strong>Allow users to generate multiple responses</strong> toggle button in
     the output settings.<br />
 <a class="glightbox" href="../images/output_setings.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/output_setings.png" /></a></p>
 </li>
@@ -2114,12 +2114,12 @@ which will contain a prompt selector.</p>
 <p>Click <strong>Continue</strong> to move to the next step.</p>
 </li>
 </ol>
-<h3 id="step-3-preview">Step 3: Preview<a class="headerlink" href="#step-3-preview" title="Permanent link">&para;</a></h3>
+<h3 id="step-3-preview"><a id="preview">Step 3: Preview</a><a class="headerlink" href="#step-3-preview" title="Permanent link">&para;</a></h3>
 <p>In the <strong>Preview</strong> section, a list of sample queries is displayed. If needed,
 you can add additional queries by clicking the <strong>+ Add Query</strong> button. Once
 you're ready, click <strong>Continue</strong> to proceed to the next
 step.<a class="glightbox" href="../images/preview.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/preview.png" /></a></p>
-<h3 id="step-4-publish-gpt-agent">Step 4: Publish GPT Agent<a class="headerlink" href="#step-4-publish-gpt-agent" title="Permanent link">&para;</a></h3>
+<h3 id="step-4-publish-gpt-agent"><a id="publish">Step 4: Publish GPT Agent</a><a class="headerlink" href="#step-4-publish-gpt-agent" title="Permanent link">&para;</a></h3>
 <p>In the <strong>Publish</strong> section, you can finalize and deploy your GPT
 agent.<a class="glightbox" href="../images/publish.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/publish.png" /></a> Follow the steps outlined
 below to publish the GPT agent</p>
@@ -2205,7 +2205,7 @@ processes its contents and generates the desired output, such as summaries,
 reports, or insights, based on the data within the
 file.<a class="glightbox" href="../images/userinteaction_fileUpload.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/userinteaction_fileUpload.png" /></a></p>
 <p>When multi-response is enabled, users can use this feature by selecting the
-<strong>Additional Response</strong> option. Each prompt is preconfigured but can be
+<strong>Additional Response</strong> option. Each prompt is preconfigured, but can be
 customized to meet specific requirements using a dropdown menu. Users have the
 flexibility to define the input source for each response, either by using the
 <strong>initial input</strong> or by selecting the output from a previous response as input
