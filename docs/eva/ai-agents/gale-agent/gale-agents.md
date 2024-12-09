@@ -18,15 +18,15 @@ To create a GALE Agent, follow the steps outlined below:
 3.  The **Workflow** / **GALE Agent creation** wizard will take you
     through the following steps:
 
-    1.   **Step 1: Define the purpose of the Agent**
+    1.   [Step 1: Define the purpose of the Agent](#details)
 
-    2.   **Step 2: Configure GALE Flow** 
+    2.   [Step 2: Configure GALE Flow](#configure)
 
-    3.   **Step 3: Review the Agent configuration**
+    3.   [Step 3: Peview the Agent configuration](#preview)
 
-    4.   **Step 3: Publish the Agent**
+    4.   [Step 4: Publish the Agent](#publish)
 
-###  Step 1: Details and Purpose
+### <a id="details">Step 1: Details and Purpose</a>
 
 Provide a suitable and unique name for the agent and describe the purpose of the
 agent. Defining the agent’s purpose enables “AI for work” to accurately
@@ -41,7 +41,7 @@ related to any cross-sell or upsell product.
 ![](images/detail_and_purpose.png)
 
 
-###  Step 2: Configure GALE Flow
+###   <a id="configure">Step 2: Configure GALE Flow</a>
 
 You must integrate **GALE Flow** with the **GALE** platform and create a
 channel. To set up a channel and complete the integration process, follow the
@@ -91,7 +91,7 @@ steps outlined below:
 
 4.  The **Import URL** dialog is displayed.
     ![](images/import_url_input.png)To get the curl, follow the
-    steps outlined below
+    steps outlined below:
 
     1.  Navigate to the GALE Platform. Open the agent you want to add the
         channels to.
@@ -121,18 +121,18 @@ steps outlined below:
 
 10.  Click **Continue** to move to the next step.
 
-###  Step 3: Preview
+###  <a id="preview">Step 3: Preview</a>
 
 In the **Preview** section, a list of sample queries is displayed. If needed,
 you can add additional queries by clicking the **+ Add Query** button. Once
 you're ready, click **Continue** to proceed to the next
 step.![](images/preview.png)
 
-###  Step 4: Publish Workflow Agent / GALE Agent
+###    <a id="publish">Step 4: Publish Workflow Agent / GALE Agent</a>
 
 In the **Publish** section, you can finalize and deploy your GALE
 agent.![](images/publish.png) Follow the steps outlined
-below to publish the GALE agent
+below to publish the GALE agent:
 
 1.  Provide the following details
 
@@ -170,13 +170,13 @@ To modify the workflow agent / GALE agent, follow these steps:
 2.  Click the **three dots icon** next to the agent’s name. A menu with the
     following options will appear:
 
--   **Edit** – Open and modify the agent's details.
+    -   **Edit** – Open and modify the agent's details.
 
--   **Publish/Unpublish** – Change the agent's status.
+    -   **Publish/Unpublish** – Change the agent's status.
 
--   **Delete** – Permanently remove the agent.
+    -   **Delete** – Permanently remove the agent.
 
-1.  Click on the required option and continue to complete the modifications as
+3.  Click on the required option and continue to complete the modifications as
     needed.
 
 ##  Manage Input and Output
@@ -219,7 +219,7 @@ cases where the file processing can be completed within a short timeframe (up to
 
 In **async mode**, the process accommodates more complex queries that may
 require additional processing time. Users still select an agent and enter their
-queries as usual. However, instead of receiving immediate results, they are
+queries. However, instead of receiving immediate results, they are
 notified in a notification section once the query is processed. This approach
 makes async mode particularly suited to cases where the query might take more
 than 60 seconds to execute.

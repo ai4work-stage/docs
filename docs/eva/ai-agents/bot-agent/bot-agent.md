@@ -46,7 +46,18 @@ To create a new Bot Agent, follow these steps:
         JWT tokens generated using the **Post URL** and **Access tokens**
         available in the **Add bot agents** dialog in the **Add Bot** section.
 
-###  Step 1: Details and Purpose
+4. The **Prompt Agent creation** wizard will take you through the following
+    steps:
+
+    1.  [Step 1: Define and Purpose](#details)
+
+    2.  [Step 2: Add Bot](#bot)
+
+    3.  [Step 3: Preview](#preview)
+
+    4.  [Step 4: Publish Bot Agent](#publish)        
+
+###   <a id="details">Step 1: Details and Purpose</a>
 
 Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables it to accurately recognize the
 agent’s capabilities and effectively utilize them to respond to user queries
@@ -54,7 +65,7 @@ aligned with the specified intent. It is essential to clearly outline the
 specific use cases for which the agent is designed.
 ![](images/detail-purpose.png)
 
-###  Step 2: Add Bot
+###  <a id="bot">Step 2: Add Bot </a>
 
 The Add Bot feature enables seamless integration of a virtual assistant created
 on the Kore.ai platform with your system. To establish this connection, ensure
@@ -72,7 +83,7 @@ activated, follow the integration steps to complete the process:
 
 2.  Click **Connect account** to move to the next step.
 
-## Step 3: Preview
+##  <a id="preview">Step 3: Preview</a>
 
 In the **Preview** section, a sample of queries is displayed. If necessary, you
 can click the **+ Add Query** button to add any other queries. Click
@@ -80,7 +91,7 @@ can click the **+ Add Query** button to add any other queries. Click
 
 ![](images/preview.png)
 
-###  Step 3: Publish Bot Agent
+###   <a id="publish">Step 4: Publish Bot Agent</a>
 
 In the **Publish** section, you can publish the agent so the users can use it as
 required.
@@ -112,9 +123,17 @@ You can change the form if required.
 
 To modify the agent, follow these steps:
 
-1.  Click the three dots icon corresponding to the agents' names on the **Agents
-    List** page. A pop-up menu will be displayed.
+
+1.  Click the **three dots icon** next to the agent’s name. A menu with the
+    following options will appear:
+
+    -   **Edit** – Open and modify the agent's details.
+
+    -   **Publish/Unpublish** – Change the agent's status.
+
+    -   **Delete** – Permanently remove the agent.
 
     ![](images/modify.png)
 
-2.  Click the **Edit** from the list of options to start modifying the agent.
+2.  Click on the required option and continue to complete the modifications as
+    needed.

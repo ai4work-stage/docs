@@ -33,30 +33,37 @@ To create a new GPT Agent, follow these steps:
 3.  The **Prompt Agent creation** wizard will take you through the following
     steps:
 
-    1.   **Step 1: Define and Purpose**
+    1.  [Step 1: Define and Purpose](#details)
 
-    2.   **Step 2: Source Configuration** 
+    2.  [Step 2: Source Configuration](#source)
 
-    3.   **Step 3: Review the Agent configuration**
+    3.  [Step 3: Preview the Agent configuration](#preview)
 
-    4.   **Step 3: Publish the Agent**
+    4.  [Step 4: Publish the Agent](#publish)
 
-### Step 1: Details and Purpose
+###  <a id="details">Step 1: Details and Purpose</a>
 
-Provide a suitable and unique name for the agent and describe the purpose of the agent. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the
-specific use cases for which the agent is designed. It is important to add a purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.
+Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the specific use cases and define the agent's purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.
 
 ![](images/detail_and_purpose.png)
 
-### Step 2: Source
 
-In the Sources section, you can configure user input, Knowledge and prompts. The
-parameters fields are provided based on the Purpose of the agent you provided in
+### <a id="source">Step 2: Source</a>
+
+In the Sources section, you can configure the following fields 
+
+-  [User Input](#userinput)
+-  [Knowledge](#knowledge)
+-  [Prompts](#prompts)
+-  [Multiprompt](#multiprompt)
+-  [Multiresponse](#multiresponse)
+
+ The parameters fields are provided based on the purpose of the agent you provided in
 the previous step. For example, if the purpose is "summarization", fields might
 include Word Count, Summary Format
 etc.![](images/source.png)
 
-#### User Input
+#### <a id="userinput">User Input </a>
 
 To configure user input, follow the steps outlined below:
 
@@ -94,7 +101,7 @@ To configure user input, follow the steps outlined below:
     and click **Done**.
 
 
-#### Knowledge
+#### <a id="knowledge">Knowledge</a>
 
 1.  Click on the **+ Upload** button to upload any file. These uploaded files
     can be used as prompts. For example, if you uploaded a “Sample JD template”
@@ -102,29 +109,23 @@ To configure user input, follow the steps outlined below:
     format as in the Sample JD template
     file.”![](images/Knowledge.png)
 
-    **Note**: If the file size is larger, it affects the models due to the context
-    size limitation, and an error message is displayed with the list of models.
-    Only a certain limit of information is taken as context for generation.
-    Still, when the limit of files is exceeded, all the knowledge files uploaded
-    are used for answering but not for generation.
+    **Note**: If the file size exceeds the context size limitation, it impacts the models, and an error message is displayed along with a list of models. Only a limited amount of information is used as context for generation. However, when the file limit is exceeded, all uploaded knowledge files are referenced for answering but not for generation.
 
-2.  Select the **Model** required from the Model selection drop-down list, which
+2.  Select the model required from the **Model selection** drop-down list, which
     displays all the integrated
     models.![](images/model.png)
 
-3.  Enable the **Show to users** toggle button to show this prompt to the user.
-    Once you click the toggle button to ON, you can select whether you want it
-    in **Read-only** or **Editable**.
+3. Toggle the **Show to users** button to display this prompt to the user. After switching the toggle to ON, you can choose between **Read-only** or **Editable** modes.
     ![](images/show_to_users.png)
 
-#### Prompt
+#### <a id="prompts">Prompts</a>
 
 A default prompt is automatically generated based on the purpose defined earlier
 and can be customized using variables. For example, if the purpose is "Job
 Finder," the default prompt might include, “Company Name, Job Title,
 Responsibilities etc”![](images/prompt.png)
 
-#### Multiprompt
+#### <a id="multiprompt">Multiprompt</a>
 
 For a multi-prompt setup within the agent builder, users can generate multiple
 prompts and select one from the form field based on the specific context.
@@ -154,24 +155,24 @@ which will contain a prompt selector.
 
 5.  Click **Done**![](images/drag_prompt.png)
 
-#### Multi Response
+#### <a id="multiresponse">Multi Response</a>
 
 To allow users to generate multiple responses,
 
-1.  enable the **Allow users to generate multiple responses** toggle button in
+1.  Enable the **Allow users to generate multiple responses** toggle button in
     the output settings.  
     ![](images/output_setings.png)
 
 2.  Click **Continue** to move to the next step.
 
-### Step 3: Preview
+### <a id="preview">Step 3: Preview</a>
 
 In the **Preview** section, a list of sample queries is displayed. If needed,
 you can add additional queries by clicking the **+ Add Query** button. Once
 you're ready, click **Continue** to proceed to the next
 step.![](images/preview.png)
 
-### Step 4: Publish GPT Agent
+### <a id="publish">Step 4: Publish GPT Agent</a>
 
 In the **Publish** section, you can finalize and deploy your GPT
 agent.![](images/publish.png) Follow the steps outlined
@@ -235,7 +236,7 @@ reports, or insights, based on the data within the
 file.![](images/userinteaction_fileUpload.png)
 
 When multi-response is enabled, users can use this feature by selecting the
-**Additional Response** option. Each prompt is preconfigured but can be
+**Additional Response** option. Each prompt is preconfigured, but can be
 customized to meet specific requirements using a dropdown menu. Users have the
 flexibility to define the input source for each response, either by using the
 **initial input** or by selecting the output from a previous response as input
