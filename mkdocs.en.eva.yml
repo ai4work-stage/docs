@@ -118,12 +118,12 @@ nav:
     - Overview: pre-built-solution/overview.md
   - Pre-built Agents:
     - Overview: ai-agents/overview.md   
-    - Bot Agent: ai-agents/bot-agent/bot-agent.md
-    - GPT Agent: ai-agents/gpt-agent/gpt-agents.md
-    - GALE Agent: ai-agents/gale-agent/gale-agents.md
+    - Bot Agent: ai-agents/bot-agent.md
+    - GPT Agent: ai-agents/gpt-agents.md
+    - GALE Agent: ai-agents/gale-agents.md
   - Custom Agents:
-    - Default RAG: ai-search/default-rag/default-rag.md
-    - RAG Agent: ai-search/rag-agent/rag-agent.md
+    - Default RAG: ai-search/default-rag.md
+    - RAG Agent: ai-search/rag-agent.md
     - API Agent: ai-search/api-agents.md
   - Analytics: 
     - Dashboard: dashboard/dashboard.md

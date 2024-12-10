@@ -10,7 +10,7 @@ The Agent leverages APIs and combines retrieval and generation techniques to pro
 To create a GALE Agent, follow the steps outlined below:
 
 1.  In the **Admin Console**, click **AI Agents** from the left pane, and then select **GALE Agents**. A list of available workflow agents will be
-    displayed.![](images/AI_agent.png)
+    displayed.![](images/AI_agent_gale.png)
 
 2.  On the Workflow Agents page, click **+Create
     Agent**.![](images/create_agent.png)
@@ -38,7 +38,7 @@ For instance, if an agent called "Sales Buddy" is created to handle user
 queries, specifying its purpose helps this agent whenever a user sends a query
 related to any cross-sell or upsell product.
 
-![](images/detail_and_purpose.png)
+![](images/detail_and_purpose_gale.png)
 
 
 ###   <a id="configure">Step 2: Configure GALE Flow</a>
@@ -126,12 +126,12 @@ steps outlined below:
 In the **Preview** section, a list of sample queries is displayed. If needed,
 you can add additional queries by clicking the **+ Add Query** button. Once
 you're ready, click **Continue** to proceed to the next
-step.![](images/preview.png)
+step.![](images/preview_gale.png)
 
 ###    <a id="publish">Step 4: Publish Workflow Agent / GALE Agent</a>
 
 In the **Publish** section, you can finalize and deploy your GALE
-agent.![](images/publish.png) Follow the steps outlined
+agent.![](images/publish_gale.png) Follow the steps outlined
 below to publish the GALE agent:
 
 1.  Provide the following details

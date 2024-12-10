@@ -89,7 +89,7 @@ In the **Preview** section, a sample of queries is displayed. If necessary, you
 can click the **+ Add Query** button to add any other queries. Click
 **Continue** to move to the next step.
 
-![](images/preview.png)
+![](images/preview_bot.png)
 
 ###   <a id="publish">Step 4: Publish Bot Agent</a>
 
@@ -106,7 +106,7 @@ required.
     **Users choice**, the user can enable or disable the agent based on the
     requirement.
 
-    ![](images/publish.png)
+    ![](images/publish_bot.png)
 
 -   The **Publish log** will display the published versions of the agent. Click
     **Publish** to publish this agent. Once published, your agent is displayed
@@ -133,7 +133,7 @@ To modify the agent, follow these steps:
 
     -   **Delete** – Permanently remove the agent.
 
-    ![](images/modify.png)
+    ![](images/modify_bot.png)
 
 2.  Click on the required option and continue to complete the modifications as
     needed.
