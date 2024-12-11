@@ -121,10 +121,10 @@ nav:
     - RAG Agents: rag-agents/rag-agent.md
   - Custom Agents:
     - Overview: custom-agents/overview.md   
-    - API Agent: custom-agents/api-agents.md
-    - Bot Agent: custom-agents/bot-agent.md
-    - GPT Agent: custom-agents/gpt-agents.md
-    - GALE Agent: custom-agents/gale-agents.md
+    - API Agents: custom-agents/api-agents.md
+    - Bot Agents: custom-agents/bot-agent.md
+    - GPT Agents: custom-agents/gpt-agents.md
+    - GALE Agents: custom-agents/gale-agents.md
   - Pre-built Agents:
     - overview: pre-built-agents/overview.md
   - Analytics: 
