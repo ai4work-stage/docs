@@ -33,3 +33,4 @@ Search AI provides out-of-the-box support for ingesting data from a range of thi
 | [Trello]() is a task management tool to organize projects with visual boards, lists, and cards, enabling collaboration and tracking   | Cloud                  | Boards, Cards | No                   | Yes              |
 | [WordPress](./wordpress.md) is a widely used content management system for creating websites and blogs.   | Cloud                  | pages, posts                                        | No                   |Yes              |
 | [Zendesk](./zendesk.md) is a customer support and ticketing platform used to manage customer interactions and track tasks.| Cloud                  | Zendesk knowledge base articles                                                                                       | No                    | No               |
+
