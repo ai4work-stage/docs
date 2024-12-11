@@ -115,17 +115,16 @@ nav:
     - Accessing AI for Work: getting-started/sign-up-sign-in.md
     - Using AI for Work Assistant: getting-started/how-to-use.md
   - Pre-built Solutions:
-    - Overview: pre-built-solution/overview.md
-  - RAG Agent:
+    - Overview: pre-built-solutions/overview.md
+  - RAG Agents:
     - Default RAG: rag-agents/default-rag.md 
-    - RAG Agent: rag-agents/rag-agent.md
+    - RAG Agents: rag-agents/rag-agent.md
   - Custom Agents:
     - Overview: custom-agents/overview.md   
     - API Agent: custom-agents/api-agents.md
     - Bot Agent: custom-agents/bot-agent.md
     - GPT Agent: custom-agents/gpt-agents.md
     - GALE Agent: custom-agents/gale-agents.md
-    - API Agent: custom-agents2/api-agents.md
   - Pre-built Agents:
     - overview: pre-built-agents/overview.md
   - Analytics: 
