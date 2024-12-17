@@ -124,7 +124,7 @@ nav:
     - GALE Agents: custom-agents/gale-agents.md
     - API Agents: custom-agents/api-agents.md
   - Pre-built Agents:
-    - overview: pre-built-agents/overview.md
+    - Overview: pre-built-agents/overview.md
   - Pre-built Solutions:
     - Overview: pre-built-solutions/overview.md
   - Analytics: 
