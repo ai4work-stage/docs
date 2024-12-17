@@ -43,7 +43,7 @@ Steps to publish a pre-built agent:
         * **Selected User groups/Users**: Specify individual users or groups.
         * **Everyone in the Account**: Make the agent available to all users.
     * **Actions**: Choose what users can do with this agent:
-        * **Lookup**:Users can search for existing items. 
+        * **Lookup**: Users can search for existing items. 
         * **Creation**: Users can create new items.
     
         For example: For a Jira agent, you can allow users to look up issues or also let them create new issues.
@@ -53,6 +53,7 @@ Steps to publish a pre-built agent:
 4. Click **Publish.** The agent is now available for the users to use in the Agent Store.  
 <img src="../images/agent-store.png" alt="agent-store" title="agent-store" style="border: 1px solid gray; zoom:60%;">
  
-Users can open the Agent Store, click **Connect** for the Agent, and follow the on-screen instructions to **Add Connection**. Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box.   
+Users can open the Agent Store, click **Connect** for the Agent, and follow the on-screen instructions to **Add Connection**. Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box.  
+
 <img src="../images/add-connection.png" alt="add-connection" title="add-connection" style="border: 1px solid gray; zoom:60%;">
 
