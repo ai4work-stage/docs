@@ -8,8 +8,8 @@ Currently, the following prebuilt agents are available:
 
 * **Zendesk** - It helps us to fetch Zendesk tickets based on entities.
 * **Slack** - It helps us to send the response to Slack channels and threads.
-* **O365 Calendar**- It helps us to create calendar events, fetch calendar events based on filters,  check colleagues' availability, and send quick messages in case of a delay in joining the meeting.
-* **O365 Email**- It can get emails based on user queries fetching entities, send responses as emails, set individual emails as context, and ask for follow-ups.
+* **O365 Calendar** - It helps us to create calendar events, fetch calendar events based on filters,  check colleagues' availability, and send quick messages in case of a delay in joining the meeting.
+* **O365 Email** - It can get emails based on user queries fetching entities, send responses as emails, set individual emails as context, and ask for follow-ups.
 * **OneDrive** - It can fetch files based on user queries and filters, set individual files as context, and ask followup questions.
 * **Teams** - It can fetch files based on user queries and filters, set individual files as context, and ask follow-up questions.
 * **Jira** - It can retrieve issues based on user queries using entity filters and effortlessly create Jira issues using AI intelligence derived from action items.
@@ -21,7 +21,7 @@ Currently, the following prebuilt agents are available:
 ## Pre-Built Prompt Agents
 
 * **Summarizer** - It helps to summarize content based on the provided material into selected summary formats.
-* **Mail scribe** - It helps to draft emails based on the topic description.
+* **Mail Scribe** - It helps to draft emails based on the topic description.
 * **Translate** - It helps to translate uploaded files or pasted content into any language as requested. 
 
 ## Publish a Pre-Built Agent
@@ -53,7 +53,7 @@ Steps to publish a pre-built agent:
 4. Click **Publish.** The agent is now available for the users to use in the Agent Store.  
 <img src="../images/agent-store.png" alt="agent-store" title="agent-store" style="border: 1px solid gray; zoom:60%;">
  
-Users can open the Agent Store, click **Connect** for the Agent, and follow the on-screen instructions to **Add Connection**. Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box.  
-
+Users can open the Agent Store, click **Connect** for the Agent, and follow the on-screen instructions to **Add Connection**.    
 <img src="../images/add-connection.png" alt="add-connection" title="add-connection" style="border: 1px solid gray; zoom:60%;">
 
+Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box on the AI for Work homepage.
