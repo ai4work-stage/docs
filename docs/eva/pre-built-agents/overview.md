@@ -44,9 +44,8 @@ Steps to publish a pre-built agent:
         * **Everyone in the Account**: Make the agent available to all users.
     * **Actions:** admins can decide whether an end user can perform only lookup actions or both lookup and creation actions. 
         * **Lookup**
-        * **Creation**
-  
-  <img src="../images/publish-agent.png" alt="publish-agent" title="publish-agent" style="border: 1px solid gray; zoom:60%;">
+        * **Creation**  
+        <img src="../images/publish-agent.png" alt="publish-agent" title="publish-agent" style="border: 1px solid gray; zoom:60%;">
 
 4. Click **Publish.** The agent is now available for the users to use in the Agent Store.  
 <img src="../images/agent-store.png" alt="agent-store" title="agent-store" style="border: 1px solid gray; zoom:60%;">
