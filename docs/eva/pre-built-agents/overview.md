@@ -42,7 +42,7 @@ Steps to publish a pre-built agent:
         * **Admins**: Restrict the agent to Admin users only.
         * **Selected User groups/Users**: Specify individual users or groups.
         * **Everyone in the Account**: Make the agent available to all users.
-    * **Actions:** admins can decide whether an end user can perform only lookup actions or both lookup and creation actions. 
+    * **Actions**: admins can decide whether an end user can perform only lookup actions or both lookup and creation actions. 
         * **Lookup**
         * **Creation**  
         <img src="../images/publish-agent.png" alt="publish-agent" title="publish-agent" style="border: 1px solid gray; zoom:60%;">
