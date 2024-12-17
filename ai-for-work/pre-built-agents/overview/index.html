@@ -1078,6 +1078,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    overview
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1087,6 +1098,54 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-built-api-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Built API Agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-built-prompt-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Built Prompt Agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-a-pre-built-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publish a Pre-Built Agent
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1722,6 +1781,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-built-api-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Built API Agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-built-prompt-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Built Prompt Agents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-a-pre-built-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publish a Pre-Built Agent
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1740,16 +1834,37 @@
 
 <h1 id="pre-built-agents">Pre-built Agents<a class="headerlink" href="#pre-built-agents" title="Permanent link">&para;</a></h1>
 <p>AI for Work includes a set of pre-configured AI agents that can be easily customized and integrated into workflows. These agents help streamline operations and enhance productivity.</p>
-<p><strong>Publish a Pre-Built Agent</strong></p>
+<p>Following are the prebuilt agents supported by AI for Work:</p>
+<h2 id="pre-built-api-agents">Pre-Built API Agents<a class="headerlink" href="#pre-built-api-agents" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Zendesk</strong> - It helps us to fetch Zendesk tickets based on entities.</li>
+<li><strong>Slack</strong> - It helps us to send the response to Slack channels and threads.</li>
+<li><strong>O365 Calendar</strong>- It helps us to create calendar events, fetch calendar events based on filters, check the availability of colleagues, and send quick messages in case of a delay in joining the meeting.</li>
+<li><strong>O365 Email</strong>- It can get emails based on user queries fetching entities, send responses as emails, set individual emails as context, and ask for follow-ups.</li>
+<li><strong>OneDrive</strong> - It can fetch files based on user queries and filters and set individual file as context and ask followup questions.</li>
+<li><strong>Teams</strong> - It can fetch files based on user queries and filters, set individual files as context, and ask follow-up questions.</li>
+<li><strong>Jira</strong> - It can retrieve issues based on user queries using entity filters and effortlessly create Jira issues using AI intelligence derived from action items.</li>
+<li><strong>HubSpot</strong> - It helps in pulling deals based on user queries.</li>
+<li><strong>Google Calendar</strong> - It can create calendar event, fetch calendar events based on filters, check availability of colleagues and send quick messages in case of delay in joining meeting.</li>
+<li><strong>Gmail</strong> - It can get emails based on user queries fetching entities, can send responses as emails, can set individual emails as context and ask followups.</li>
+<li><strong>Drive</strong> - It can fetch files based on user queries and filters and set individual file as context and ask followup questions.</li>
+</ul>
+<h2 id="pre-built-prompt-agents">Pre-Built Prompt Agents<a class="headerlink" href="#pre-built-prompt-agents" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Summarizer</strong> - It helps to summarize content based on the provided material into selected summary formats.</li>
+<li><strong>Mail scribe</strong> - It helps to draft emails based on the topic description.</li>
+<li><strong>Translate</strong> - It helps to translate uploaded files or pasted content into any language as requested. </li>
+</ul>
+<h2 id="publish-a-pre-built-agent">Publish a Pre-Built Agent<a class="headerlink" href="#publish-a-pre-built-agent" title="Permanent link">&para;</a></h2>
 <p>Administrators can publish the selected pre-built agents to be available for their users via the Agent Store. </p>
 <p>Steps to publish a pre-built agent:</p>
 <ol>
 <li>
-<p>Navigate to <strong>User Profile</strong> &gt; <strong>Admin Console</strong> &gt; <strong>AI Search or AI Agents</strong> &gt; <strong>API Agents</strong> or <strong>Prompt Agents</strong>.  A list of available Pre-Built Agents is displayed. The "Prebuilt" label is added next to all the Pre-built Agents.<br />
+<p>Navigate to <strong>User Profile</strong> &gt; <strong>Admin Console</strong> &gt; <strong>AI Search or AI Agents</strong> &gt; <strong>API Agents</strong> or <strong>Prompt Agents</strong>. A list of available Pre-Built Agents is displayed. The "Prebuilt" label is added next to all the Pre-built Agents.<br />
 <a class="glightbox" href="../images/api-agents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/api-agents.png" alt="api-agents" title="api-agents" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 <li>
-<p>To enable the Agent, Toggle the switch <strong>ON</strong> or click the** ellipsis** next to the specific agent. A pop-up window will appear.<br />
+<p>To enable the Agent, Toggle the switch <strong>ON</strong> or click the <strong>ellipsis</strong> next to the specific agent. A pop-up window will appear.<br />
 <a class="glightbox" href="../images/enable-api-agents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/enable-api-agents.png" alt="enable-api-agents" title="enable-api-agents" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 <li>
