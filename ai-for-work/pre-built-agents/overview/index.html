@@ -1834,20 +1834,20 @@
 
 <h1 id="pre-built-agents">Pre-built Agents<a class="headerlink" href="#pre-built-agents" title="Permanent link">&para;</a></h1>
 <p>AI for Work includes a set of pre-configured AI agents that can be easily customized and integrated into workflows. These agents help streamline operations and enhance productivity.</p>
-<p>Following are the prebuilt agents supported by AI for Work:</p>
+<p>Currently, the following prebuilt agents are available:</p>
 <h2 id="pre-built-api-agents">Pre-Built API Agents<a class="headerlink" href="#pre-built-api-agents" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Zendesk</strong> - It helps us to fetch Zendesk tickets based on entities.</li>
 <li><strong>Slack</strong> - It helps us to send the response to Slack channels and threads.</li>
-<li><strong>O365 Calendar</strong>- It helps us to create calendar events, fetch calendar events based on filters, check the availability of colleagues, and send quick messages in case of a delay in joining the meeting.</li>
+<li><strong>O365 Calendar</strong>- It helps us to create calendar events, fetch calendar events based on filters,  check colleagues' availability, and send quick messages in case of a delay in joining the meeting.</li>
 <li><strong>O365 Email</strong>- It can get emails based on user queries fetching entities, send responses as emails, set individual emails as context, and ask for follow-ups.</li>
-<li><strong>OneDrive</strong> - It can fetch files based on user queries and filters and set individual file as context and ask followup questions.</li>
+<li><strong>OneDrive</strong> - It can fetch files based on user queries and filters, set individual files as context, and ask followup questions.</li>
 <li><strong>Teams</strong> - It can fetch files based on user queries and filters, set individual files as context, and ask follow-up questions.</li>
 <li><strong>Jira</strong> - It can retrieve issues based on user queries using entity filters and effortlessly create Jira issues using AI intelligence derived from action items.</li>
 <li><strong>HubSpot</strong> - It helps in pulling deals based on user queries.</li>
-<li><strong>Google Calendar</strong> - It can create calendar event, fetch calendar events based on filters, check availability of colleagues and send quick messages in case of delay in joining meeting.</li>
-<li><strong>Gmail</strong> - It can get emails based on user queries fetching entities, can send responses as emails, can set individual emails as context and ask followups.</li>
-<li><strong>Drive</strong> - It can fetch files based on user queries and filters and set individual file as context and ask followup questions.</li>
+<li><strong>Google Calendar</strong> - It can create calendar events, fetch the events based on filters, check colleagues' availability, and send quick messages in case of a delay in joining meetings.</li>
+<li><strong>Gmail</strong> - It can get emails based on user queries fetching entities, send responses as emails, set individual emails as context, and ask for follow-ups.</li>
+<li><strong>Drive</strong> - It can fetch files based on user queries and filters, set individual files as context, and ask follow-up questions.</li>
 </ul>
 <h2 id="pre-built-prompt-agents">Pre-Built Prompt Agents<a class="headerlink" href="#pre-built-prompt-agents" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1860,11 +1860,11 @@
 <p>Steps to publish a pre-built agent:</p>
 <ol>
 <li>
-<p>Navigate to <strong>User Profile</strong> &gt; <strong>Admin Console</strong> &gt; <strong>AI Search or AI Agents</strong> &gt; <strong>API Agents</strong> or <strong>Prompt Agents</strong>. A list of available Pre-Built Agents is displayed. The "Prebuilt" label is added next to all the Pre-built Agents.<br />
+<p>Navigate to <strong>User Profile</strong> &gt; <strong>Admin Console</strong> &gt; <strong>AI Search or AI Agents</strong> &gt; <strong>API Agents</strong> or <strong>Prompt Agents</strong>. You'll see a list of Pre-Built Agents, each marked with a "Prebuilt" label.
 <a class="glightbox" href="../images/api-agents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/api-agents.png" alt="api-agents" title="api-agents" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 <li>
-<p>To enable the Agent, Toggle the switch <strong>ON</strong> or click the <strong>ellipsis</strong> next to the specific agent. A pop-up window will appear.<br />
+<p>To enable the Agent, Toggle the switch <strong>ON</strong> or click the <strong>ellipsis</strong> next to the specific agent. A pop-up window is displayed.<br />
 <a class="glightbox" href="../images/enable-api-agents.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/enable-api-agents.png" alt="enable-api-agents" title="enable-api-agents" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 <li>
@@ -1877,11 +1877,14 @@
 <li><strong>Everyone in the Account</strong>: Make the agent available to all users.</li>
 </ul>
 </li>
-<li><strong>Actions</strong>: admins can decide whether an end user can perform only lookup actions or both lookup and creation actions. <ul>
-<li><strong>Lookup</strong></li>
-<li><strong>Creation</strong><br />
-<a class="glightbox" href="../images/publish-agent.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/publish-agent.png" alt="publish-agent" title="publish-agent" style="border: 1px solid gray; zoom:60%;"></a></li>
+<li>
+<p><strong>Actions</strong>: Choose what users can do with this agent:</p>
+<ul>
+<li><strong>Lookup</strong>:Users can search for existing items. </li>
+<li><strong>Creation</strong>: Users can create new items.</li>
 </ul>
+<p>For example: For a Jira agent, you can allow users to look up issues or also let them create new issues.</p>
+<p><a class="glightbox" href="../images/publish-agent.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/publish-agent.png" alt="publish-agent" title="publish-agent" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 </ul>
 </li>
@@ -1890,7 +1893,7 @@
 <a class="glightbox" href="../images/agent-store.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/agent-store.png" alt="agent-store" title="agent-store" style="border: 1px solid gray; zoom:60%;"></a></p>
 </li>
 </ol>
-<p>Now, users can click <strong>Connect</strong> for the Agent and follow the on-screen instructions to <strong>Add Connection</strong>. Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box.<br />
+<p>Users can open the Agent Store, click <strong>Connect</strong> for the Agent, and follow the on-screen instructions to <strong>Add Connection</strong>. Once the connection is added successfully, the agent can take users’ questions or queries using the Ask or Search Anything box. <br />
 <a class="glightbox" href="../images/add-connection.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/add-connection.png" alt="add-connection" title="add-connection" style="border: 1px solid gray; zoom:60%;"></a></p>
 
 
