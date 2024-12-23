@@ -2,7 +2,7 @@
 
 Log in to the AI for Work here: [https://work.kore.ai/login](https://work.kore.ai/login){:target="_blank"}
 
-On the homepage, you can ask an open-ended question to the **AI for Work** Assistant.
+The **AI for Work** Assistant is available on the homepage, you can ask an open-ended question to the assistant.
 
 For instance, if you're connected to Jira, you can type “Get my Jira issues” in the **Ask or search anything** search box. The Jira agent will be triggered and retrieve your Jira issues.
 
