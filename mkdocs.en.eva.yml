@@ -127,6 +127,9 @@ nav:
     - Overview: pre-built-agents/overview.md
   - Pre-built Solutions:
     - Overview: pre-built-solutions/overview.md
+    - IT Assist: pre-built-solutions/itassist.md
+    - HR Assist: pre-built-solutions/hrassist.md
+    - Recruit Assist: pre-built-solutions/recruitassist.md
   - Analytics: 
     - Dashboard: dashboard/dashboard.md
   - Administration:
