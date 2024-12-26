@@ -2,14 +2,36 @@
 
 Audit Log API enables developers and administrators to retrieve and manage detailed logs of activities, events, or actions performed within a system. These logs are used to track user behavior, system events, and other critical actions such as data changes, security events, or administrative actions. Audit logs are essential for monitoring system usage, ensuring compliance with regulations, detecting suspicious activity, and troubleshooting issues.
 
-| Method        | GET                               |
-|---------------|-----------------------------------|
-| Endpoint      | <host_url\>/api/public/auditlogs |
-| Content-Type  | application/json                  |
-| Authorization | auth: {{Admin’s Personalkey}}     |
+
+<table>
+  <tr>
+   <td><b>Method</b>
+   </td>
+   <td>GET
+   </td>
+  </tr>
+  <tr>
+   <td><b>Endpoint</b>
+   </td>
+   <td>https://{{host}}/api/public/auditlogs
+   </td>
+  </tr>
+  <tr>
+   <td><b>Content-Type</b>
+   </td>
+   <td>application/json
+   </td>
+  </tr>
+  <tr>
+   <td><b>Authorization</b>
+   </td>
+   <td>auth: {{Admin’s Personalkey}}
+   </td>
+  </tr>
+</table>
 
 
-## **Query Parameters**
+## Query Parameters
 
 | **PARAMETERS**        | **DESCRIPTION**                                                                                                                                                                | **MANDATE** | **EXAMPLE**                                                                                                                                         |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +42,7 @@ Audit Log API enables developers and administrators to retrieve and manage detai
 | startTime and endTime | Allows you to define the time window for which you want to query audit logs.                                                                                                   | Yes           | “startTime=2024-12-01T00:00:00Z&endTime=2024-12-05T23:59:59Z” :Returns logs for actions occurring between December 1, 2024, and December 5, 2024.   |
 | action                | Filter logs based on the type of activity performed. Common actions include create, update, and delete.                                                                        | Yes           | “action=create”:Returns logs for all actions where new records were created.                                                                       |
 
-## **Supported Entity and Action Value**
+## Supported Entity and Action Value
 
 | **ENTITY NAME**                | **ENTITY KEY**               | **ACTION**             |
 |--------------------------------|------------------------------|------------------------|
@@ -36,7 +58,7 @@ Audit Log API enables developers and administrators to retrieve and manage detai
 | Business Rules                 | nlprules                     | create, update, delete |
 | User Enrollment                | userenrollment               | update                 |
 
-## **Sample Request**
+## Sample Request
 
 ```
     curl --location 'https://{{host}}/api/public/auditlogs?startTime=2024-12-01T23%3A59%3A59Z&endTime=2024-12-12T23%3A59%3A59Z&entity=nlprules&action=update&emailId=test.user%40kore.com' \
@@ -46,7 +68,7 @@ Audit Log API enables developers and administrators to retrieve and manage detai
 ```
 
 
-## **Sample Response**
+## Sample Response
 
 
 ```
