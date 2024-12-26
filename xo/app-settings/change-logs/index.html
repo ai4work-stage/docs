@@ -5942,6 +5942,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../searchai/content-sources/connectors/amazons3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Amazon S3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../searchai/content-sources/connectors/asana/" class="md-nav__link">
         
   
@@ -15076,6 +15097,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Change Logs
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -15085,6 +15117,45 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-change-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Change Logs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-and-filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Search and Filter Options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -15794,6 +15865,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-change-logs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Change Logs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-and-filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Search and Filter Options
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -15811,16 +15908,28 @@
 
 
 <h1 id="change-logs">Change Logs<a class="headerlink" href="#change-logs" title="Permanent link">&para;</a></h1>
-<p>Change Logs keep track of all the changes that take place in your Process App. To access the changelogs, follow the below steps:</p>
+<p>Change Logs keep record of all the modifications made to the application. They are essential for tracking changes and are particularly useful for debugging, identifying configuration updates, and understanding their impact on application performance.</p>
+<h2 id="accessing-change-logs">Accessing Change Logs<a class="headerlink" href="#accessing-change-logs" title="Permanent link">&para;</a></h2>
+<p>To access the changelogs, follow the below steps:</p>
 <ol>
-<li>Navigate to <strong>Settings</strong>.</li>
-<li>By default, the <strong>General Settings</strong> page is displayed.</li>
+<li>Navigate to <strong>App Settings</strong>.</li>
+<li>By default, the <strong>App Profile</strong> page is displayed.</li>
 <li>On the left pane, click <strong>Change Logs</strong>.</li>
-<li>On the Change Logs page, you can find the log files. It gives detailed information on the logs like <em>time, performed by, action, what changed,</em> email id of the user, and the module that the change is being made under. You can also filter the log files based on a time frame.</li>
+<li>The Change Logs page displays log files from all modules of the application, by default. Each log entry includes the following details:<ul>
+<li>User Name and Email ID: Identifies who made the change.</li>
+<li>Module: Specifies the module where the change occurred.</li>
+<li>Changes: Provides a brief description of the change.</li>
+<li>Date: Timestamp indicating when the change was made.</li>
+</ul>
+</li>
 </ol>
-<p><a class="glightbox" href="../images/change-logs-img1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/change-logs-img1.png" alt="Change Logs" title="Change Logs" style="border: 1px solid gray;zoom:50%;"/></a></p>
-<p>Click <strong>Details</strong> to open a specific log, where you can view additional information about the changes made.</p>
-<p><a class="glightbox" href="../images/change-logs-img2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/change-logs-img2.png" alt="Change Logs details" title="Change Logs details" style="border: 1px solid gray;zoom:50%;"/></a></p>
+<p>For more information about a specific change, click on the <strong>Details</strong> link.
+<a class="glightbox" href="images/change-logs-img1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/change-logs-img1.png" alt="Change Logs" title="Change Logs" style="border: 1px solid gray;zoom:50%;"/></a></p>
+<p>This page shows the change made to the application in JSON format.</p>
+<p><a class="glightbox" href="images/change-logs-img2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/change-logs-img2.png" alt="Change Logs details" title="Change Logs details" style="border: 1px solid gray;zoom:50%;"/></a></p>
+<h2 id="search-and-filter-options">Search and Filter Options<a class="headerlink" href="#search-and-filter-options" title="Permanent link">&para;</a></h2>
+<p>The Change Logs page includes search and filter functionalities to locate specific log entries. Filters can be applied to view logs from a specific module, for a given timeframe, from a specific user or with specific changes.</p>
+<p><a class="glightbox" href="images/filter-logs.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="images/filter-logs.png" alt="Change Logs details" title="Change Logs details" style="border: 1px solid gray;zoom:50%;"/></a></p>
 
 
 

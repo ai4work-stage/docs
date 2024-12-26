@@ -5953,6 +5953,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../content-sources/connectors/amazons3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Amazon S3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../content-sources/connectors/asana/" class="md-nav__link">
         
   
@@ -15814,7 +15835,7 @@
 <li><strong>Response Length</strong>- This is the expected length of the answer, in tokens.</li>
 </ul>
 </li>
-<li><strong>Generative Answers</strong>: The top chunks retrieved in response to the user query are sent to the configured LLM, which generates a paraphrased answer from the content in the chunks. <a href="../../generative-ai-tools/models-library/">Integrate LLM</a> and <a href="../generative-ai-tools//dynamic-conversations-features/#answer-generation">Enable Answer Generation</a> in the Generative AI Tools configuration. <ul>
+<li><strong>Generative Answers</strong>: The top chunks retrieved in response to the user query are sent to the configured LLM, which generates a paraphrased answer from the content in the chunks. <a href="../../generative-ai-tools/models-library/">Integrate LLM</a> and <a href="../../generative-ai-tools/dynamic-conversations-features/">Enable Answer Generation</a> in the Generative AI Tools configuration. <ul>
 <li><strong>Chunk Order:</strong> This configuration sets the order of qualified chunks sent to the LLM in the Prompt. The order of data chunks can affect the context and thereby, the results of a user query. The decision to use a specific chunk order should align with the goals of the task and the nature of the data being processed.</li>
 <li><strong>Most to Least Relevant:</strong> In this case, the chunks are added in descending order of relevance, i.e., highest relevance to the lowest, followed by the query. For instance, if the top five chunks are to be sent to the LLM, the most relevant chunk is added first, and the least relevant chunk is added at the end.</li>
 <li><strong>Least to Most Relevant:</strong> In this case, the chunks are added in ascending order of relevance. The least relevant chunk is added first, and the most relevant chunk is at the end, followed by the query.</li>
