@@ -149,6 +149,9 @@ nav:
       - Domain Management: security/domain-management.md
       - Kore Connector: security/kore-connector.md
       - Service Accounts: security/service-accounts.md
+    - APIs and SDKs:  
+      - Audit Log API: APIs/audit-log-api.md 
+
 
 
       
