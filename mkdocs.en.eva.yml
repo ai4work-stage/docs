@@ -131,7 +131,9 @@ nav:
     - HR Assist: pre-built-solutions/hrassist.md
     - Recruit Assist: pre-built-solutions/recruitassist.md
   - Analytics: 
-    - Dashboard: dashboard/dashboard.md
+    - Overview: analytics/overview.md
+    - Dashboard View: analytics/dashboard-view.md
+    - Data View: analytics/data-view.md
   - Administration:
     - Overview: admin-overview.md
     - Assist Configuration:
@@ -149,6 +151,9 @@ nav:
       - Domain Management: security/domain-management.md
       - Kore Connector: security/kore-connector.md
       - Service Accounts: security/service-accounts.md
+    - APIs and SDKs:  
+      - Audit Log API: APIs/audit-log-api.md 
+
 
 
       
