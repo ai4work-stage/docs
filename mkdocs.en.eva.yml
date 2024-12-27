@@ -114,6 +114,7 @@ nav:
     - AI for Work Overview: getting-started/introduction.md   
     - Accessing AI for Work: getting-started/sign-up-sign-in.md
     - Using AI for Work Assistant: getting-started/how-to-use.md
+    - AI for Work Quick Start Guide: getting-started/quick-start-guide.md
   - RAG Agents:
     - Default RAG: rag-agents/default-rag.md 
     - RAG Agents: rag-agents/rag-agent.md
