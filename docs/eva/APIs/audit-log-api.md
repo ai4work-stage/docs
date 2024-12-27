@@ -2,7 +2,6 @@
 
 Audit Log API enables developers and administrators to retrieve and manage detailed logs of activities, events, or actions performed within a system. These logs are used to track user behavior, system events, and other critical actions such as data changes, security events, or administrative actions. Audit logs are essential for monitoring system usage, ensuring compliance with regulations, detecting suspicious activity, and troubleshooting issues.
 
-
 <table>
   <tr>
    <td><b>Method</b>
@@ -25,7 +24,9 @@ Audit Log API enables developers and administrators to retrieve and manage detai
   <tr>
    <td><b>Authorization</b>
    </td>
-   <td>auth: {{Admin’s Personalkey}}
+
+   <td>auth: {{Admin’s Personalkey}} 
+   <p><a href="/docs/ai-for-work/APIs/authorization/">Learn more</a>.</p>
    </td>
   </tr>
 </table>
