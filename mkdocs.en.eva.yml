@@ -152,6 +152,7 @@ nav:
       - Kore Connector: security/kore-connector.md
       - Service Accounts: security/service-accounts.md
     - APIs and SDKs:  
+      - Authorization: APIs/authorization.md
       - Audit Log API: APIs/audit-log-api.md 
 
 
