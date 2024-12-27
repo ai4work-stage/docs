@@ -24,7 +24,7 @@ Audit Log API enables developers and administrators to retrieve and manage detai
   <tr>
    <td><b>Authorization</b>
    </td>
-   <td>auth: {{Admin’s Personalkey}}. <a href="/APIs/authorization/">Learn more.</a>
+   <td>auth: {{Admin’s Personalkey}}. <a href="/docs/ai-for-work/APIs/authorization/">Learn more.</a>
    </td>
   </tr>
 </table>
