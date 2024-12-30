@@ -111,8 +111,8 @@ copyright: |
 nav:
   - Home : home.md
   - Getting Started: 
-    - AI for Work Overview: getting-started/introduction.md   
-    - AI for Work Setup Guide: getting-started/setup-guide.md
+    - Overview: getting-started/introduction.md   
+    - Setup Guide: getting-started/setup-guide.md
     - Accessing AI for Work: getting-started/accessing-ai-for-work.md    
     - Using AI for Work Assistant: getting-started/how-to-use.md    
   - RAG Agents:
