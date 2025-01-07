@@ -47,6 +47,7 @@ Key benefits
 * Visibility into per-bot security configurations.
 * Streamlined management and compliance workflows.
 
+[Learn more :octicons-arrow-right-24:](../../apis/automation/get-bots.md)
 
 ### App Settings
 
@@ -81,10 +82,7 @@ Key benefits
 * Consistent language selection across the app.
 * Leverages existing backend localization for seamless translation.
 
-[Learn more :octicons-arrow-right-24:](../../getting-started/navigating-the-platform.md)
-
-
-
+[Learn more :octicons-arrow-right-24:](../../getting-started/navigating-the-platform.md#the-top-menu)
 
 <hr>
 
