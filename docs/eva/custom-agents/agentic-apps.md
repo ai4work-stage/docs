@@ -9,14 +9,12 @@ Follow these steps to create a new Agentic App:
 1. **Access the Admin Console**
     * Navigate to **AI Agents** in the left pane.
     * Select **Agentic Apps** to view the list of existing applications.
-
-<img src="../images/Agentic_App_1.png" alt="Admin Console" title="Admin Console" style="border: 1px solid gray; zoom:70%;">
+    <img src="../images/Agentic_App_1.png" alt="Admin Console" title="Admin Console" style="border: 1px solid gray; zoom:70%;">
 
 2. **Initiate Agent Creation**
     * Click **+Create Agent** on the Agentic App page.
     * The **Prompt Agentic App Creation Wizard** guides you through the setup process.
-
-<img src="../images/Agentic_App_2.png" alt="Admin Creation" title="Admin Creation" style="border: 1px solid gray; zoom:70%;">
+    <img src="../images/Agentic_App_2.png" alt="Admin Creation" title="Admin Creation" style="border: 1px solid gray; zoom:70%;">
 
 ### Step 1: Details and Purpose
 
@@ -65,12 +63,12 @@ To deploy the Agentic App, complete the following steps:
 
 * **Published Version**: Select the appropriate version for deployment.
 * **Publish To**: Define access permissions:
-  * **Admins**: Restrict usage to Admin users.
-  * **Selected User Groups/Users**: Grant access to specific users or groups.
-  * **Everyone in the Account**: Make the app available to all users.
+    * **Admins**: Restrict usage to Admin users.
+    * **Selected User Groups/Users**: Grant access to specific users or groups.
+    * **Everyone in the Account**: Make the app available to all users.
 * **Enablement Type**: Configure how users interact with the app:
-  * **Always Enabled**: The app remains active and cannot be disabled.
-  * **Users Choice**: Users can enable or disable the app as needed.
+    * **Always Enabled**: The app remains active and cannot be disabled.
+    * **Users Choice**: Users can enable or disable the app as needed.
 
 <img src="../images/Agentic_App_8.png" alt="Publish" title="Publish" style="border: 1px solid gray; zoom:70%;">
 
@@ -89,9 +87,9 @@ To edit an existing Agentic App:
 <img src="../images/Agentic_App_9.png" alt="Modifying an Agentic App" title="Modifying an Agentic App" style="border: 1px solid gray; zoom:70%;">
 
 2. Click **three dots icon** next to the app’s name. A menu with the following options will appear:
-   * **Edit**: Open and modify the app's details.
-   * **Publish/Unpublish**: Change the app's status.
-   * **Delete**: Permanently remove the app.
+    * **Edit**: Open and modify the app's details.
+    * **Publish/Unpublish**: Change the app's status.
+    * **Delete**: Permanently remove the app.
 3. Select the required option and continue to complete the modifications as needed.
 
 ## Agent Options
@@ -104,12 +102,11 @@ Manage your app's deployment, data, and availability post-publication. Agent opt
   
   **Caution**: Exercise caution when using delete or unpublish options, these actions directly impact your application's functionality.
 
-
 ## Example Implementation: Finance Advisor
 
 ### **Accessing the Application**
 
-1. Locate the Finance Advisor
+1. Locate the Finance Advisor:
     * Enter ***Finance Advisor*** in the search box at the **Home** page.
     * The search results will display a matching application.
     <img src="../images/Agentic_App_10.png" alt="Finance Advisor" title="Finance Advisor" style="border: 1px solid gray; zoom:70%;">
@@ -122,7 +119,8 @@ Manage your app's deployment, data, and availability post-publication. Agent opt
         * **Edit**: Modify existing step
         * **Delete**: Remove a step
     * Click **Start** to execute the sequence of flows.
-    <img src="../images/Agentic_App_11.png" alt="Configuration" title="Configuration" style="border: 1px solid gray; zoom:70%;">
+
+<img src="../images/Agentic_App_11.png" alt="Configuration" title="Configuration" style="border: 1px solid gray; zoom:70%;">
 
 ### Flow Execution and Results
 
@@ -157,4 +155,3 @@ The final step automatically generates a professional email that synthesizes all
 <img src="../images/Agentic_App_15.png" alt="Email Format" title="Email Format" style="border: 1px solid gray; zoom:70%;">
 
 **Note**: The email can be edited and customized before sending to ensure it meets specific communication requirements and organizational standard.
-
