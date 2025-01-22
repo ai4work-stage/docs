@@ -6,12 +6,12 @@ Agentic applications enable the sequential execution of multiple AI agents to ac
 
 Follow these steps to create a new Agentic App:
 
-1. **Access the Admin Console**
+1. Access the Admin Console
     * Navigate to **AI Agents** in the left pane.
     * Select **Agentic Apps** to view the list of existing applications.
     <img src="../images/Agentic_App_1.png" alt="Admin Console" title="Admin Console" style="border: 1px solid gray; zoom:70%;">
 
-2. **Initiate Agent Creation**
+2. Initiate Agent Creation
     * Click **+Create Agent** on the Agentic App page.
     * The **Prompt Agentic App Creation Wizard** guides you through the setup process.
     <img src="../images/Agentic_App_2.png" alt="Admin Creation" title="Admin Creation" style="border: 1px solid gray; zoom:70%;">
@@ -21,17 +21,18 @@ Follow these steps to create a new Agentic App:
 Define your app's name and purpose for optimal performance.
 
 * **App Name**: Enter a unique and meaningful name for your app.
-* **Purpose**: Defines the intended functionality of the app for query routing and training. This field specifies both the default prompt and sample queries that help the system in correctly routing user queries to the appropriate application.
-
+* **Purpose**: Defines the intended functionality of the app for query routing and training. This field specifies both the default prompt and sample queries that help the system in correctly routing user queries to the appropriate application.  
 <img src="../images/Agentic_App_3.png" alt="Details and Purpose" title="Details and Purpose" style="border: 1px solid gray; zoom:70%;">
 
-**Note**: A well-defined purpose enhances the agent’s ability to correctly interpret and execute tasks, ensuring precise and effective responses to user queries.
+!!! note
+
+    A well-defined purpose enhances the agent’s ability to correctly interpret and execute tasks, ensuring precise and effective responses to user queries.
 
 ### Step 2: Build Agentic Flow
 
 Customize the app's workflow using a prompt-based interface.
 
-1. **Prompt**: A default prompt is auto-generated based on the agent’s purpose. This prompt can be customized using variables. Based on the defined purpose, the system automatically generates the necessary workflow steps to complete the task. For example, in a financial advisor workflow, performing research, checking who owns the shares, and deciding to sell or hold shares based on research.
+1. **Prompt**: A default prompt is auto-generated based on the agent’s purpose. This prompt can be customized using variables. Based on the defined purpose, the system automatically generates the necessary workflow steps to complete the task. For example, in a financial advisor workflow, performing research, checking who owns the shares, and deciding to sell or hold shares based on research.  
 <img src="../images/Agentic_App_4.png" alt="Prompt" title="Prompt" style="border: 1px solid gray; zoom:70%;">
 2. Click **Get Flow** to review.
 3. Customize your flow as needed:
@@ -40,8 +41,7 @@ Customize the app's workflow using a prompt-based interface.
     <img src="../images/Agentic_App_5.png" alt="Edit" title="Edit" style="border: 1px solid gray; zoom:70%;">
     * To reorder steps: Drag and drop steps to the desired position.
 4. Click **Run** to execute all configured steps sequentially.
-5. Click **Continue** to proceed to the next step.
-
+5. Click **Continue** to proceed to the next step.  
 <img src="../images/Agentic_App_6.png" alt="Build Agentic Flow" title="Build Agentic Flow" style="border: 1px solid gray; zoom:70%;">
 
 ### Step 3: Preview
@@ -49,8 +49,7 @@ Customize the app's workflow using a prompt-based interface.
 The **Preview** section displays sample queries to test the app’s behavior.
 
 1. Click **+Add Query** to input additional test queries.
-2. Once validated, click **Continue** to move to the final step.
-
+2. Once validated, click **Continue** to move to the final step.  
 <img src="../images/Agentic_App_7.png" alt="Preview" title="Preview" style="border: 1px solid gray; zoom:70%;">
 
 ### Step: 4 Publish
@@ -59,7 +58,7 @@ Publish your app and define access permissions and enablement.
 
 To deploy the Agentic App, complete the following steps:
 
-**Specify Publishing Details**:
+**Specify publishing details**:
 
 * **Published Version**: Select the appropriate version for deployment.
 * **Publish To**: Define access permissions:
@@ -72,10 +71,9 @@ To deploy the Agentic App, complete the following steps:
 
 <img src="../images/Agentic_App_8.png" alt="Publish" title="Publish" style="border: 1px solid gray; zoom:70%;">
 
-**Finalize Deployment**:
+**Finalize deployment**:
 
-* Click **Publish** to make the agent available.
-* The app appears in the **Agentic App List** on the Admin Console page.
+* Click **Publish** to make the agent available. The app appears in the **Agentic App List** on the Admin Console page.
 
 ## Modifying an Agentic App
 
@@ -104,11 +102,10 @@ Manage your app's deployment, data, and availability post-publication. Agent opt
 
 ## Example Implementation: Finance Advisor
 
-### **Accessing the Application**
+### Accessing the Finance Advisor App
 
 1. Locate the Finance Advisor:
-    * Enter ***Finance Advisor*** in the search box at the **Home** page.
-    * The search results will display a matching application.
+    * Enter "Finance Advisor" in the search box at the **Home** page. The search results will display a matching application.  
     <img src="../images/Agentic_App_10.png" alt="Finance Advisor" title="Finance Advisor" style="border: 1px solid gray; zoom:70%;">
 
 2. Review flow Configuration:
@@ -118,9 +115,8 @@ Manage your app's deployment, data, and availability post-publication. Agent opt
         * **Add**: Include new analysis steps
         * **Edit**: Modify existing step
         * **Delete**: Remove a step
-    * Click **Start** to execute the sequence of flows.
-
-<img src="../images/Agentic_App_11.png" alt="Configuration" title="Configuration" style="border: 1px solid gray; zoom:70%;">
+    * Click **Start** to execute the sequence of flows.  
+    <img src="../images/Agentic_App_11.png" alt="Configuration" title="Configuration" style="border: 1px solid gray; zoom:70%;">
 
 ### Flow Execution and Results
 
@@ -154,4 +150,8 @@ The final step automatically generates a professional email that synthesizes all
 
 <img src="../images/Agentic_App_15.png" alt="Email Format" title="Email Format" style="border: 1px solid gray; zoom:70%;">
 
-**Note**: The email can be edited and customized before sending to ensure it meets specific communication requirements and organizational standard.
+!!! note
+
+    The email can be edited and customized before sending to ensure it meets specific communication requirements and organizational standard.
+
+    
