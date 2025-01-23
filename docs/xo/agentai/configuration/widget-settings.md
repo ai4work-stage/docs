@@ -11,7 +11,7 @@ The Agent AI Settings page has the following sections:
 
 This section lets you set your preferences based on the channels. It has three channels – Chat, Voice, and Email – with a channel-specific default selection of options. The following options toggles are available to select under this section:
 
-* **Proactive Mode**: This widget automates intent identification, entity extraction, and transcripts generation. It lets you have automatic(proactive) transcripts logging and intent suggestions. If disabled, there will not be any automatic intent suggestions or transcripts logging. However, you can still use greetings, search bar, and MyBot automations. By default, this widget is enabled for all three channels.
+* **Proactive Mode**: This widget automates intent identification, entity extraction, and transcripts generation. It lets you have automatic (proactive) transcripts logging and intent suggestions. When enabled, you can also use the “Automatic Dialog Task Entity Extraction” option to automatically extract entities from user messages during a dialog task execution. If disabled, there will not be any automatic intent suggestions or transcripts logging. However, you can still use greetings, search bar, and MyBot automations. By default, this widget is enabled for all three channels.
     * The Assist tab/Run button remains in the disabled state. Only Run with agent’s input will be available.
     * The Playbook feature functions as follows:
         * For Dynamic playbooks, identification through the bulb icon and adherence are not functional, but tick-off and step progression continue to function.
@@ -21,7 +21,7 @@ This section lets you set your preferences based on the channels. It has three c
 * **Agent Playbook**: This widget provides agents with structured guidance and helps streamline task management. Supervisors can define stages and steps to follow, choose step progression (sequential or random), mark whether the steps are completed manually or automatically, and set adherence notifications. They can leverage this feature to gain valuable insights into agent adherence to specific playbook steps and use this data to enhance agents’ ability to handle interactions and significantly improve customer satisfaction.
 
     If disabled, the Playbook tab doesn’t appear in the widget, but you have the Assist tab and the welcome messages in the Assist tab. However, if Playbook is enabled, then welcome messages become a part of the Playbooks step, and nothing appears in the Assist tab. By default, this widget is disabled, but you can enable it for all three channels.
-    
+
 * **Auto-Scroll Widget Content**: This widget lets you manage the auto-scroll functionality for the content in the Assist, My Bot, and Transcript tabs. When enabled, the system automatically navigates to the bottom of the respective tab to display the newest content. Admins can enable/disable it through the **Widget Settings** > **Agent AI Settings** > **Agent AI Channel Specific Settings** page, while the Agents can access it in the **Agent AI** widget > **Settings** tab. Between these two users, the Agents can override the Admin’s selection.
 
 * **Send Button**: This widget lets you control the accessibility of the Send button functionality for Agent AI responses. By default, this widget is enabled for Voice and Chat channels only.
@@ -56,10 +56,12 @@ This section lets you set your preferences based on the channels. It has three c
 2. Go to **Agent AI** > **Configuration** > **Widget Settings** > **Agent AI Settings** > **Agent AI Channel Specific Settings**.
 3. Click to expand the **Agent AI Channel Specific Settings** section on the **Agent AI Settings** page.
 4. Select a **channel** in the **Select channel** list.
-5. Click the **toggle** against **Agent AI Channel Specific Settings** to enable it (if **Disabled**).
-6. Turn the toggle **on** or **off** against each widget, as required.
-7. Select an option under the **Conversation Transfer** section.
-8. Select or clear the **Submit** button under the **Auto Summarization** section.
+5. Click the **toggle** against **Agent AI Channel Specific Settings** to enable it (if disabled).
+6. Turn the toggle **on** or **off** against the **Proactive Mode** widget.
+    * Select or clear the **Automatic Dialog Task Entity Extraction** option.
+7. Turn the toggle **on** or **off** against each widget, as required.
+8. Select an option under the **Conversation Transfer** section.
+9. Select or clear the **Submit** button under the **Auto Summarization** section.
 
     Under the **Auto Summarization Model** section, select:
 
@@ -77,7 +79,7 @@ This section lets you set your preferences based on the channels. It has three c
 10. Click **Save** to save your settings.
    <img src="../widget-settings-images/agentassist-channel-specific-settings-page-1.png" alt="agentassist-channel-specific-settings-page" title="agentassist-channel-specific-settings-page" style="border: 1px solid gray; zoom:80%;">
 
-## **Agent AI General Settings**
+## Agent AI General Settings
 
 This section lets you set up the general features of the Agent AI widget. Here, you can turn on or off the event-not-found event trigger, control the URL opening behavior.
 
@@ -119,3 +121,25 @@ This section lets you set up the general features of the Agent AI widget. Here, 
 9. Click **Save** to save your settings.  
 <img src="../widget-settings-images/agent-ai-general-settings.png" alt="agent-ai-general-settings" title="agent-ai-general-settings" style="border: 1px solid gray; zoom:80%;">
 
+### Auto-corrections for the Search tab
+
+The Auto Correct feature improves typing accuracy in the Search tab by highlighting misspelled words and suggesting corrections. Admins can enable or disable this feature in Widget Settings > Agent AI General Settings > Auto Correct to define the widget landing behavior. They can also select the Use Custom Dictionary option to upload a list of words for auto-corrections and download the uploaded list to customize, as required. During run time, agents can enable or disable the Auto Correct feature in the Settings tab > Auto Correct toggle. Between the admin and the agent, agent’s selection takes precedence.
+
+Steps:
+
+1. Sign in to **Agent AI**.
+2. Go to **Widget Settings** > **Agent AI General Settings**.
+3. Turn the **Auto Correct** toggle on or off, as required.
+4. Select or clear the **Use Custom Dictionary** option.
+5. Upload your customized list of words.
+
+    !!! Note
+
+        You can download the present list of words, if already uploaded.
+6. Click **Save**.
+
+Agents can enable or disable the Auto Correct toggle by using the following steps:
+
+1. Sign in to the **Agent AI** widget.
+2. Go to the **Settings** tab.
+3. Enable or disable the **Auto Correct** toggle.
