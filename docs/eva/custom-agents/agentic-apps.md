@@ -98,7 +98,9 @@ Manage your app's deployment, data, and availability post-publication. Agent opt
 * **Delete Agent**: Permanently remove the application.
 * **Unpublish Agent**: Revert agent to draft status, making it unavailable for production use.
   
-  **Caution**: Exercise caution when using delete or unpublish options, these actions directly impact your application's functionality.
+!!! Caution
+
+     Exercise caution when using delete or unpublish options, these actions directly impact your application's functionality.
 
 ## Example Implementation: Finance Advisor
 
