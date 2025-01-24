@@ -6047,6 +6047,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../searchai/content-sources/connectors/bitbucket/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BitBucket
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../searchai/content-sources/connectors/box/" class="md-nav__link">
         
   
@@ -6551,6 +6572,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../searchai/content-sources/connectors/slab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../searchai/content-sources/connectors/slack/" class="md-nav__link">
         
   
@@ -6598,6 +6640,27 @@
   
   <span class="md-ellipsis">
     WordPress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../searchai/content-sources/connectors/workday/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Workday
   </span>
   
 
@@ -7412,7 +7475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kore.ai-voice-gateway/minimum-system-and-browser-requirements.md" class="md-nav__link">
+      <a href="../kore.ai-voice-gateway/minimum-system-requirements-and-supported-browsers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -14362,6 +14425,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../analytics/contact-center/contact-center-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Center AI Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../analytics/contact-center/agentai-dashboard/" class="md-nav__link">
         
   
@@ -14458,10 +14542,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_6" >
         
           
-          <label class="md-nav__link" for="__nav_9_6_5" id="__nav_9_6_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_6_6" id="__nav_9_6_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -14472,8 +14556,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6_5">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6_6">
             <span class="md-nav__icon md-icon"></span>
             Reports
           </label>
@@ -16204,27 +16288,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup-twilio-developer-account" class="md-nav__link">
+  <a href="#create-a-twilio-account" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup Twilio Developer Account
+      Create a Twilio Account
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#edit-the-twilio-channel" class="md-nav__link">
+  <a href="#create-a-twilio-messaging-service" class="md-nav__link">
     <span class="md-ellipsis">
-      Edit the Twilio Channel
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-twilio-trial-account" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create a Twilio Trial Account
+      Create a Twilio Messaging Service
     </span>
   </a>
   
@@ -16249,115 +16324,79 @@
 
 
 <h1 id="adding-the-twilio-sms-channel">Adding the Twilio SMS Channel<a class="headerlink" href="#adding-the-twilio-sms-channel" title="Permanent link">&para;</a></h1>
-<p>To add Twilio SMS as a channel, you must set up a Programmable SMS app, define the messaging service, and associate the bot with a Twilio Phone Number. When you add the Twilio channel to your bot, end-users for your bot can interact with your bot using text messages.</p>
-<p>To add the Twilio SMS channel, follow the below steps:</p>
+<p>To add Twilio SMS as a channel, set up a messaging service in Twilio to manage message delivery and routing. Once the bot is added, end-users can interact with your bot through text messages.</p>
+<p>Pursue the following steps to add a Twilio SMS channel:</p>
 <ol>
-<li><strong>Setup Account</strong> – Login to Twilio developer portal and set up an account.</li>
-<li><strong>Setup Messaging Service</strong> – In the Programmable Messages section, create a messaging service</li>
-<li><strong>Add Phone Number</strong> – Associate a Twilio Phone Number to your bot.</li>
+<li>Create a Twilio account and get the Phone Number.</li>
+<li>Create a Twilio messaging service.</li>
 </ol>
-<h2 id="setup-twilio-developer-account">Setup Twilio Developer Account<a class="headerlink" href="#setup-twilio-developer-account" title="Permanent link">&para;</a></h2>
-<p>To add the Twilio Channel, follow the below steps:</p>
-<p>The following procedure requires an active <em>Twilio</em> account for developers with access to the Twilio Console. For more information, refer to <em>Creating a Twilio Trial Account</em> later in this topic.</p>
+<h2 id="create-a-twilio-account">Create a Twilio Account<a class="headerlink" href="#create-a-twilio-account" title="Permanent link">&para;</a></h2>
 <ol>
-<li>In <strong>Bots</strong> section of the Bot Builder, click the bot that you want to add the Twilio SMS channel to.</li>
-<li>On the <strong>Channels</strong> tab, click the <strong>Twilio SMS</strong> icon. The <strong>Twilio SMS Channel</strong> page is displayed.</li>
-<li><a href="https://www.twilio.com/">Login </a>to Twilio developer portal.</li>
-<li>Under the <strong>Settings</strong> section, click the <strong>General</strong> tab.</li>
-<li>Create your API credentials, if you have not already set up your account.</li>
+<li>Use the <a href="https://www.twilio.com/try-twilio">https://www.twilio.com/try-twilio</a> to sign up and create a free <em>Twilio</em> trial account.</li>
 <li>
-<p>Copy your <strong>Account SID</strong> and <strong>Auth Token</strong> and enter them in the <strong>Configurations</strong> tab of the Twilio channel page.
-<a class="glightbox" href="../images/twilio.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio.png" alt="Twilio channel" title="Twilio channel" style="border: 1px solid gray; zoom:70%;"></a>
-<a class="glightbox" href="../images/twilio1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio1.png" alt="Twilio channel configuration" title="Twilio channel configuration" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>The Twilio <strong>Account Dashboard</strong> page is displayed. On the Account Dashboard page, click <strong>Get phone number</strong>.
+<a class="glightbox" href="../images/tw1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw1.png" alt="Automations" title="image_account dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 <li>
-<p>Go to the <strong>Programmable SMS</strong> section from the <strong>All Products &amp; Services</strong> menu.</p>
+<p>Your Twilio Phone Number is displayed.<br />
+<a class="glightbox" href="../images/tw2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw2.png" alt="Automations" title="image_Get a twilio phone number" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+</ol>
+<h2 id="create-a-twilio-messaging-service">Create a Twilio Messaging Service<a class="headerlink" href="#create-a-twilio-messaging-service" title="Permanent link">&para;</a></h2>
+<p>This procedure requires an active <em>Twilio</em> account access. For more information, refer to <em>Create a Twilio Account</em>.
+To add the Twilio Channel, pursue the following steps:</p>
+<ol>
+<li>Login to XO Platform and navigate to <strong>Flows &amp; Channels</strong> &gt; <strong>Digital</strong> &gt; <strong>Twilio SMS</strong> &gt; <strong>Configuration</strong> tab.</li>
+<li><a href="https://www.twilio.com/">Login</a> to the Twilio portal.</li>
+<li>Under the Admin dropdown menu at the top right, select <strong>Account Management</strong> and then in the left-hand menu, under Keys &amp; Credentials, click <strong>API Keys &amp; Tokens</strong>.</li>
+<li>Create your API credentials if you have not already set up your account.</li>
+<li>
+<p>Copy your <strong>Account SID</strong> and <strong>Auth Token</strong> and enter in the <strong>Configurations</strong> tab of the Twilio channel page.<br />
+<a class="glightbox" href="../images/tw3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw3.png" alt="Automations" title="image_live credentials" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 <li>
-<p>Click <strong>Create New Messaging Service</strong> option. Provide a name for your messaging service and select Use Case as <strong>Chat Bot/Interactive 2-way</strong>.
-<a class="glightbox" href="../images/twilio2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio2.png" alt="Twilio messaging service" title="Twilio messaging service" style="border: 1px solid gray; zoom:70%;"></a>
-<a class="glightbox" href="../images/twilio3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio3.png" alt="Twilio programmable sms" title="Twilio programmable sms" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>Go to <strong>Account Dashboard &gt; Develop &gt; Messaging &gt; Services</strong> and click <strong>Create Messaging Service</strong>. The messaging service setup page is displayed.<br />
+<a class="glightbox" href="../images/tw4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw4.png" alt="Automations" title="image_create messaging service" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 <li>
-<p>After creating the service, make note of the <strong>Service SID</strong> of this service and enter it in the <strong>Configurations</strong> tab of the Twilio SMS channel page.</p>
+<p>Enter the <strong>messaging service name</strong>, select the one of the messaging service from the dropdown list and click <strong>Create Messaging Service</strong>.<br />
+<a class="glightbox" href="../images/tw5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw5.png" alt="Automations" title="image_name your messaging service" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
-<li>Under <strong>Inbound Settings</strong> section, select the <strong>Process Inbound Messages</strong> option and update the <strong>Request URL</strong> and <strong>Fallback URL</strong> fields with the information provided in <strong>Configurations</strong> tab of the Twilio SMS channel page.</li>
 <li>
-<p>Under <strong>Outbound Settings</strong>, update the <strong>Status Callback Request URL</strong> field with the information provided in the <strong>Configurations</strong> tab.
-<a class="glightbox" href="../images/twilio4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio4.png" alt="Twilio Inbound Settings" title="Twilio Inbound Settings" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>Click <strong>Add Senders</strong> and follow the steps.<br />
+<a class="glightbox" href="../images/tw6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw6.png" alt="Automations" title="image_add senders" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>From the Add Senders pop-up, select <strong>Phone Number</strong> from the dropdown list and click <strong>Continue</strong>.<br />
+<a class="glightbox" href="../images/tw7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw7.png" alt="Automations" title="image_add senders pop-up" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>Select the <strong>Select Phone Number</strong> radio button and click <strong>Step 3: Set up integration</strong>.<br />
+<a class="glightbox" href="../images/tw8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw8.png" alt="Automations" title="image_select phone number" style="border: 1px solid gray; zoom:70%;"></a></p>
+</li>
+<li>
+<p>On the integration page, select <strong>Send a Webhook</strong>. Then, select the <strong>Request URL</strong>, <strong>Fallback URL</strong>, and <strong>Status</strong> <strong>Callback URL</strong> fields from the XO Platform Twilio SMS <strong>Configurations</strong> tab and enter them.<br />
+<a class="glightbox" href="../images/tw9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw9.png" alt="Automations" title="image_integration" style="border: 1px solid gray; zoom:70%;"></a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The Callback URL now includes the <strong><em>streamid</em></strong> in the API request to identify the virtual assistant being accessed. When an incoming request is qualified with this identifier, it helps with traceability, troubleshooting, and remediation at the network level during anomalies like malicious calls or unusual bot activity.    </p>
+<p>The callback URL includes the <strong>streamId</strong> in the API request to identify the virtual assistant being accessed. When an incoming request is qualified with this identifier, it helps with traceability, troubleshooting, and remediation at the network level during anomalies like malicious calls or unusual bot activity.</p>
 </div>
 </li>
 <li>
-<p>Under <strong>Copilot Features</strong> section, make sure that <strong>Sticky Sender</strong>, <strong>MMS Converter</strong>, <strong>Scaler</strong>, <strong>Short Code Reroute,</strong> and <strong>Country Code Geomatch</strong> options are enabled.</p>
-</li>
-<li><strong>Save</strong> your changes and proceed.</li>
-<li>
-<p>To add a number, go to the <strong>Numbers</strong> section and associate a Twilio Phone Number to this bot. If you do not have a Twilio Number, you must buy one.
-<a class="glightbox" href="../images/twilio5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio5.png" alt="Twilio Phone Number" title="Twilio Phone Number" style="border: 1px solid gray; zoom:70%;"></a></p>
+<p>Click <strong>Step 4: Add compliance info</strong>. The success message is displayed and then, click <strong>Complete Messaging Service Setup</strong>.<br />
+<a class="glightbox" href="../images/tw10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw10.png" alt="Automations" title="image_add compliance info" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
 <li>
-<p>Go to the <strong>Configurations</strong> tab in the Twilio SMS channel page to review and complete the channel setup.</p>
+<p>The setup complete pop-up appeares. Click <strong>View my new Messaging Service</strong>.
+<a class="glightbox" href="../images/tw11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/tw11.png" alt="Automations" title="image_new messaging service pop-up" style="border: 1px solid gray; zoom:70%;"></a></p>
 </li>
+<li>
+<p>Copy the <strong>Messaging Service SID</strong> and click <strong>Save</strong>.</p>
+</li>
+<li>On the Twilio Configuration tab, paste the <strong>Messaging Service SID</strong> and click <strong>Save</strong>. The configuration saved message is displayed.</li>
 </ol>
-<h2 id="edit-the-twilio-channel">Edit the Twilio Channel<a class="headerlink" href="#edit-the-twilio-channel" title="Permanent link">&para;</a></h2>
-<p>To edit the Twilio channel, follow the below steps:</p>
-<ol>
-<li>Hover over the channel and click to modify.</li>
-<li>
-<p>You can make necessary updates to your channel configurations and save them. You can also <a href="../adding-channels-to-your-bot/#editing-testing-disabling-or-deleting-channels">disable or delete the channel.</a></p>
-</li>
-<li>
-<p>Select one of the following commands to modify the channel:</p>
-</li>
-<li><strong>Disable/Enable</strong><ul>
-<li>Click <strong>Disable</strong> to temporarily disable the use of the Twilio SMS channel for your bot. To enable the use of the Twilio SMS channel, click <strong>Enable</strong>.</li>
-</ul>
-</li>
-<li><strong>Delete</strong><ul>
-<li>Click <strong>Delete</strong>.</li>
-<li>On the <strong>Delete Confirmation</strong> dialog box, click <strong>OK</strong> to permanently delete the bot channel configuration.</li>
-</ul>
-</li>
-</ol>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This operation is permanent, and cannot be undone.</p>
-</div>
-<h2 id="create-a-twilio-trial-account">Create a Twilio Trial Account<a class="headerlink" href="#create-a-twilio-trial-account" title="Permanent link">&para;</a></h2>
-<ol>
-<li>You can sign up and create a free <em>Twilio</em> trial account at <a href="https://www.twilio.com/try-twilio">https://www.twilio.com/try-twilio</a>.</li>
-<li>After you create an account, you can sign in and open the <strong>Twilio</strong> <strong>Console Dashboard</strong>.</li>
-<li>
-<p>In the <strong>Account Summary</strong> section, you can find the <strong>Account SID</strong> and <strong>Auth Token</strong>.
-<a class="glightbox" href="../images/twilio7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio7.png" alt="Twilio Console  Dashboard" title="Twilio Console Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
-</li>
-<li>
-<p>Copy the <strong>Account SID</strong> and <strong>Auth Token</strong> and save for configuring the Twilio channel settings in Kore.ai Bot Builder. You also need a telephone number for your end users to send text message interactions to for your bot.</p>
-</li>
-<li>On the <strong>Dashboard</strong> page, you can scroll down and click Numbers. The <strong>Phone Numbers Dashboard</strong> is displayed.</li>
-<li>
-<p>Click <strong>Numbers</strong> on the left menu to display the <strong>Numbers</strong> page. Click <strong>Buy a number</strong>.
-<a class="glightbox" href="../images/twilio8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio8.png" alt="Twilio Phone Number Dashboard" title="Twilio Phone Number Dashboard" style="border: 1px solid gray; zoom:70%;"></a></p>
-</li>
-<li>
-<p>On the <strong>Get Started with Phone Numbers</strong> page, click <strong>Get your first Twilio phone number.</strong></p>
-</li>
-<li>On the corresponding dialog box, you can find the phone number that you must configure the Kore.ai Twilio channel.</li>
-<li>
-<p>Click <strong>Buy This Number</strong> to save the number to your account.
-<a class="glightbox" href="../images/twilio9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../images/twilio9.png" alt="Get Started with Twilio Phone" title="Get Started with Twilio Phone Settings" style="border: 1px solid gray; zoom:70%;"></a></p>
-</li>
-<li>
-<p>The phone number is saved and accessible from the <strong>Home</strong> screen on the <strong>Dashboard</strong>. You are now ready to configure the Twilio channel in Kore.ai Bot Builder.</p>
-</li>
-</ol>
-<p><strong>Related Links</strong></p>
-<ul>
-<li><a href="../../kb/how-do-i-include-an-image-in-an-outbound-twilio-sms-mms/">How do I include an Image in an Outbound Twilio SMS (MMS)?</a></li>
-</ul>
+<p><strong>Related Link</strong></p>
+<p><a href="../../kb/how-do-i-include-an-image-in-an-outbound-twilio-sms-mms/">How do I include an Image in an Outbound Twilio SMS (MMS)?</a></p>
 
 
 
@@ -16403,7 +16442,7 @@
               
                 
               
-              Thanks for your feedback! Help us improve this page by using our <a href="https://docsinternal-kore.github.io/docs/xo/feedback/feedback-form/?title=[Feedback]+/channels/add-twilio-sms-channel/" target="_blank" rel="noopener">feedback form<a>.
+              Thanks for your feedback! Help us improve this page by using our <a kore-feedback-link="true" href="#" target="_blank" rel="noopener">feedback form<a>.
             </div>
           
         </div>
@@ -16464,6 +16503,8 @@
         <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../extra_js/feedback.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

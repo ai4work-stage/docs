@@ -6053,6 +6053,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../searchai/content-sources/connectors/bitbucket/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BitBucket
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../searchai/content-sources/connectors/box/" class="md-nav__link">
         
   
@@ -6557,6 +6578,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../searchai/content-sources/connectors/slab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../searchai/content-sources/connectors/slack/" class="md-nav__link">
         
   
@@ -6604,6 +6646,27 @@
   
   <span class="md-ellipsis">
     WordPress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../searchai/content-sources/connectors/workday/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Workday
   </span>
   
 
@@ -7426,7 +7489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../channels/kore.ai-voice-gateway/minimum-system-and-browser-requirements.md" class="md-nav__link">
+      <a href="../../../channels/kore.ai-voice-gateway/minimum-system-requirements-and-supported-browsers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -14767,6 +14830,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../analytics/contact-center/contact-center-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Center AI Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../analytics/contact-center/agentai-dashboard/" class="md-nav__link">
         
   
@@ -14863,10 +14947,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_6" >
         
           
-          <label class="md-nav__link" for="__nav_9_6_5" id="__nav_9_6_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_6_6" id="__nav_9_6_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -14877,8 +14961,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9_6_5">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6_6">
             <span class="md-nav__icon md-icon"></span>
             Reports
           </label>
@@ -17195,14 +17279,22 @@
 <li><strong>Sentiment Score</strong>: Overall sentiment score for the topic.</li>
 </ul>
 <p>The bubble size reflects the volume of interactions for a topic. It is dynamically calculated within the selected date range, with the size scaled proportionally to show the topic's interaction volume relative to the minimum and maximum values. By default, all three sentiment colors are selected, showing a combined view of all topics with varying sentiments. By clicking on a specific sentiment color, you can view the most relevant topics within each sentiment category.</p>
-<p>The color logic for sentiment:
-* 1&lt;=x&lt;4: Negative (Red)
-* 4&lt;=x&lt;6: Neutral (Grey)
-* 6&lt;=x&lt;=10: Positive (Green)</p>
-<div class="language-text highlight"><pre><span></span><code>!!! Note
-
-    By default, only the top most significant 30 topics (based on interaction volume) are displayed on the widget.
-</code></pre></div>
+<p>The color logic for sentiment:</p>
+<ul>
+<li>
+<p>1&lt;=x&lt;4: Negative (Red)</p>
+</li>
+<li>
+<p>4&lt;=x&lt;6: Neutral (Grey)</p>
+</li>
+<li>
+<p>6&lt;=x&lt;=10: Positive (Green)</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default, only the top most significant 30 topics (based on interaction volume) are displayed on the widget.</p>
+</div>
+</li>
+</ul>
 <p>For example, the <strong>Payment</strong> bubble indicates sentiment distribution as <strong>Positive</strong> 68% (green), <strong>Neutral</strong>  10% (grey), and <strong>Negative</strong> 22% (red). </p>
 <p>These percentages are represented by the bubble’s circumference. Hovering over the Payment bubble shows the average emotion index, such as <strong>Flexible</strong>, <strong>Accurate</strong>, <strong>Fast</strong>, and so on (associated with the average sentiment score).<br />
 <a class="glightbox" href="../conversation-intelligence/images/topics-percentage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../conversation-intelligence/images/topics-percentage.png" alt="Keyword Cloud" title="Keyword Cloud" style="border: 1px solid gray; zoom:90%;"></a></p>
@@ -17278,7 +17370,7 @@
               
                 
               
-              Thanks for your feedback! Help us improve this page by using our <a href="https://docsinternal-kore.github.io/docs/xo/feedback/feedback-form/?title=[Feedback]+/quality-management/analyze/conversation-intelligence/" target="_blank" rel="noopener">feedback form<a>.
+              Thanks for your feedback! Help us improve this page by using our <a kore-feedback-link="true" href="#" target="_blank" rel="noopener">feedback form<a>.
             </div>
           
         </div>
@@ -17377,6 +17469,8 @@
         <script src="https://polyfill.io/v3/polyfill.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../../extra_js/feedback.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
