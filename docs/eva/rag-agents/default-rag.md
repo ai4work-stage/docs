@@ -34,6 +34,24 @@ The **Default RAG** is meant for generic use rather than a specific intent.
 
 ## Default RAG Configuration
 
+### Connect Search AI
+
+1. Navigate to **Default RAG** on the left pane.
+2. Click **Connect Search AI**.
+<img src="../images/Default_RAG_1.png" alt="Details and Purpose" title="Details and Purpose" style="border: 1px solid gray; zoom:70%;">
+3. The next step is to configure the Search AI app, which has the indexed content used for answer generation. Provide the following details for the connection.
+    - **App ID**: Application ID of the Search AI app.
+    - **Client ID**: Client credentials generated in Search AI for interaction with the RAG Agent.
+    - **Client Secret ID**: A secret key generated for secure interaction.
+    - **Search ID**: Unique identifier of the client generated in Search AI.
+    <img src="../images/Default_RAG_2.png" alt="Details and Purpose" title="Details and Purpose" style="border: 1px solid gray; zoom:70%;">
+
+!!! note
+
+    These details are available in the **Search AI app** on the **Credentials** page under the **Manage** tab. Refer to [this](https://docs.kore.ai/xo/searchai/about-search-ai/) for more details.
+
+### Access associated Apps
+
 Under the **AI search** agents, go to **Default RAG**. Then, use the **Go to
 Search AI** option to access **the associated Search AI** app.
 
