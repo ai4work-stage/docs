@@ -1,8 +1,8 @@
-# GPT Agents
+# Prompt Agents
 
-GPT agents collect specific user inputs as variables to customize prompts, enabling various use cases such as content generation, language translation, and text summarization. Administrators can create GPT agents for users using the GPT agent builder. 
+As an administrator, you can create Prompt Agents in the prompt agent builder that users can utilize. These agents collect specific user inputs as variables to customize prompts, enabling various use cases such as content generation, language translation, and text summarization.
 
-GPT agents operate using two distinct components:
+Prompt agents operate using two distinct components:
 
 -   **User-Collected Inputs**: In this scenario, the user's inputs are
     incorporated into the prompt as variables to generate the required response.
@@ -15,13 +15,32 @@ GPT agents operate using two distinct components:
     will utilize to ensure consistency and adherence to specific formatting
     guidelines.
 
-## Create a GPT Agent
+You can create a new agent or import an existing one.
+
+-   [Import existing prompt agent](#import-existing-prompt-agent)
+
+-   [Create a new prompt agent](#create-a-new-prompt-agent)
+
+# Import existing Prompt Agent
+
+To import an existing Prompt Agent:
+
+1.  Click the **Import Agent** button located in the upper-right
+    corner.![](images/import.png)
+
+2.  Select the .ZIP file of the existing
+    agent.![](images/import_agent.png)
+
+3.  Click **Import** to complete the process. The imported agent will appear on the
+    Agents page.    
+
+## Create a new Prompt Agent
 
 
-You can create a new GPT agent to assist users in completing various tasks by
-utilizing the GPT capabilities.
+You can create a new prompt agent to assist users in completing various tasks by
+utilizing the prompt capabilities.
 
-To create a new GPT Agent, follow these steps:
+To create a new Prompt Agent, follow these steps:
 
 1.  In the **Admin Console**, click **AI Agents** from the left pane, and then
     select **Prompt Agents**. A list of available prompt agents will be
@@ -33,7 +52,7 @@ To create a new GPT Agent, follow these steps:
 3.  The **Prompt Agent creation** wizard will take you through the following
     steps:
 
-    1.  [Step 1: Define and Purpose](#details)
+    1.  [Step 1: Details and Purpose](#details)
 
     2.  [Step 2: Source Configuration](#source)
 
@@ -43,7 +62,9 @@ To create a new GPT Agent, follow these steps:
 
 ###  <a id="details">Step 1: Details and Purpose</a>
 
-Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the specific use cases and define the agent's purpose, as all the fields, queries, and prompts are auto-generated based on the purpose provided.
+Provide a suitable and unique name for the agent and describe its purpose. Defining the agent’s purpose enables the system to accurately recognize the agent’s capabilities and effectively utilize them to respond to user queries aligned with the specified intent. It is essential to clearly outline the specific use cases for which the agent is designed, as all the fields, queries, and prompts are auto-generated based on the purpose provided. 
+
+To change the agent icon, click on the agent logo located above the agent's name. You can choose from a list of predefined logos or upload a custom logo.  Once you're ready, click **Continue** to proceed to the next step.
 
 ![](images/detail_and_purpose.png)
 
@@ -61,41 +82,40 @@ In the Sources section, you can configure the following fields
  The parameters fields are provided based on the purpose of the agent you provided in
 the previous step. For example, if the purpose is "summarization", fields might
 include Word Count, Summary Format
-etc.![](images/source.png)
+etc.![](images/source_gpt.png)
 
 #### <a id="userinput">User Input </a>
 
 To configure user input, follow the steps outlined below:
 
 1.  Click on the **+Add context**.
-    ![](images/add_context.png)
+    ![](images/add_context_gpt.png)
 
 2.  Enter context name and any placeholder text in the **placeholder text**
-    field if required.  
-    ![](images/context_field.png)
+    field if required. The placeholder text will appear in the form field before the end user provides input. 
+    ![](images/context_field_gpt.png)
 
 3.  Select the **Field type** from the list for each field. You can select a
     single-line, multiline, single-select, multi-select, number, file upload, or
-    URL based on the fields.![](images/content_field_type.png)
+    URL based on the fields.![](images/content_field_type_gpt.png)
 
 4.  Click the mandatory toggle button ON if you want the field to be mandatory
     and click **Done**.
 
-5.  In the parameter section, enter parameter details. Parameters are
-    prepopulated based on the agent’s purpose. Click on **+ Add field** if
-    required.![](images/add_field.png)
+5.  In the parameter section,  parameter fields are prepopulated based on the agent’s purpose. Enter parameter details and click on  **+ Add field** if
+    required.![](images/add_field_gpt.png)
 
 6.  Enter a name and any placeholder text in the **placeholder text** field.  
-    ![](images/placeholder_text.png)
+    ![](images/placeholder_text_gpt.png)
 
 7.  Select the **Field type** from the list for each field. You can select a
     single-line, multiline, single-select, multi-select, number, file upload, or
-    URL based on the fields.![](images/parameter_field.png)
+    URL based on the fields.![](images/parameter_field_gpt.png)
 
 8.  Toggle the **Allow Upload Files** or **Allow URL Content** option to ON to
     enable file uploads or retrieval from URLs. This option is available only
     for Single-line and Multiline text field types.
-    ![](images/URL_content.png)
+    ![](images/URL_content_gpt.png)
 
 9.  Click the mandatory toggle button ON if you want the field to be mandatory
     and click **Done**.
@@ -103,17 +123,20 @@ To configure user input, follow the steps outlined below:
 
 #### <a id="knowledge">Knowledge</a>
 
-1.  Click on the **+ Upload** button to upload any file. These uploaded files
-    can be used as prompts. For example, if you uploaded a “Sample JD template”
+1. Click the **+ Upload** button to upload a file containing knowledge that the
+    Prompt agent can use to generate responses. This uploaded information may also
+    be utilized in prompts. For example, if you uploaded a “Sample JD template”
     file, you can write a prompt that says, “Create a JD which is in the same
-    format as in the Sample JD template
-    file.”![](images/Knowledge.png)
+    format as in the Sample JD template file.”
+    ![](images/Knowledge_gpt.png)
 
     **Note**: If the file size exceeds the context size limitation, it impacts the models, and an error message is displayed along with a list of models. Only a limited amount of information is used as context for generation. However, when the file limit is exceeded, all uploaded knowledge files are referenced for answering but not for generation.
 
 2.  Select the model required from the **Model selection** drop-down list, which
     displays all the integrated
-    models.![](images/model.png)
+    models. To know more about model integration, click
+    [here](/ai-for-work/assistant-configuration/llm-configuration/).
+    ![](images/model.png)
 
 3. Toggle the **Show to users** button to display this prompt to the user. After switching the toggle to ON, you can choose between **Read-only** or **Editable** modes.
     ![](images/show_to_users.png)
@@ -125,35 +148,35 @@ and can be customized using variables. For example, if the purpose is "Job
 Finder," the default prompt might include, “Company Name, Job Title,
 Responsibilities etc”![](images/prompt.png)
 
+Enable the Show to users toggle button to show this prompt to the user. Once you click the toggle button to ON, you can select whether you want it in **Read-only** or **Editable**.
+
+![](images/prompt_gpt.png)
+
+
 #### <a id="multiprompt">Multiprompt</a>
 
-For a multi-prompt setup within the agent builder, users can generate multiple
-prompts and select one from the form field based on the specific context.
+For a multi-prompt setup within the agent builder, users can generate multiple prompts and select one from the prompt selector option field based on the specific context. 
 
-To add another prompt, click on the **+ Add another prompt** button. You can
-also edit prompt names for clear, contextual labels and drag-and-drop reordering
-for logical flow or priority. Click on the **Generate prompt** button to
+To add another prompt, click on the **+ Add another prompt** button. You can rename prompts and use drag-and-drop to reorder them. Click on the **Generate prompt** button to
 generate a prompt based on your form’s purpose and field values.
 
 ![](images/multiprompt.png)
 
-After adding multiple prompts you will find the response section form above
-which will contain a prompt selector.
+Once you add multiple prompts, the prompt option will appear under the prompt selector.
 
-1.  Click on the edit option or anywhere in the prompt area. A dropdown menu
-    will appear, displaying the available
-    options.![](images/prompt_selector.png)
+1.  Click on the edit option or anywhere within the prompt area to expand it and view the available options
+    ![](images/prompt_selector.png)
 
 2.  For the prompt selector, you can edit field name and any placeholder text in
     the **placeholder text** field if
     required![](images/prompt_placeholder_text.png)
 
-3.  Click the mandatory toggle button if you want the field to be mandatory.
+    Note: The Mandatory toggle field is enabled by default and cannot be modified by the user
 
-4.  The prompt options display a list of all the prompts created, allowing you
+3.  The prompt options display a list of all the prompts created, allowing you
     to drag and drop them to change their order.
 
-5.  Click **Done**![](images/drag_prompt.png)
+4.  Click **Done**![](images/drag_prompt.png)
 
 #### <a id="multiresponse">Multi Response</a>
 
@@ -167,16 +190,16 @@ To allow users to generate multiple responses,
 
 ### <a id="preview">Step 3: Preview</a>
 
-In the **Preview** section, a list of sample queries is displayed. If needed,
+In the **Preview** section, a list of sample queries are displayed. If needed,
 you can add additional queries by clicking the **+ Add Query** button. Once
 you're ready, click **Continue** to proceed to the next
 step.![](images/preview.png)
 
-### <a id="publish">Step 4: Publish GPT Agent</a>
+### <a id="publish">Step 4: Publish Prompt Agent</a>
 
-In the **Publish** section, you can finalize and deploy your GPT
+In the **Publish** section, you can finalize and deploy your Prompt
 agent.![](images/publish.png) Follow the steps outlined
-below to publish the GPT agent
+below to publish the Prompt agent
 
 1.  Provide the following details
 
@@ -191,7 +214,7 @@ below to publish the GPT agent
 
         -   **Everyone in the Account**: Make the agent available to all users.
 
-    -   **Enablement Type**: Define how users can enable or disable the agent:
+    -   **Enablement Type**: Define how end users can enable or disable the agent from agent store:
 
         -   **Always Enabled**: Users cannot disable the agent; it is always
             active.
@@ -202,12 +225,12 @@ below to publish the GPT agent
 2.  Click **Publish.** Once published, your agent is displayed in the Agent list
     of the Admin console page.
 
-## Modify a GPT Agent
+## Modify a Prompt Agent
 
-To modify the GPT agent, follow these steps:
+To modify the Prompt agent, follow these steps:
 
 1.  Navigate to the **Agents list** page and locate the agent you wish to
-    modify.![](images/modify.png)
+    modify.
 
 2.  Click the **three dots icon** next to the agent’s name. A menu with the
     following options will appear:
@@ -216,12 +239,21 @@ To modify the GPT agent, follow these steps:
 
     -   **Publish/Unpublish** – Change the agent's status.
 
-    -   **Export Agent** : Download and export the configured agent.
+    -   **Export Agent** : The agent's data is packaged into a ZIP file for download, migration, or import into another system.
 
     -   **Delete** – Permanently remove the agent.
 
-1.  Click on the required option and continue to complete the modifications as
+    ![](images/modify.png)
+
+3.  Click on the required option and continue to complete the modifications as
     needed.
+
+## Agent Option
+
+The agent options allow you to export, delete, and un-publish the agent.
+
+![](images/agent_option.png)
+
 
 ## User Interaction
 

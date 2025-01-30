@@ -122,7 +122,7 @@ nav:
   - Custom Agents:
     - Overview: custom-agents/overview.md   
     - Bot Agents: custom-agents/bot-agent.md
-    - GPT Agents: custom-agents/gpt-agents.md
+    - Prompt Agents: custom-agents/prompt-agents.md
     - GALE Agents: custom-agents/gale-agents.md
     - API Agents: custom-agents/api-agents.md
     - Agentic App: custom-agents/agentic-apps.md

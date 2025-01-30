@@ -10,7 +10,8 @@ and precise response.
 Search AI allows you to configure and index content from various knowledge
 bases, files, and websites in the application, which is then used to dynamically
 provide answers to user queries. RAG Agents interact with the Search AI
-application to answer the user queries.
+application to answer the user queries. [Learn
+more](https://docs.kore.ai/xo/searchai/about-search-ai/).
 
 For instance, you can build a RAG Agent that handles queries related to Kore's
 products by creating a **Search AI application**. Configure the application to
@@ -56,7 +57,26 @@ configuration and scope:
     found for the given intent, the system defaults to the **Default RAG** for
     the response.
 
-## Create RAG Agents
+You can create a new agent or import an existing one.
+
+-   [Import existing workflow or GALE agent](#import-existing-rag-agent)
+
+-   [Create RAG agent](#create-rag-agents)
+
+# Import existing RAG agent
+
+To import an existing RAG agent:
+
+1.  Click the **Import** **Agent** button located in the upper-right
+    corner.![](images/import-rag.png)
+
+2.  Select the .ZIP file of the existing
+    agent.![](images/import-rag-agent.png)
+
+3.  Click **Import** to complete the process. The imported agent will appear on
+    the RAG Agents page.
+
+# Create RAG Agents
 
 ### Prerequisites
 
@@ -155,20 +175,53 @@ Provide the following details for publishing the agent and click **Continue**.
 
     -   **Everyone in the Account**: Make the agent available to all users.
 
--   **Enablement Type**: Define how users can enable or disable the agent:
+-   **Enablement Type**: Define how end users can enable or disable the agent from the agent store:
 
     -   **Always Enabled**: Users cannot disable the agent; it is always active.
 
     -   **User's Choice**: Users can choose whether to enable or disable the
         agent as needed.
 
-Once the RAG Agent is published, it becomes active and ready to address user
-queries aligned with its designated use case or intent.
+# Modify a RAG Agent
 
-Continuing the above example, if the RAG Agent is configured to provide
-information about Kore products, all user queries related to Kore products will
-be automatically routed to this agent once it is published. Additionally, users
-can directly select this agent and submit their queries for more targeted
-responses.
+To modify the RAG agent, follow these steps:
 
-![](images/publish.png)
+1.  Navigate to the **Agents list** page and locate the agent you wish to
+    modify.  
+    
+    ![](images/modify-rag.png)
+
+2.  Click the **three dots icon** next to the agent’s name. A menu with the
+    following options will appear:
+
+    -   **Edit** – Open and modify the agent's details.
+
+    -   **Publish/Unpublish** – Change the agent's status.
+
+    -   **Export Agent** - The agent's data is packaged into a ZIP file for
+    download, migration, or import into another system.
+
+    -   **Delete** – Permanently remove the agent.
+
+3.  Click on the required option and continue to complete the modifications as
+    needed.
+
+
+# Agent Option
+
+The agent options allow you to export, delete, and un-publish the agent.
+
+![](images/agent-option-rag.png)
+
+# User Interaction
+
+Interacting with the RAG Agent ensures users get the information they need
+quickly and efficiently. Users can select the specific agent and start by typing
+a query, such as "Get company details," "Fetch company financials," or "Show
+company history." The agent processes the query using indexed content from
+available resources like knowledge bases, files, or websites, and provides
+relevant, accurate answers. For broader insights, users can request more
+detailed data, like "Show me everything about the company" or "Fetch complete
+company profile."
+
+![](images/user-interaction.png)
