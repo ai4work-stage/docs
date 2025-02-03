@@ -121,7 +121,10 @@ nav:
     - RAG Agents: rag-agents/rag-agent.md
   - Custom Agents:
     - Overview: custom-agents/overview.md   
-    - Bot Agents: custom-agents/bot-agent.md
+    - Bot Agents: 
+        - Import/Create: custom-agents/bot-agent.md
+        - Alert Task: custom-agents/alert-task.md
+        - Notify API: APIs/notify-bot-agent-api.md   
     - Prompt Agents: custom-agents/prompt-agents.md
     - GALE Agents: custom-agents/gale-agents.md
     - API Agents: custom-agents/api-agents.md
@@ -154,6 +157,7 @@ nav:
       - Domain Management: security/domain-management.md
       - Kore Connector: security/kore-connector.md
       - Service Accounts: security/service-accounts.md
-    - APIs and SDKs:  
+    - APIs:  
       - Authorization: APIs/authorization.md
-      - Audit Log API: APIs/audit-log-api.md   
+      - Audit Log API: APIs/audit-log-api.md
+      
